@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GloriaController;
+use App\Http\Controllers\KatkaController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/gloria', [GloriaController::class, 'index']);
+Route::get('/katka', [KatkaController::class, 'index']);
