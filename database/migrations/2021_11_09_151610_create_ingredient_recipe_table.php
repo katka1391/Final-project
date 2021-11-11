@@ -17,6 +17,7 @@ class CreateIngredientRecipeTable extends Migration
             $table->integer('ingredients_id')->nullable();
             $table->integer('recipe_id')->nullable();
             $table->integer('amount')->nullable();
+            $table->string('unit')->nullable();
         });
     }
 

@@ -27,7 +27,8 @@ class CreateRecipesTable extends Migration
             $table->integer('carbs')->nullable();;
             $table->integer('fiber')->nullable();;
             $table->integer('sugar')->nullable();;
-            $table->integer('protein')->nullable();;
+            $table->integer('protein')->nullable();
+            $table->integer('user_id')->nullable();
             $table->timestamps();
         });
     }

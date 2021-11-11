@@ -18,5 +18,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/gloria', [GloriaController::class, 'index']);
-Route::get('/katka', [KatkaController::class, 'index']);
