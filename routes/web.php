@@ -1,8 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\GloriaController;
-use App\Http\Controllers\KatkaController;
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\ArticlesController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,7 +15,7 @@ use App\Http\Controllers\KatkaController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
+Route::get('/blog', [BlogController::class, 'index']);
+Route::get('/article1', [ArticlesController::class, 'article1']);
+Route::get('/article2', [ArticlesController::class, 'article2']);
+Route::get('/article3', [ArticlesController::class, 'article3']);
