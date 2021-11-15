@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    padding: 50px;
+}
+
+.subTitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 90%;
+    font-size: 60px;
+    border-bottom: 3px solid grey;
+}
+
+.contact-submit {
+    margin: 1em;
+}
+
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-left-panel {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 15%;
+    
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    width: 45%;
+    
+}
+
+.contact-right-panel {
+    width: 30%;
+}
+
