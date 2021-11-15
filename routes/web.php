@@ -5,6 +5,7 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ArticlesController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\SubscribeController;
+use App\Http\Controllers\YourListController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +22,8 @@ Route::get('/blog', [BlogController::class, 'index']);
 Route::get('/article1', [ArticlesController::class, 'article1']);
 Route::get('/article2', [ArticlesController::class, 'article2']);
 Route::get('/article3', [ArticlesController::class, 'article3']);
+Route::get('/article4', [ArticlesController::class, 'article4']);
 Route::get('/contact', [ContactController::class, 'index']);
+Route::get('/list', [YourListController::class, 'index']);
 
 Route::get('/subscribe', [SubscribeController::class, 'subscribe']);
