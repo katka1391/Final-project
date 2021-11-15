@@ -20,4 +20,9 @@ class ArticlesController extends Controller
     {
         return view('articles/article3');
     }
+    
+    public function article4()
+    {
+        return view('articles/article4');
+    }
 }

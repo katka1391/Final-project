@@ -15,7 +15,8 @@
 <title>Document</title>
 </head>
 <body>
-   
+    @include('layouts/navBar')
+
 
     
     
@@ -30,7 +31,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     
     @yield('content')
-    
     @include('layouts/footer')
 </body>
 </html>

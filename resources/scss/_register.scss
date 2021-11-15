@@ -1,0 +1,78 @@
+/*register page*/
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.register-form {
+    width: 18%;
+    padding-top: 5em;
+    flex-wrap: wrap;
+}
+
+.register_input {
+    width: 307px;
+    height: 50px;
+    margin-bottom: 60px;
+}
+
+@media (min-width: 360px) and (max-width: 720px) {
+    .register-form {
+        width: 30%;
+        padding-top: 5em;
+        flex-wrap: wrap;
+    }
+    .register_input {
+        width: 150px;
+        height: 50px;
+        margin-bottom: 60px;
+    }
+}
+
+.btn-register {
+    position: absolute;
+    width: 10em;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.btn-register span {
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.btn-register:hover {
+    background: #A9BA9D;
+    box-shadow: 0 0 10px #A9BA9D, 0 0 40px #A9BA9D, 0 0 80px #A9BA9D;
+}
+
+.btn-register span:nth-child(even)::before {
+    content: attr(data-text);
+    position: absolute;
+    transform: translateY(-100%);
+}
+
+.btn-register span:nth-child(even) {
+    transform: translateY(-100%);
+}
+
+.btn-register:hover span:nth-child(even) {
+    transform: translateY(0);
+}
+
+.btn-register span:nth-child(odd)::before {
+    content: attr(data-text);
+    position: absolute;
+    transform: translateY(-100%);
+}
+
+.btn-register span:nth-child(odd) {
+    transform: translateY(100%);
+}
+
+.btn-register:hover span:nth-child(odd) {
+    transform: translateY(0);
+}

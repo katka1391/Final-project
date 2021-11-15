@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ArticlesController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\SubscribeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +22,5 @@ Route::get('/article1', [ArticlesController::class, 'article1']);
 Route::get('/article2', [ArticlesController::class, 'article2']);
 Route::get('/article3', [ArticlesController::class, 'article3']);
 Route::get('/contact', [ContactController::class, 'index']);
+
+Route::get('/subscribe', [SubscribeController::class, 'subscribe']);
