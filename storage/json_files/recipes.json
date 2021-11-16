@@ -17,15 +17,14 @@
         "protein": 200,
 
         "ingredients": [
-            "220 g dark chocolate",
-            "150 g butter",
-            "120 g all-purpose flour with no raising agents",
-            "15 g cocoa powder",
-            "1 pinch of salt",
-            "4 eggs (medium)",
-            "200 g caster sugar",
-            "Cilantro lime sauce ingredients(optional, listed in recipe box below)",
-            "1/2 coffee spoon vanilla extract (or powder) (or 1 packet of vanilla)"
+            { "name": "dark chocolate", "amount": 220, "unit": "g" },
+            { "name": "butter", "amount": 150, "unit": "g" },
+            { "name": "all-purpose flour", "amount": 120, "unit": "g" },
+            { "name": "cocoa powder", "amount": 15, "unit": "g" },
+            { "name": "salt", "amount": 1, "unit": "pinch" },
+            { "name": "eggs", "amount": 4, "unit": "" },
+            { "name": "caster sugar", "amount": 200, "unit": "g" },
+            { "name": "vanilla extract", "amount": 0.5, "unit": "coffe spoon" }
         ],
 
         "instructions": {
@@ -62,15 +61,15 @@
         "protein": 200,
 
         "ingredients": [
-            "175 g of white flour 00",
-            "100 g of softened butter",
-            "150 g of sugar",
-            "1 egg",
-            "½ coffespoon of baking soda",
-            "60 g of chocolate chips",
-            "30 g of nut kernels (chopped)",
-            "a pinch of salt",
-            "powdered sugar (optional)"
+            { "name": "white flour", "amount": 175, "unit": "g" },
+            { "name": "softened butter", "amount": 100, "unit": "g" },
+            { "name": "sugar", "amount": 150, "unit": "g" },
+            { "name": "egg", "amount": 1, "unit": "" },
+            { "name": "baking soda", "amount": 0.5, "unit": "coffe spoon " },
+            { "name": "chocolate chips", "amount": 60, "unit": "g" },
+            { "name": "kernels nut", "amount": 30, "unit": "g" },
+            { "name": "salt", "amount": 1, "unit": "pinch" },
+            { "name": "powdered sugar", "amount": "", "unit": "" }
         ],
 
         "instructions": {
@@ -106,12 +105,12 @@
         "protein": 200,
 
         "ingredients": [
-            "250 g ricotta cheese",
-            "20 g powdered sugar",
-            "1 organic orange (zest and juice)",
-            "40 g dark chocolate",
-            "10 morning coffee biscuits or tea biscuits",
-            "brandy or rum (optional)"
+            { "name": "ricotta cheese", "amount": 250, "unit": "g" },
+            { "name": "powdered sugar", "amount": 20, "unit": "g" },
+            { "name": "organic orange", "amount": 1, "unit": "zest" },
+            { "name": "dark chocolate", "amount": 40, "unit": "g" },
+            { "name": "biscuits", "amount": 50, "unit": "g" },
+            { "name": "brandy or rum", "amount": "1", "unit": "dl" }
         ],
 
         "instructions": {
@@ -150,12 +149,13 @@
         "protein": 200,
 
         "ingredients": [
-            "Ladyfingers 11 oz (300 g)",
-            "Eggs 4 (220 g) - very fresh (medium sized)",
-            "Mascarpone cheese 2 ¼ cups (500 g)",
-            "Sugar ½ cup (100 g)",
-            "Coffee 1 ⅓ cup (300 g)",
-            "Unsweetened cocoa powder to taste - for the surface"
+            { "name": "ladyfingers", "amount": 300, "unit": "g" },
+            { "name": "eggs", "amount": 4, "unit": "" },
+            { "name": "mascarpone cheese", "amount": 500, "unit": "g" },
+            { "name": "sugar", "amount": 100, "unit": "g" },
+            { "name": "coffee", "amount": 300, "unit": "g" },
+            { "name": "cocoa powder", "amount": "", "unit": "little bit" }
+
         ],
 
         "instructions": {
@@ -200,16 +200,17 @@
         "protein": 200,
 
         "ingredients": [
-            "Figs ⅔ lb (300 g)",
-            "Almond flour ½ cup (50 g)",
-            "Whole milk 3 tbsp (45 g)",
-            "Lemon peel 1",
-            "Fine salt 1 pinch",
-            "Flour 00 1 ⅓ cup (150 g)",
-            "Butter ½ cup (100 g) - (at room temperature)",
-            "Eggs 2 - medium",
-            "Sugar ½ cup (100 g)",
-            "Baking powder 1 tbsp (10 g)"
+            { "name": "figs", "amount": 300, "unit": "g" },
+            { "name": "almond flour", "amount": 50, "unit": "g" },
+            { "name": "milk", "amount": 45, "unit": "g" },
+            { "name": "lemon peel", "amount": 1, "unit": "" },
+            { "name": "salt", "amount": 1, "unit": "pinch" },
+            { "name": "flour", "amount": 150, "unit": "g" },
+            { "name": "butter", "amount": 100, "unit": "g" },
+            { "name": "eggs", "amount": 2, "unit": "" },
+            { "name": "sugar", "amount": 100, "unit": "g" },
+            { "name": "baking powder", "amount": 10, "unit": "g" }
+
         ],
 
         "instructions": {
@@ -246,15 +247,17 @@
         "protein": 37,
 
         "ingredients": [
-            "2 large sweet potatoes , cut into thin wedges",
-            "1 tbsp rapeseed oil",
-            "4 tbsp fat-free natural yogurt",
-            "2 tbsp low-fat mayonnaise",
-            "3 cornichons , finely chopped, plus 1 tbsp of the brine",
-            "1 shallot , finely chopped",
-            "1 tbsp finely chopped dill , plus extra to serve",
-            "300g frozen peas",
-            "50ml milk"
+            { "name": "sweet potatoes", "amount": 2, "unit": "pieces" },
+            { "name": "rapeseed oil", "amount": 1, "unit": "tbsp" },
+            { "name": "yogurt", "amount": 4, "unit": "tbsp" },
+            { "name": "mayonnaise", "amount": 2, "unit": "tbsp" },
+            { "name": "cornichons", "amount": 3, "unit": "pieces" },
+            { "name": "shallot", "amount": 1, "unit": "piece" },
+            { "name": "dill", "amount": 1, "unit": "tbsp" },
+            { "name": "frozen peas", "amount": 300, "unit": "g" },
+            { "name": "milk", "amount": 50, "unit": "ml" }
+
+
         ],
 
         "instructions": {
@@ -286,21 +289,17 @@
         "protein": 37,
 
         "ingredients": [
-            "1 medium red onion",
-            "1 medium red bell pepper",
-            "1 medium jalapeño, or 1 (4-ounce) can drained diced green chiles",
-            "2 cloves garlic",
-            "8 (about 6-inch) corn or flour tortillas",
-            "1 pound lean ground beef",
-            "2 tablespoons olive oil",
-            "1 (about 15-ounce) can black or pinto beans",
-            "1 tablespoon taco seasoning",
-            "1 teaspoon ground cumin, plus more as needed",
-            "1 teaspoon dried oregano",
-            "1/4 teaspoon freshly ground black pepper",
-            "Kosher salt",
-            "1 (8-ounce) can tomato sauce",
-            "12 ounces shredded Mexican cheese blend (about 3 cups)"
+            { "name": "red onion", "amount": 1, "unit": "piece" },
+            { "name": "red bell pepper", "amount": 1, "unit": "piece" },
+            { "name": "jalapeño", "amount": 1, "unit": "piece" },
+            { "name": "garlic", "amount": 2, "unit": "gloves" },
+            { "name": "tortillas", "amount": 8, "unit": "pieces" },
+            { "name": "beef", "amount": 1, "unit": "kg" },
+            { "name": "olive oil", "amount": 50, "unit": "ml" },
+            { "name": "beans", "amount": 150, "unit": "g" },
+            { "name": "oregano", "amount": 10, "unit": "g" },
+            { "name": "salt", "amount": 10, "unit": "g" },
+            { "name": "Mexican cheese blend", "amount": 3, "unit": "cups" }
         ],
 
         "instructions": {
@@ -338,11 +337,12 @@
         "protein": 37,
 
         "ingredients": [
-            "1 to 3 pounds skin-on salmon fillets (8 ounces per person)            ",
-            "Olive oil",
-            "Salt",
-            "Pepper",
-            "Lemon wedges, to serve"
+            { "name": "salmon fillets", "amount": 8, "unit": "pieces" },
+            { "name": "olive oil", "amount": 50, "unit": "ml" },
+            { "name": "salt", "amount": 10, "unit": "g" },
+            { "name": "pepper", "amount": 10, "unit": "g" },
+            { "name": "Lemon wedges", "amount": 10, "unit": "pieces" }
+
         ],
 
         "instructions": {
@@ -379,13 +379,13 @@
         "protein": 37,
 
         "ingredients": [
-            "4 cups water",
-            "1 1/2 cups stone-ground corn grits, such as Anson Mills",
-            "2 dried bay leaves",
-            "1/2 teaspoon kosher salt",
-            "8 tablespoons (1 stick) unsalted butter",
-            " 2 ounces Parmesan cheese",
-            "1 cup heavy cream"
+            { "name": "water", "amount": 4, "unit": "cups" },
+            { "name": "corn grits", "amount": 2.5, "unit": "cups" },
+            { "name": "bay leaves", "amount": 2, "unit": "" },
+            { "name": "kosher salt", "amount": 0.5, "unit": "teaspoon" },
+            { "name": "butter", "amount": 60, "unit": "g" },
+            { "name": "parmesan cheese", "amount": 2, "unit": "ounces" },
+            { "name": "heavy cream", "amount": 120, "unit": "ml" }
         ],
 
         "instructions": {
@@ -419,13 +419,12 @@
         "protein": 37,
 
         "ingredients": [
-            "Bell peppers 2 ¼ lbs (1 kg) - red, yellow, green",
-            "Red Tropea onions 14 oz (400 g)",
-            "Tomato puree 1 ½ cup (400 g)",
-            "Extra virgin olive oil 3 tbsp (40 g)",
-            "Garlic 2 cloves",
-            "Fine salt to taste",
-            "Black pepper to taste"
+            { "name": "bell peppers", "amount": 1, "unit": "kg" },
+            { "name": "onions", "amount": 400, "unit": "g" },
+            { "name": "tomato puree", "amount": 400, "unit": "g" },
+            { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+            { "name": "garlic", "amount": 2, "unit": "cloves" },
+            { "name": "fine salt", "amount": 1, "unit": "pinch" }
         ],
 
         "instructions": {
@@ -459,19 +458,19 @@
         "protein": 37,
 
         "ingredients": [
-            "2 tablespoons coconut oil",
-            "1 large onion, diced",
-            "2 cloves garlic, minced",
-            "1 tablespoon ground turmeric",
-            "2 teaspoons ground coriander",
-            "1 1/2 teaspoons kosher salt",
-            "1/2 teaspoon freshly ground black pepper",
-            "1 pound dried chickpeas",
-            "8 ounces Yukon gold potatoes, peeled and diced",
-            "8 cups (2 quarts) low-sodium vegetable or chicken broth",
-            "Greek yogurt",
-            "1 medium lemon, cut into wedges",
-            "Chopped fresh cilantro"
+            { "name": "coconut oil", "amount": 15, "unit": "ml" },
+            { "name": "onions", "amount": 200, "unit": "g" },
+            { "name": "garlic", "amount": 2, "unit": "cloves" },
+            { "name": "turmeric", "amount": 1, "unit": "tbsp" },
+            { "name": "coriander", "amount": 1, "unit": "tbsp" },
+            { "name": "salt", "amount": 1, "unit": "pinch" },
+            { "name": "black pepper", "amount": 1, "unit": "pinch" },
+            { "name": "chickpeas", "amount": 250, "unit": "g" },
+            { "name": "potatoes", "amount": 400, "unit": "g" },
+            { "name": "chicken broth", "amount": 8, "unit": "cups" },
+            { "name": "greek yogurt", "amount": 50, "unit": "g" },
+            { "name": "lemon", "amount": 2, "unit": "" },
+            { "name": "cilantro", "amount": 15, "unit": "g" }
         ],
 
         "instructions": {
@@ -503,15 +502,14 @@
         "protein": 37,
 
         "ingredients": [
-            "1 medium yellow onion",
-            "1 medium red bell pepper, preferably red, orange, or yellow",
-            "16 ounces Monterey Jack or mild cheddar cheese, or a combination",
-            "1 pound flank or skirt steak",
-            "1 1/4 teaspoons kosher salt, divided",
-            "1 teaspoon ground cumin",
-            "1/4 teaspoon freshly ground black pepper, plus more for seasoning",
-            "2 tablespoons vegetable or canola oil, divided, plus more for the pan",
-            "4 (10-inch) flour tortillas (burrito-sized)"
+            { "name": "onions", "amount": 100, "unit": "g" },
+            { "name": "red bell pepper", "amount": 150, "unit": "g" },
+            { "name": "mild cheddar cheese", "amount": 125, "unit": "g" },
+            { "name": "skirt steak", "amount": 500, "unit": "g" },
+            { "name": "salt", "amount": 1, "unit": "teaspoons" },
+            { "name": "cumin gruond", "amount": 10, "unit": "g" },
+            { "name": "black pepper", "amount": 5, "unit": "g" },
+            { "name": "tortillas", "amount": 4, "unit": "" }
         ],
 
         "instructions": {
@@ -546,12 +544,12 @@
         "protein": 37,
 
         "ingredients": [
-            " 1/4 cup olive oil, for frying",
-            "3 (6-inch) corn tortillas, cut into thin strips",
-            "Kosher salt",
-            "1 pound lean ground beef",
-            "1/4 cup fresh tomato salsa",
-            "2 tablespoons taco seasoning"
+            { "name": "olive oil", "amount": 50, "unit": "ml" },
+            { "name": "corn tortillas", "amount": 3, "unit": "6-inch" },
+            { "name": "kosher salt", "amount": 10, "unit": "g" },
+            { "name": "beef", "amount": 500, "unit": "g" },
+            { "name": "tomato salsa", "amount": 0.5, "unit": "cup" },
+            { "name": "taco seasoning", "amount": 2, "unit": "tbsp" }
         ],
 
         "instructions": {
@@ -584,16 +582,16 @@
         "protein": 37,
 
         "ingredients": [
-            "1 1/3 cups sushi rice",
-            "1 1/2 cups water",
-            "2 tablespoons rice vinegar",
-            "1 tablespoon granulated sugar",
-            "1 1/2 teaspoons kosher salt",
-            "16 imitation crabsticks (about 8 ounces)",
-            "3 sheets nori seaweed (about 7 1/4 inches wide by 8 inches high)",
-            "2 Persian cucumbers or 1/2 English cucumber",
-            "1 medium avocado",
-            "1 1/2 teaspoons toasted sesame seeds"
+            { "name": "sushi rice", "amount": 1, "unit": "cup" },
+            { "name": "water", "amount": 1.5, "unit": "cup" },
+            { "name": "rice vinegar", "amount": 2, "unit": "tbsp" },
+            { "name": "granulated sugar", "amount": 2, "unit": "tbsp" },
+            { "name": "kosher salt", "amount": 2, "unit": "tbsp" },
+            { "name": "crabsticks", "amount": 16, "unit": "pieces" },
+            { "name": "nori seaweed", "amount": 3, "unit": "sheets" },
+            { "name": "cucumbers", "amount": 50, "unit": "g" },
+            { "name": "avocado", "amount": 1, "unit": "" },
+            { "name": "sesame seeds", "amount": 15, "unit": "g" }
         ],
 
         "instructions": {
@@ -637,11 +635,11 @@
         "protein": 37,
 
         "ingredients": [
-            "Spaghetti 320 g",
-            "Guanciale 150 g",
-            "Egg yolks 6",
-            "Pecorino Romano cheese 50 g",
-            "Black pepper "
+            { "name": "spaghetti", "amount": 320, "unit": "g" },
+            { "name": "guanciale", "amount": 150, "unit": "g" },
+            { "name": "egg yolks", "amount": 6, "unit": "" },
+            { "name": "Pecorino Romano cheese ", "amount": 50, "unit": "g" },
+            { "name": "black pepper", "amount": 1, "unit": "pinch" }
         ],
 
         "instructions": {
@@ -676,11 +674,11 @@
         "protein": 37,
 
         "ingredients": [
-            "1 1/2 cups milk or water",
-            "2 tablespoons maple syrup or honey",
-            "1/4 teaspoon kosher salt",
-            "1 cup old-fashioned rolled oats",
-            "2 tablespoons peanut butter"
+            { "name": "milk", "amount": 1, "unit": "cup" },
+            { "name": "honey", "amount": 2, "unit": "tbs" },
+            { "name": "kosher salt", "amount": 1, "unit": "ts" },
+            { "name": "rolled oats", "amount": 1, "unit": "cup" },
+            { "name": "peanut butter", "amount": 2, "unit": "tbsp" }
         ],
 
         "instructions": {
@@ -712,15 +710,15 @@
         "protein": 37,
 
         "ingredients": [
-            "1 cup old-fashioned rolled oats",
-            "1 cup milk, regular or non-dairy",
-            "2 large eggs",
-            "1 tablespoon unsalted butter, plus more for cooking",
-            "1 tablespoon granulated sugar",
-            "2/3 cup all-purpose flour",
-            "2 teaspoons baking powder",
-            "1/4 teaspoon kosher salt",
-            "1/4 teaspoon ground cinnamon (optional)"
+            { "name": "rolled oats", "amount": 2, "unit": "cups" },
+            { "name": "milk", "amount": 75, "unit": "ml" },
+            { "name": "eggs", "amount": 2, "unit": "" },
+            { "name": "unsalted butter", "amount": 25, "unit": "g" },
+            { "name": "granulated sugar", "amount": 20, "unit": "g" },
+            { "name": "all-purpose flour", "amount": 50, "unit": "g" },
+            { "name": "baking powder", "amount": 1, "unit": "tbs" },
+            { "name": "kosher salt", "amount": 1, "unit": "pinch" },
+            { "name": "cinnamon", "amount": 0.5, "unit": "tbs" }
         ],
 
         "instructions": {
@@ -752,11 +750,11 @@
         "protein": 37,
 
         "ingredients": [
-            "1 ripe, yet firm banana, peeled",
-            "1/2 cup Greek yogurt",
-            "2 tablespoons fruit jam or preserves",
-            "2 tablespoons sliced almonds or other nuts",
-            "1/4 cup fresh blueberries or other fresh fruit"
+            { "name": "banana", "amount": 1, "unit": "ripe" },
+            { "name": "greek yogurt", "amount": 0.5, "unit": "cup" },
+            { "name": "jam", "amount": 20, "unit": "g" },
+            { "name": "almonds", "amount": 50, "unit": "g" },
+            { "name": "blueberries", "amount": 75, "unit": "g" }
         ],
 
         "instructions": {
@@ -787,10 +785,10 @@
         "protein": 37,
 
         "ingredients": [
-            "1/2 cup plain yogurt, divided",
-            "1/4 cup fresh fruit, such as chopped strawberries or peaches, blueberries or raspberries",
-            "2 teaspoons jam",
-            "2 tablespoons granola or toasted nuts (optional)"
+            { "name": "yogurt", "amount": 1, "unit": "cup" },
+            { "name": "fresh fruit", "amount": 100, "unit": "g" },
+            { "name": "jam", "amount": 20, "unit": "g" },
+            { "name": "granola", "amount": 50, "unit": "g" }
         ],
 
         "instructions": {
@@ -819,17 +817,17 @@
         "protein": 37,
 
         "ingredients": [
-            "1 tablespoon olive oil",
-            "3/4 cup millet",
-            "1 cup skin-on raw almonds, coarsely chopped",
-            "1/4 cup pumpkin seeds",
-            "1/2 cup sunflower seeds",
-            "1/3 cup dried apricots coarsely chopped",
-            "1/4 cup chia seeds",
-            "1/3 cup flaxseed meal",
-            "1/4 cup sesame seeds",
-            "4 tablespoons unsalted butter, melted",
-            "1/2 cup plus 2 tablespoons honey, divided"
+            { "name": "olive oil", "amount": 2, "unit": "tbs" },
+            { "name": "millet", "amount": 20, "unit": "g" },
+            { "name": "almonds", "amount": 3, "unit": "tbs" },
+            { "name": "pumpkin seeds", "amount": 3, "unit": "tbs" },
+            { "name": "sunflower seeds", "amount": 3, "unit": "tbs" },
+            { "name": "dried apricots ", "amount": 1, "unit": "cup" },
+            { "name": "chia seeds", "amount": 2, "unit": "tbs" },
+            { "name": "flaxseed", "amount": 2, "unit": "tbs" },
+            { "name": "sesame", "amount": 1, "unit": "tbs" },
+            { "name": "unsalted butter", "amount": 20, "unit": "g" },
+            { "name": "honey", "amount": 2, "unit": "tbs" }
         ],
 
         "instructions": {
@@ -860,15 +858,16 @@
         "sugar": 8,
         "protein": 120,
         "ingredients": [
-            "200g self-raising flour",
-            "1 ½ tsp baking powder",
-            "1 tbsp golden caster sugar",
-            "3 large eggs",
-            "25g melted butter, plus extra for cooking",
-            "200ml milk",
-            "vegetable oil, for cooking",
-            "maple syrup",
-            "cooked bacon, chocolate chips, blueberries or peanut butter"
+
+            { "name": "self-raising flour", "amount": 200, "unit": "g" },
+            { "name": "baking powder", "amount": 1, "unit": "tbs" },
+            { "name": "golden caster sugar", "amount": 3, "unit": "tbs" },
+            { "name": "eggs", "amount": 3, "unit": "" },
+            { "name": "butter", "amount": 25, "unit": "g" },
+            { "name": "milk", "amount": 50, "unit": "ml" },
+            { "name": "vegetable oil", "amount": 15, "unit": "ml" },
+            { "name": "maple syrup", "amount": 3, "unit": "tbs" },
+            { "name": "blueberries", "amount": 3, "unit": "cups" }
         ],
         "instructions": [{
             "Step 1": "Mix 200g self-raising flour, 1 ½ tsp baking powder, 1 tbsp golden caster sugar and a pinch of salt together in a large bowl.",
@@ -896,11 +895,11 @@
         "sugar": 3,
         "protein": 158,
         "ingredients": [
-            "3 tbsp white wine vinegar",
-            "4 large free-range eggs",
-            "2 toasting muffins",
-            "1 batch hot hollandaise sauce ",
-            "4 slices parma ham"
+            { "name": "wine vinegar", "amount": 3, "unit": "tbs" },
+            { "name": "eggs", "amount": 4, "unit": "" },
+            { "name": "muffins", "amount": 2, "unit": "toasting" },
+            { "name": "hollandaise sauce", "amount": 20, "unit": "g" },
+            { "name": "parma ham", "amount": 4, "unit": "slices" }
         ],
         "instructions": [{
             "Step 1": "Bring a deep saucepan of water to the boil (at least 2 litres) and add 3 tbsp white wine vinegar.",
@@ -927,15 +926,15 @@
         "sugar": 11,
         "protein": 76,
         "ingredients": [
-            "2 large eggs",
-            "80ml whole milk",
-            "40ml double cream",
-            "1 tsp vanilla extract",
-            "½ tsp cinnamon",
-            "4 thick slices brioche",
-            "2 tbsp vegetable oil",
-            "2 tbsp butter",
-            "icing sugar and fresh berries, to serve "
+
+            { "name": "eggs", "amount": 2, "unit": "" },
+            { "name": "whole milk", "amount": 80, "unit": "ml" },
+            { "name": "double cream", "amount": 40, "unit": "ml" },
+            { "name": "vanilla extract", "amount": 1, "unit": "tbsp" },
+            { "name": "cinnamon", "amount": 0.5, "unit": "tbsp" },
+            { "name": "brioche", "amount": 4, "unit": "slices" },
+            { "name": "vegetable oil", "amount": 2, "unit": "tbsp" },
+            { "name": "butter", "amount": 50, "unit": "g" }
         ],
         "instructions": [{
             "Step 1": "Whisk together the eggs, milk, cream, vanilla and cinnamon.",
@@ -963,12 +962,13 @@
         "sugar": 4,
         "protein": 87,
         "ingredients": [
-            "2 small pears",
-            "100g caster sugar",
-            "juice of ½ a lemon",
-            "1 vanilla pod (alternatively, use 1 tsp vanilla bean paste)",
-            "1 tbsp almond butter",
-            "toasted flaked almonds"
+
+            { "name": "pears", "amount": 2, "unit": "pieces" },
+            { "name": "caster sugar", "amount": 100, "unit": "g" },
+            { "name": "lemon juice", "amount": 14, "unit": "ml" },
+            { "name": "vanilla bean paste", "amount": 1, "unit": "tsp" },
+            { "name": "almond butter", "amount": 1, "unit": "tbsp" },
+            { "name": "flaked almonds", "amount": 35, "unit": "g" }
         ],
         "instructions": [{
             "Step 1": "Peel, halve and core the pears.",
@@ -996,15 +996,13 @@
         "sugar": 8,
         "protein": 120,
         "ingredients": [
-            "200g self-raising flour",
-            "1 ½ tsp baking powder",
-            "1 tbsp golden caster sugar",
-            "3 large eggs",
-            "25g melted butter, plus extra for cooking",
-            "200ml milk",
-            "vegetable oil, for cooking",
-            "maple syrup",
-            "cooked bacon, chocolate chips, blueberries or peanut butter"
+            { "name": "Feta cheese", "amount": 200, "unit": "g" },
+            { "name": "eggs", "amount": 3, "unit": "" },
+            { "name": "butter", "amount": 25, "unit": "g" },
+            { "name": "milk", "amount": 175, "unit": "ml" },
+            { "name": "vegetable oil", "amount": 2, "unit": "pieces" },
+            { "name": "maple syrup", "amount": 2, "unit": "pieces" },
+            { "name": "tomatoes", "amount": 80, "unit": "g" }
         ],
         "instructions": [{
             "Step 1": "Mix 200g self-raising flour, 1 ½ tsp baking powder, 1 tbsp golden caster sugar and a pinch of salt together in a large bowl.",
@@ -1032,14 +1030,13 @@
         "sugar": 8,
         "protein": 120,
         "ingredients": [
-            "575g Bramley apple (3 medium apples)",
-            "2 tbsp golden caster sugar",
-            "175g plain flour",
-            " 110g golden caster sugar",
-            "110g cold butter",
-            "1 tbsp rolled oats",
-            "1 tbsp demerara sugar",
-            "double cream , clotted cream or custard"
+            { "name": "apples", "amount": 150, "unit": "g" },
+            { "name": "golden caster sugar", "amount": 80, "unit": "g" },
+            { "name": "plain flour", "amount": 175, "unit": "g" },
+            { "name": "butter", "amount": 110, "unit": "g" },
+            { "name": "rolled oats", "amount": 65, "unit": "g" },
+            { "name": "demerara sugar", "amount": 1, "unit": "tbsp" },
+            { "name": "double cream", "amount": 90, "unit": "ml" }
         ],
         "instructions": [{
             "Step 1": "Heat the oven to 190C/170 fan/gas 5.",
@@ -1070,21 +1067,19 @@
         "sugar": 15,
         "protein": 98,
         "ingredients": [
-            "230ml vegetable oil",
-            "100g natural yogurt",
-            "4 large eggs",
-            "1½ tsp vanilla extract",
-            "½ orange, zested",
-            "265g self-raising flour",
-            "335g light muscovado sugar",
-            "2½ tsp ground cinnamon",
-            "¼ fresh nutmeg",
-            "265g carrots ",
-            "100g sultanas or raisins",
-            "100g walnuts ",
-            "100g slightly salted butter",
-            "300g icing sugar",
-            "100g soft cheese"
+            { "name": "vegetable oil", "amount": 230, "unit": "ml" },
+            { "name": "natural yogurt", "amount": 110, "unit": "g" },
+            { "name": "eggs", "amount": 4, "unit": "" },
+            { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
+            { "name": "orange zested", "amount": 50, "unit": "g" },
+            { "name": "self-raising flour", "amount": 265, "unit": "g" },
+            { "name": "muscovado sugar", "amount": 335, "unit": "g" },
+            { "name": "carrots", "amount": 265, "unit": "g" },
+            { "name": "raisins", "amount": 100, "unit": "g" },
+            { "name": "walnuts", "amount": 100, "unit": "g" },
+            { "name": "butter", "amount": 150, "unit": "g" },
+            { "name": "icing sugar", "amount": 300, "unit": "g" },
+            { "name": "soft cheese", "amount": 110, "unit": "g" }
         ],
         "instructions": [{
             "Step 1": "Heat the oven to 180C/160C fan/gas 4. ",
@@ -1113,16 +1108,15 @@
         "sugar": 12,
         "protein": 50,
         "ingredients": [
-            "300g self-raising flour",
-            "2 tbsp caster sugar",
-            "1 tsp ground cinnamon",
-            "70g butter",
-            "2 egg yolks",
-            "2 tbsp golden syrup",
-            "2 large eggs",
-            "60g icing sugar"
-
+            { "name": "self-raising flour", "amount": 300, "unit": "g" },
+            { "name": "caster sugar", "amount": 2, "unit": "tbsp" },
+            { "name": "cinnamon", "amount": 1, "unit": "tbsp" },
+            { "name": "butter", "amount": 70, "unit": "g" },
+            { "name": "egg yolks", "amount": 2, "unit": "" },
+            { "name": "golden syrup", "amount": 50, "unit": "ml" },
+            { "name": "icing sugar", "amount": 60, "unit": "g" }
         ],
+
         "instructions": [{
             "Step 1": "Heat oven to 180C/fan 160C/gas 4. Grease a 20cm loose-bottomed cake tin and line the bottom with baking parchment. ",
             "Step 2": "Mix the flour, caster sugar and cinnamon together with a pinch of salt in a bowl. Whisk the butter, egg yolks and milk together and combine with the dry ingredients to make a soft dough. Turn out onto a floured surface and roll out to a rectangle, about 30 x 25cm.",
