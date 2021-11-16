@@ -29,9 +29,11 @@ class IngredientsSeeder extends Seeder
                 // pushing each name of ingredient to the ingredient_array
                 // gives us repeats of names!
                 $ingredient_array[] = $ingredient_data["name"];
-            }
+            
+         }
+           
         }
-        
+       // dd($ingredient_array);
         // array_unique gets rid of any repeated values
         $ourUniqArray = array_unique($ingredient_array);
         

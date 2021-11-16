@@ -14,10 +14,12 @@ class CreateIngredientRecipeTable extends Migration
     public function up()
     {
         Schema::create('ingredient_recipe', function (Blueprint $table) {
-            $table->integer('ingredients_id')->nullable();
+            $table->id();
+            $table->integer('ingredient_id')->nullable();
             $table->integer('recipe_id')->nullable();
             $table->integer('amount')->nullable();
             $table->string('unit')->nullable();
+            $table->timestamps();
         });
     }
 
