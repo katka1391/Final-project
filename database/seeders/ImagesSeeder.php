@@ -25,15 +25,9 @@ class ImagesSeeder extends Seeder
                     $record = new Image();
                     $record->recipe_id = $recipe_data['id'];
                     $record->path = $images_data['path'];
-               //dd($recipe_data['images']);   
-
-
-
+               //dd($recipe_data['images']);  
                    $record->save();
             }
-       
-      
-
      
         }
     }
