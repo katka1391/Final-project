@@ -30,7 +30,8 @@ mix.js('resources/js/app.js', 'public/js')
     .copy(
         'node_modules/@fortawesome/fontawesome-free/webfonts',
         'public/webfonts'
-    );
+    )
+    .js('resources/js/Recipes/index.js' , 'public/js/recipes.js').react();
 
 mix.browserSync({
         host: 'localhost',
