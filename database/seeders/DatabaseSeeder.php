@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
         $this->call(IngredientsSeeder::class);   
         $this->call(InstructionsSeeder::class);
         $this->call(RecipesSeeder::class);
-        $this->call(IngredientsRecipes::class);
+        $this->call(IngredientsRecipesSeeder::class);
         $this->call(ImagesSeeder::class);
         $this->call(RecipeUserSeeder::class);
         // \App\Models\User::factory(10)->create();
