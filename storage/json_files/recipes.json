@@ -15,6 +15,11 @@
         "fiber": 4,
         "sugar": 6,
         "protein": 200,
+        "categories" : [
+            {"name": "vegetarian" , "type" : "diary requirement"},
+            {"name": "dessert" , "type" : "preferred meal"},
+            {"name": "International" , "type" : "cuisine "}
+        ],
 
         "ingredients": [
             { "name": "dark chocolate", "amount": 220, "unit": "g" },
@@ -60,6 +65,12 @@
         "sugar": 6,
         "protein": 200,
 
+        "categories" : [
+            {"name": "vegetarian" , "type" : "diary requirement"},
+            {"name": "dessert" , "type" : "preferred meal"},
+            {"name": "International" , "type" : "cuisine "}
+        ],
+
         "ingredients": [
             { "name": "white flour", "amount": 175, "unit": "g" },
             { "name": "softened butter", "amount": 100, "unit": "g" },
@@ -104,6 +115,13 @@
         "sugar": 6,
         "protein": 200,
 
+        "categories" : [
+            {"name": "vegetarian" , "type" : "diary requirement"},
+            {"name": "gluten-free" , "type" : "diary requirement"},
+            {"name": "dessert" , "type" : "preferred meal"},
+            {"name": "French" , "type" : "cuisine "}
+        ],
+
         "ingredients": [
             { "name": "ricotta cheese", "amount": 250, "unit": "g" },
             { "name": "powdered sugar", "amount": 20, "unit": "g" },
@@ -147,6 +165,12 @@
         "fiber": 4,
         "sugar": 6,
         "protein": 200,
+
+        "categories" : [
+            {"name": "vegetarian" , "type" : "diary requirement"},
+            {"name": "dessert" , "type" : "preferred meal"},
+            {"name": "Italian" , "type" : "cuisine "}
+        ],
 
         "ingredients": [
             { "name": "ladyfingers", "amount": 300, "unit": "g" },
@@ -199,6 +223,13 @@
         "sugar": 6,
         "protein": 200,
 
+        "categories" : [
+            {"name": "vegetarian" , "type" : "diary requirement"},
+            {"name": "gluten-free" , "type" : "diary requirement"},
+            {"name": "dessert" , "type" : "preferred meal"},
+            {"name": "International" , "type" : "cuisine "}
+        ],
+
         "ingredients": [
             { "name": "figs", "amount": 300, "unit": "g" },
             { "name": "almond flour", "amount": 50, "unit": "g" },
@@ -246,6 +277,14 @@
         "sugar": 21,
         "protein": 37,
 
+        "categories" : [
+            {"name": "gluten-free" , "type" : "diary requirement"},
+            {"name": "dinner" , "type" : "preferred meal"},
+            {"name": "lunch" , "type" : "preferred meal"},
+            {"name": "British " , "type" : "cuisine "}
+        ],
+
+
         "ingredients": [
             { "name": "sweet potatoes", "amount": 2, "unit": "pieces" },
             { "name": "rapeseed oil", "amount": 1, "unit": "tbsp" },
@@ -287,6 +326,13 @@
         "fiber": 8,
         "sugar": 21,
         "protein": 37,
+
+        "categories" : [
+            {"name": "gluten-free" , "type" : "diary requirement"},
+            {"name": "dinner" , "type" : "preferred meal"},
+            {"name": "lunch" , "type" : "preferred meal"},
+            {"name": "Spanish " , "type" : "cuisine "}
+        ],
 
         "ingredients": [
             { "name": "red onion", "amount": 1, "unit": "piece" },
@@ -336,6 +382,14 @@
         "sugar": 21,
         "protein": 37,
 
+        "categories" : [
+            {"name": "gluten-free" , "type" : "diary requirement"},
+            {"name": "lactose-free" , "type" : "diary requirement"},
+            {"name": "dinner" , "type" : "preferred meal"},
+            {"name": "lunch" , "type" : "preferred meal"},
+            {"name": "International " , "type" : "cuisine "}
+        ],
+
         "ingredients": [
             { "name": "salmon fillets", "amount": 8, "unit": "pieces" },
             { "name": "olive oil", "amount": 50, "unit": "ml" },
@@ -378,6 +432,13 @@
         "sugar": 21,
         "protein": 37,
 
+        "categories" : [
+            {"name": "dinner" , "type" : "preferred meal"},
+            {"name": "lunch" , "type" : "preferred meal"},
+            {"name": "American " , "type" : "cuisine "}
+        ],
+
+
         "ingredients": [
             { "name": "water", "amount": 4, "unit": "cups" },
             { "name": "corn grits", "amount": 2.5, "unit": "cups" },
@@ -418,6 +479,15 @@
         "sugar": 21,
         "protein": 37,
 
+        "categories" : [
+            {"name": "gluten-free" , "type" : "diary requirement"},
+            {"name": "lactose-free" , "type" : "diary requirement"},
+            {"name": "dinner" , "type" : "preferred meal"},
+            {"name": "lunch" , "type" : "preferred meal"},
+            {"name": "International " , "type" : "cuisine "}
+        ],
+
+
         "ingredients": [
             { "name": "bell peppers", "amount": 1, "unit": "kg" },
             { "name": "onions", "amount": 400, "unit": "g" },
@@ -456,6 +526,13 @@
         "fiber": 8,
         "sugar": 21,
         "protein": 37,
+
+        "categories" : [
+            {"name": "gluten-free" , "type" : "diary requirement"},
+            {"name": "dinner" , "type" : "preferred meal"},
+            {"name": "lunch" , "type" : "preferred meal"},
+            {"name": "International " , "type" : "cuisine "}
+        ],
 
         "ingredients": [
             { "name": "coconut oil", "amount": 15, "unit": "ml" },
@@ -501,6 +578,13 @@
         "sugar": 21,
         "protein": 37,
 
+        "categories" : [
+            {"name": "dinner" , "type" : "preferred meal"},
+            {"name": "lunch" , "type" : "preferred meal"},
+            {"name": "Mexican " , "type" : "cuisine "}
+        ],
+
+
         "ingredients": [
             { "name": "onions", "amount": 100, "unit": "g" },
             { "name": "red bell pepper", "amount": 150, "unit": "g" },
@@ -543,6 +627,12 @@
         "sugar": 21,
         "protein": 37,
 
+        "categories" : [
+            {"name": "dinner" , "type" : "preferred meal"},
+            {"name": "lunch" , "type" : "preferred meal"},
+            {"name": "Mexican " , "type" : "cuisine "}
+        ],
+
         "ingredients": [
             { "name": "olive oil", "amount": 50, "unit": "ml" },
             { "name": "corn tortillas", "amount": 3, "unit": "6-inch" },
@@ -580,6 +670,14 @@
         "fiber": 8,
         "sugar": 21,
         "protein": 37,
+
+        "categories" : [
+            {"name": "gluten-free" , "type" : "diary requirement"},
+            {"name": "lactose-free" , "type" : "diary requirement"},
+            {"name": "dinner" , "type" : "preferred meal"},
+            {"name": "lunch" , "type" : "preferred meal"},
+            {"name": "Japanese " , "type" : "cuisine "}
+        ],
 
         "ingredients": [
             { "name": "sushi rice", "amount": 1, "unit": "cup" },
@@ -634,6 +732,12 @@
         "sugar": 21,
         "protein": 37,
 
+        "categories" : [
+            {"name": "dinner" , "type" : "preferred meal"},
+            {"name": "lunch" , "type" : "preferred meal"},
+            {"name": "Italian " , "type" : "cuisine "}
+        ],
+
         "ingredients": [
             { "name": "spaghetti", "amount": 320, "unit": "g" },
             { "name": "guanciale", "amount": 150, "unit": "g" },
@@ -673,6 +777,12 @@
         "sugar": 21,
         "protein": 37,
 
+        "categories" : [
+            {"name": "vegetarian" , "type" : "diary requirement"},
+            {"name": "breakfast" , "type" : "preferred meal"},
+            {"name": "International" , "type" : "cuisine "}
+        ],
+
         "ingredients": [
             { "name": "milk", "amount": 1, "unit": "cup" },
             { "name": "honey", "amount": 2, "unit": "tbs" },
@@ -708,6 +818,12 @@
         "fiber": 8,
         "sugar": 21,
         "protein": 37,
+
+        "categories" : [
+            {"name": "vegetarian" , "type" : "diary requirement"},
+            {"name": "breakfast" , "type" : "preferred meal"},
+            {"name": "International" , "type" : "cuisine "}
+        ],
 
         "ingredients": [
             { "name": "rolled oats", "amount": 2, "unit": "cups" },
@@ -749,6 +865,13 @@
         "sugar": 21,
         "protein": 37,
 
+        "categories" : [
+            {"name": "vegetarian" , "type" : "diary requirement"},
+            {"name": "gluten-free" , "type" : "diary requirement"},
+            {"name": "breakfast" , "type" : "preferred meal"},
+            {"name": "International " , "type" : "cuisine "}
+        ],
+
         "ingredients": [
             { "name": "banana", "amount": 1, "unit": "ripe" },
             { "name": "greek yogurt", "amount": 0.5, "unit": "cup" },
@@ -785,6 +908,12 @@
         "sugar": 21,
         "protein": 37,
 
+        "categories" : [
+            {"name": "vegetarian" , "type" : "diary requirement"},
+            {"name": "breakfast" , "type" : "preferred meal"},
+            {"name": "International" , "type" : "cuisine "}
+        ],
+
         "ingredients": [
             { "name": "yogurt", "amount": 1, "unit": "cup" },
             { "name": "fresh fruit", "amount": 100, "unit": "g" },
@@ -816,6 +945,13 @@
         "fiber": 8,
         "sugar": 21,
         "protein": 37,
+
+        "categories" : [
+            {"name": "vegan" , "type" : "diary requirement"},
+            {"name": "gluten-free" , "type" : "diary requirement"},
+            {"name": "breakfast" , "type" : "preferred meal"},
+            {"name": "International" , "type" : "cuisine "}
+        ],
 
         "ingredients": [
             { "name": "olive oil", "amount": 2, "unit": "tbs" },
@@ -858,6 +994,13 @@
         "fiber": 4,
         "sugar": 8,
         "protein": 120,
+
+        "categories" : [
+            {"name": "vegetarian" , "type" : "diary requirement"},
+            {"name": "breakfast" , "type" : "preferred meal"},
+            {"name": "American" , "type" : "cuisine "}
+        ],
+
         "ingredients": [
 
             { "name": "self-raising flour", "amount": 200, "unit": "g" },
@@ -898,6 +1041,13 @@
         "fiber": 4,
         "sugar": 3,
         "protein": 158,
+
+        "categories" : [
+            {"name": "vegetarian" , "type" : "diary requirement"},
+            {"name": "breakfast" , "type" : "preferred meal"},
+            {"name": "American" , "type" : "cuisine "}
+        ],
+
         "ingredients": [
             { "name": "wine vinegar", "amount": 3, "unit": "tbs" },
             { "name": "eggs", "amount": 4, "unit": "" },
@@ -932,6 +1082,13 @@
         "fiber": 3,
         "sugar": 11,
         "protein": 76,
+
+        "categories" : [
+            {"name": "vegetarian" , "type" : "diary requirement"},
+            {"name": "breakfast" , "type" : "preferred meal"},
+            {"name": "French" , "type" : "cuisine "}
+        ],
+
         "ingredients": [
 
             { "name": "eggs", "amount": 2, "unit": "" },
@@ -971,6 +1128,15 @@
         "fiber": 7,
         "sugar": 4,
         "protein": 87,
+
+        "categories" : [
+            {"name": "vegan" , "type" : "diary requirement"},
+            {"name": "gluten-free" , "type" : "diary requirement"},
+            {"name": "lactose-free" , "type" : "diary requirement"},
+            {"name": "breakfast" , "type" : "preferred meal"},
+            {"name": "International" , "type" : "cuisine "}
+        ],
+
         "ingredients": [
 
             { "name": "pears", "amount": 2, "unit": "pieces" },
@@ -1009,6 +1175,12 @@
         "sugar": 8,
         "protein": 120,
 
+        "categories" : [
+            {"name": "vegetarian" , "type" : "diary requirement"},
+            {"name": "gluten-free" , "type" : "diary requirement"},
+            {"name": "breakfast" , "type" : "preferred meal"},
+            {"name": "French" , "type" : "cuisine "}
+        ],
 
         "ingredients": [
             { "name": "Feta cheese", "amount": 200, "unit": "g" },
@@ -1047,6 +1219,13 @@
         "fiber": 4,
         "sugar": 8,
         "protein": 120,
+
+        "categories" : [
+            {"name": "vegetarian" , "type" : "diary requirement"},
+            {"name": "dessert" , "type" : "preferred meal"},
+            {"name": "British" , "type" : "cuisine "}
+        ],
+
         "ingredients": [
             { "name": "apples", "amount": 150, "unit": "g" },
             { "name": "golden caster sugar", "amount": 80, "unit": "g" },
@@ -1087,6 +1266,13 @@
         "fiber": 2,
         "sugar": 15,
         "protein": 98,
+
+        "categories" : [
+            {"name": "vegetarian" , "type" : "diary requirement"},
+            {"name": "dessert" , "type" : "preferred meal"},
+            {"name": "British" , "type" : "cuisine "}
+        ],
+
         "ingredients": [
             { "name": "vegetable oil", "amount": 230, "unit": "ml" },
             { "name": "natural yogurt", "amount": 110, "unit": "g" },
@@ -1131,6 +1317,12 @@
         "fiber": 4,
         "sugar": 12,
         "protein": 50,
+
+        "categories" : [
+            {"name": "vegetarian" , "type" : "diary requirement"},
+            {"name": "dessert" , "type" : "preferred meal"},
+            {"name": "Swedish" , "type" : "cuisine "}
+        ],
 
         "ingredients": [
             { "name": "self-raising flour", "amount": 300, "unit": "g" },

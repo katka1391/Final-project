@@ -19,6 +19,9 @@ class DatabaseSeeder extends Seeder
         $this->call(IngredientsRecipesSeeder::class);
         $this->call(ImagesSeeder::class);
         $this->call(RecipeUserSeeder::class);
+        $this->call(CategoriesSeeder::class);
+        $this->call(CategoryRecipeSeeder::class);
+
         // \App\Models\User::factory(10)->create();
     }
 }
