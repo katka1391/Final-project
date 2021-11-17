@@ -28,5 +28,5 @@ Route::get('/list', [YourListController::class, 'index']);
 
 Route::get('/subscribe', [SubscribeController::class, 'subscribe']);
 
-// any URL that begins with /recipes should desplay the RecipesController@reactApp view
-Route::get('/recipes/{param?}', 'RecipeController@reactApp')->where('param' , '.*')->name('recipes');
+// any URL that begins with /recipes should desplay the recipes.react-app view
+Route::view('/recipes/{param?}', 'recipes.react-app')->where('param' , '.*')->name('recipes');
