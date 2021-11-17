@@ -38,9 +38,32 @@
         </div>
         
             <!-- sliders -->
-           <div class="slider">
-    
-            </div>
+           <div class="slider-article4">
+                <div class="image-box-article4">
+                    <img src="/img/Bread/bread1.jpg" alt="bread">
+                </div>
+                <div class="image-box-article4">
+                    <img src="/img/Bread/bread2.jpg" alt="bread">
+                </div>
+                <div class="image-box-article4">
+                    <img src="/img/Bread/bread3.jpg" alt="bread">
+                </div>
+                <div class="image-box-article4">
+                    <img src="/img/Bread/bread4.jpg" alt="bread">
+                </div>
+                <div class="image-box-article4">
+                    <img src="/img/Bread/bread5.jpg" alt="bread">
+                </div>
+                <div class="image-box-article4">
+                    <img src="/img/Bread/bread6.jpg" alt="bread">
+                </div>
+                <div class="image-box-article4">
+                    <img src="/img/Bread/bread7.jpg" alt="bread">
+                </div>
+                <div class="image-box-article4">
+                    <img src="/img/Bread/bread8.jpg" alt="bread">
+                </div>
+        </div>
     
             <div class="article-down">
                 <q> Water – good old tap water is absolutely fine, and it’s the only thing we’ve ever used to make our sourdough. Don’t waste money on minerals. Salt – fine, pure sea salt is the best, but if you don’t have it, you can use any type of cooking

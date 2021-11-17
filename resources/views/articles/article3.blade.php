@@ -13,10 +13,10 @@
 
    </h2>
 </div>
-<div class="article-container">
+<div class="article3-container">
 
     <h2 style="font-size: 40px">Pumpkin Carving Tips and Tricks</h2>
-    <div class="article-up">
+    <div class="article3-up">
 
         <br>
         <q>Now that you know how to choose the perfect Halloween pumpkin 
@@ -35,15 +35,40 @@
             before you begin.</q>
        
  
-      
+      <div class="space-between__article3">
+
+      </div>
     </div>
     
         <!-- sliders -->
-       <div class="slider">
-
+       <div class="slider-article3">
+                <div class="image-box-article3 active" >
+                    <img src="/img/Pumpkin/pumpkin.jpg" alt="pumpkin">
+                </div>
+                <div class="image-box-article3">
+                    <img src="/img/Pumpkin/pumpkin1.jpg" alt="pumpkin">
+                </div>
+                <div class="image-box-article3">
+                    <img src="/img/Pumpkin/pumpkin2.jpg" alt="pumpkin">
+                </div>
+                <div class="image-box-article3">
+                    <img src="/img/Pumpkin/pumpkin3.jpg" alt="pumpkin">
+                </div>
+                <div class="image-box-article3">
+                    <img src="/img/Pumpkin/pumpkin4.jpg" alt="pumpkin">
+                </div>
+                <div class="image-box-article3">
+                    <img src="/img/Pumpkin/pumpkin5.jpg" alt="pumpkin">
+                </div>
+                <div class="image-box-article3">
+                    <img src="/img/Pumpkin/pumpkin6.jpg" alt="pumpkin">
+                </div>
+                <div class="image-box-article3">
+                    <img src="/img/Pumpkin/pumpkin7.jpg" alt="pumpkin">
+                </div>
         </div>
 
-        <div class="article-down">
+        <div class="article3-down">
             <q> Pumpkins are packed with skin-friendly nutrients, including vitamins C and E, as well as beta-carotene, all of which play an important role in the health of our skin.
 
                 Vitamin C is not naturally made by the body, so it’s important we get it from our diet, as it plays a part in the formation of collagen which keeps skin plump and firm, vitamin C also helps prevent bruising and promotes wound healing.
