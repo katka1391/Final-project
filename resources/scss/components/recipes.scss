@@ -1,0 +1,50 @@
+
+* {
+    font-family: 'Martel', serif;
+}
+.recipes-main-container {
+    display: flex;
+    padding-bottom: 4rem;
+}
+
+.recipes-leftSite {
+    // background-color: aquamarine;
+    width: 45%;
+    margin-left: 15em; 
+}
+.recipes-rightSite {
+    border-left: 1px black solid;
+    padding: 2em;
+}
+
+// .search-recipes {
+//     border-left: 1px black solid;
+// }
+
+.recipe-img-react {
+    width: 20em;
+    height: 23em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.recipe-name-react {
+    padding: 1em;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+.recipe-wrap-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.recipe-all-recipes {
+    text-align: center;
+    padding: 1em;
+    border-bottom: 1px black solid;
+    font-size: 2em;
+
+}

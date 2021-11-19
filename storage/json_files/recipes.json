@@ -9,6 +9,7 @@
         "servings": 9,
 
         "calories": 2565,
+
         "fat": 159,
         "satfat": 67,
         "carbs": 76,
@@ -16,9 +17,9 @@
         "sugar": 6,
         "protein": 200,
         "categories" : [
-            {"name": "vegetarian" , "type" : "diary requirement"},
-            {"name": "dessert" , "type" : "preferred meal"},
-            {"name": "International" , "type" : "cuisine "}
+            {"name": "vegetarian" , "type" : "dietary requirement"},
+            {"name": "dessert" , "type" : "meal"},
+            {"name": "International" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -66,9 +67,9 @@
         "protein": 200,
 
         "categories" : [
-            {"name": "vegetarian" , "type" : "diary requirement"},
-            {"name": "dessert" , "type" : "preferred meal"},
-            {"name": "International" , "type" : "cuisine "}
+            {"name": "vegetarian" , "type" : "dietary requirement"},
+            {"name": "dessert" , "type" : "meal"},
+            {"name": "International" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -116,10 +117,10 @@
         "protein": 200,
 
         "categories" : [
-            {"name": "vegetarian" , "type" : "diary requirement"},
-            {"name": "gluten-free" , "type" : "diary requirement"},
-            {"name": "dessert" , "type" : "preferred meal"},
-            {"name": "French" , "type" : "cuisine "}
+            {"name": "vegetarian" , "type" : "dietary requirement"},
+            {"name": "gluten-free" , "type" : "dietary requirement"},
+            {"name": "dessert" , "type" : "meal"},
+            {"name": "French" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -167,9 +168,9 @@
         "protein": 200,
 
         "categories" : [
-            {"name": "vegetarian" , "type" : "diary requirement"},
-            {"name": "dessert" , "type" : "preferred meal"},
-            {"name": "Italian" , "type" : "cuisine "}
+            {"name": "vegetarian" , "type" : "dietary requirement"},
+            {"name": "dessert" , "type" : "meal"},
+            {"name": "Italian" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -224,10 +225,10 @@
         "protein": 200,
 
         "categories" : [
-            {"name": "vegetarian" , "type" : "diary requirement"},
-            {"name": "gluten-free" , "type" : "diary requirement"},
-            {"name": "dessert" , "type" : "preferred meal"},
-            {"name": "International" , "type" : "cuisine "}
+            {"name": "vegetarian" , "type" : "dietary requirement"},
+            {"name": "gluten-free" , "type" : "dietary requirement"},
+            {"name": "dessert" , "type" : "meal"},
+            {"name": "International" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -278,10 +279,10 @@
         "protein": 37,
 
         "categories" : [
-            {"name": "gluten-free" , "type" : "diary requirement"},
-            {"name": "dinner" , "type" : "preferred meal"},
-            {"name": "lunch" , "type" : "preferred meal"},
-            {"name": "British " , "type" : "cuisine "}
+            {"name": "gluten-free" , "type" : "dietary requirement"},
+            {"name": "dinner" , "type" : "meal"},
+            {"name": "lunch" , "type" : "meal"},
+            {"name": "British" , "type" : "cuisine"}
         ],
 
 
@@ -328,10 +329,10 @@
         "protein": 37,
 
         "categories" : [
-            {"name": "gluten-free" , "type" : "diary requirement"},
-            {"name": "dinner" , "type" : "preferred meal"},
-            {"name": "lunch" , "type" : "preferred meal"},
-            {"name": "Spanish " , "type" : "cuisine "}
+            {"name": "gluten-free" , "type" : "dietary requirement"},
+            {"name": "dinner" , "type" : "meal"},
+            {"name": "lunch" , "type" : "meal"},
+            {"name": "Spanish" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -383,11 +384,11 @@
         "protein": 37,
 
         "categories" : [
-            {"name": "gluten-free" , "type" : "diary requirement"},
-            {"name": "lactose-free" , "type" : "diary requirement"},
-            {"name": "dinner" , "type" : "preferred meal"},
-            {"name": "lunch" , "type" : "preferred meal"},
-            {"name": "International " , "type" : "cuisine "}
+            {"name": "gluten-free" , "type" : "dietary requirement"},
+            {"name": "lactose-free" , "type" : "dietary requirement"},
+            {"name": "dinner" , "type" : "meal"},
+            {"name": "lunch" , "type" : "meal"},
+            {"name": "International" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -433,9 +434,9 @@
         "protein": 37,
 
         "categories" : [
-            {"name": "dinner" , "type" : "preferred meal"},
-            {"name": "lunch" , "type" : "preferred meal"},
-            {"name": "American " , "type" : "cuisine "}
+            {"name": "dinner" , "type" : "meal"},
+            {"name": "lunch" , "type" : "meal"},
+            {"name": "American" , "type" : "cuisine"}
         ],
 
 
@@ -480,11 +481,11 @@
         "protein": 37,
 
         "categories" : [
-            {"name": "gluten-free" , "type" : "diary requirement"},
-            {"name": "lactose-free" , "type" : "diary requirement"},
-            {"name": "dinner" , "type" : "preferred meal"},
-            {"name": "lunch" , "type" : "preferred meal"},
-            {"name": "International " , "type" : "cuisine "}
+            {"name": "gluten-free" , "type" : "dietary requirement"},
+            {"name": "lactose-free" , "type" : "dietary requirement"},
+            {"name": "dinner" , "type" : "meal"},
+            {"name": "lunch" , "type" : "meal"},
+            {"name": "International" , "type" : "cuisine"}
         ],
 
 
@@ -528,10 +529,10 @@
         "protein": 37,
 
         "categories" : [
-            {"name": "gluten-free" , "type" : "diary requirement"},
-            {"name": "dinner" , "type" : "preferred meal"},
-            {"name": "lunch" , "type" : "preferred meal"},
-            {"name": "International " , "type" : "cuisine "}
+            {"name": "gluten-free" , "type" : "dietary requirement"},
+            {"name": "dinner" , "type" : "meal"},
+            {"name": "lunch" , "type" : "meal"},
+            {"name": "International" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -579,9 +580,9 @@
         "protein": 37,
 
         "categories" : [
-            {"name": "dinner" , "type" : "preferred meal"},
-            {"name": "lunch" , "type" : "preferred meal"},
-            {"name": "Mexican " , "type" : "cuisine "}
+            {"name": "dinner" , "type" : "meal"},
+            {"name": "lunch" , "type" : "meal"},
+            {"name": "Mexican" , "type" : "cuisine"}
         ],
 
 
@@ -628,9 +629,9 @@
         "protein": 37,
 
         "categories" : [
-            {"name": "dinner" , "type" : "preferred meal"},
-            {"name": "lunch" , "type" : "preferred meal"},
-            {"name": "Mexican " , "type" : "cuisine "}
+            {"name": "dinner" , "type" : "meal"},
+            {"name": "lunch" , "type" : "meal"},
+            {"name": "Mexican" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -672,11 +673,11 @@
         "protein": 37,
 
         "categories" : [
-            {"name": "gluten-free" , "type" : "diary requirement"},
-            {"name": "lactose-free" , "type" : "diary requirement"},
-            {"name": "dinner" , "type" : "preferred meal"},
-            {"name": "lunch" , "type" : "preferred meal"},
-            {"name": "Japanese " , "type" : "cuisine "}
+            {"name": "gluten-free" , "type" : "dietary requirement"},
+            {"name": "lactose-free" , "type" : "dietary requirement"},
+            {"name": "dinner" , "type" : "meal"},
+            {"name": "lunch" , "type" : "meal"},
+            {"name": "Japanese" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -713,6 +714,7 @@
         "images": [
             { "path": "https://blog.giallozafferano.it/dulcisinforno/wp-content/uploads/2018/05/1467Mod.jpg" },
             { "path": "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fit,w_764,h_955/k%2FPhoto%2FRecipes%2F2021-09-peanut-butter-oatmeal%2F2021-09-13_ATK6865" }
+    
         ]
     },
     "15": {
@@ -733,9 +735,9 @@
         "protein": 37,
 
         "categories" : [
-            {"name": "dinner" , "type" : "preferred meal"},
-            {"name": "lunch" , "type" : "preferred meal"},
-            {"name": "Italian " , "type" : "cuisine "}
+            {"name": "dinner" , "type" : "meal"},
+            {"name": "lunch" , "type" : "meal"},
+            {"name": "Italian" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -778,9 +780,9 @@
         "protein": 37,
 
         "categories" : [
-            {"name": "vegetarian" , "type" : "diary requirement"},
-            {"name": "breakfast" , "type" : "preferred meal"},
-            {"name": "International" , "type" : "cuisine "}
+            {"name": "vegetarian" , "type" : "dietary requirement"},
+            {"name": "breakfast" , "type" : "meal"},
+            {"name": "International" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -820,9 +822,9 @@
         "protein": 37,
 
         "categories" : [
-            {"name": "vegetarian" , "type" : "diary requirement"},
-            {"name": "breakfast" , "type" : "preferred meal"},
-            {"name": "International" , "type" : "cuisine "}
+            {"name": "vegetarian" , "type" : "dietary requirement"},
+            {"name": "breakfast" , "type" : "meal"},
+            {"name": "International" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -866,10 +868,10 @@
         "protein": 37,
 
         "categories" : [
-            {"name": "vegetarian" , "type" : "diary requirement"},
-            {"name": "gluten-free" , "type" : "diary requirement"},
-            {"name": "breakfast" , "type" : "preferred meal"},
-            {"name": "International " , "type" : "cuisine "}
+            {"name": "vegetarian" , "type" : "dietary requirement"},
+            {"name": "gluten-free" , "type" : "dietary requirement"},
+            {"name": "breakfast" , "type" : "meal"},
+            {"name": "International" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -909,9 +911,9 @@
         "protein": 37,
 
         "categories" : [
-            {"name": "vegetarian" , "type" : "diary requirement"},
-            {"name": "breakfast" , "type" : "preferred meal"},
-            {"name": "International" , "type" : "cuisine "}
+            {"name": "vegetarian" , "type" : "dietary requirement"},
+            {"name": "breakfast" , "type" : "meal"},
+            {"name": "International" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -947,10 +949,10 @@
         "protein": 37,
 
         "categories" : [
-            {"name": "vegan" , "type" : "diary requirement"},
-            {"name": "gluten-free" , "type" : "diary requirement"},
-            {"name": "breakfast" , "type" : "preferred meal"},
-            {"name": "International" , "type" : "cuisine "}
+            {"name": "vegan" , "type" : "dietary requirement"},
+            {"name": "gluten-free" , "type" : "dietary requirement"},
+            {"name": "breakfast" , "type" : "meal"},
+            {"name": "International" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -996,9 +998,9 @@
         "protein": 120,
 
         "categories" : [
-            {"name": "vegetarian" , "type" : "diary requirement"},
-            {"name": "breakfast" , "type" : "preferred meal"},
-            {"name": "American" , "type" : "cuisine "}
+            {"name": "vegetarian" , "type" : "dietary requirement"},
+            {"name": "breakfast" , "type" : "meal"},
+            {"name": "American" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -1043,9 +1045,9 @@
         "protein": 158,
 
         "categories" : [
-            {"name": "vegetarian" , "type" : "diary requirement"},
-            {"name": "breakfast" , "type" : "preferred meal"},
-            {"name": "American" , "type" : "cuisine "}
+            {"name": "vegetarian" , "type" : "dietary requirement"},
+            {"name": "breakfast" , "type" : "meal"},
+            {"name": "American" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -1084,9 +1086,9 @@
         "protein": 76,
 
         "categories" : [
-            {"name": "vegetarian" , "type" : "diary requirement"},
-            {"name": "breakfast" , "type" : "preferred meal"},
-            {"name": "French" , "type" : "cuisine "}
+            {"name": "vegetarian" , "type" : "dietary requirement"},
+            {"name": "breakfast" , "type" : "meal"},
+            {"name": "French" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -1130,11 +1132,11 @@
         "protein": 87,
 
         "categories" : [
-            {"name": "vegan" , "type" : "diary requirement"},
-            {"name": "gluten-free" , "type" : "diary requirement"},
-            {"name": "lactose-free" , "type" : "diary requirement"},
-            {"name": "breakfast" , "type" : "preferred meal"},
-            {"name": "International" , "type" : "cuisine "}
+            {"name": "vegan" , "type" : "dietary requirement"},
+            {"name": "gluten-free" , "type" : "dietary requirement"},
+            {"name": "lactose-free" , "type" : "dietary requirement"},
+            {"name": "breakfast" , "type" : "meal"},
+            {"name": "International" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -1176,10 +1178,10 @@
         "protein": 120,
 
         "categories" : [
-            {"name": "vegetarian" , "type" : "diary requirement"},
-            {"name": "gluten-free" , "type" : "diary requirement"},
-            {"name": "breakfast" , "type" : "preferred meal"},
-            {"name": "French" , "type" : "cuisine "}
+            {"name": "vegetarian" , "type" : "dietary requirement"},
+            {"name": "gluten-free" , "type" : "dietary requirement"},
+            {"name": "breakfast" , "type" : "meal"},
+            {"name": "French" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -1221,9 +1223,9 @@
         "protein": 120,
 
         "categories" : [
-            {"name": "vegetarian" , "type" : "diary requirement"},
-            {"name": "dessert" , "type" : "preferred meal"},
-            {"name": "British" , "type" : "cuisine "}
+            {"name": "vegetarian" , "type" : "dietary requirement"},
+            {"name": "dessert" , "type" : "meal"},
+            {"name": "British" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -1268,9 +1270,9 @@
         "protein": 98,
 
         "categories" : [
-            {"name": "vegetarian" , "type" : "diary requirement"},
-            {"name": "dessert" , "type" : "preferred meal"},
-            {"name": "British" , "type" : "cuisine "}
+            {"name": "vegetarian" , "type" : "dietary requirement"},
+            {"name": "dessert" , "type" : "meal"},
+            {"name": "British" , "type" : "cuisine"}
         ],
 
         "ingredients": [
@@ -1319,9 +1321,9 @@
         "protein": 50,
 
         "categories" : [
-            {"name": "vegetarian" , "type" : "diary requirement"},
-            {"name": "dessert" , "type" : "preferred meal"},
-            {"name": "Swedish" , "type" : "cuisine "}
+            {"name": "vegetarian" , "type" : "dietary requirement"},
+            {"name": "dessert" , "type" : "meal"},
+            {"name": "Swedish" , "type" : "cuisine"}
         ],
 
         "ingredients": [

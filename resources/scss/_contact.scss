@@ -19,7 +19,7 @@
     align-items: flex-end;
     width: 90%;
     font-size: 60px;
-    border-bottom: 3px solid grey;
+    border-bottom: 1px black solid;
 }
 
 .contact-submit {
@@ -51,5 +51,12 @@
 
 .contact-right-panel {
     width: 30%;
+    border-left: 1px black solid;
+    padding: 2em;
+}
+
+.contact-icons-left {
+    width: 2em;
+    height: 2em;
 }
 

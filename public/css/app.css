@@ -1,8 +1,4 @@
-/*@import "~@fortawesome/fontawesome-free/scss/fontawesome";
-@import "~@fortawesome/fontawesome-free/scss/solid";
-@import "~@fortawesome/fontawesome-free/scss/brands";
-@import "~@fortawesome/fontawesome-free/scss/regular";
-*/
+
 * {
   margin: 0;
   padding: 0;
@@ -11,12 +7,13 @@
 
 .footer-container {
   background-color: #bdc4b9;
-  color: white;
+  color: black;
   text-align: center;
+  border-top: dotted double #32a1ce;
 }
 
 .nav-link-footer {
-  color: white;
+  color: black;
 }
 
 .footer-final-text {
@@ -25,6 +22,13 @@
 
 .icon {
   margin-right: 1em;
+}
+
+.contact-icons-footer {
+  width: 5em;
+  height: 5em;
+  color: black;
+  padding: 1em;
 }
 
 .container {
@@ -49,7 +53,7 @@
   align-items: flex-end;
   width: 90%;
   font-size: 60px;
-  border-bottom: 3px solid grey;
+  border-bottom: 1px black solid;
 }
 
 .contact-submit {
@@ -77,6 +81,13 @@
 
 .contact-right-panel {
   width: 30%;
+  border-left: 1px black solid;
+  padding: 2em;
+}
+
+.contact-icons-left {
+  width: 2em;
+  height: 2em;
 }
 
 /*navbar*/
@@ -1010,6 +1021,7 @@ a {
   padding-top: 10px;
 }
 
+<<<<<<< Updated upstream
 .carousel-item img {
   height: 600px;
   -o-object-fit: cover;
@@ -1171,6 +1183,51 @@ a {
   .carousel-onTheRight-home {
     display: none;
   }
+=======
+* {
+  font-family: "Martel", serif;
+}
+
+.recipes-main-container {
+  display: flex;
+  padding-bottom: 4rem;
+}
+
+.recipes-leftSite {
+  width: 45%;
+  margin-left: 15em;
+}
+
+.recipes-rightSite {
+  border-left: 1px black solid;
+  padding: 2em;
+}
+
+.recipe-img-react {
+  width: 20em;
+  height: 23em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.recipe-name-react {
+  padding: 1em;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+}
+
+.recipe-wrap-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.recipe-all-recipes {
+  text-align: center;
+  padding: 1em;
+  border-bottom: 1px black solid;
+  font-size: 2em;
+>>>>>>> Stashed changes
 }
 
 /*# sourceMappingURL=app.css.map*/

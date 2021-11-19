@@ -27,10 +27,6 @@ if (!mix.inProduction()) {
 //                SCSS                  CSS
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/Scss/app.scss', 'public/css')
-    .copy(
-        'node_modules/@fortawesome/fontawesome-free/webfonts',
-        'public/webfonts'
-    )
     .js('resources/js/Recipes/index.js' , 'public/js/recipes.js').react();
 
 mix.browserSync({
