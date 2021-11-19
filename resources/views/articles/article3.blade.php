@@ -3,9 +3,9 @@
 
 <div class="container blog">
    <h1 class="title blog">Sweet Cuisine</h1>
-   <h2 class="subTitle blog">Articles Page
+   <h2 class="subTitle-article3_4">Articles Page
 
-       <div class="player-article3">
+       <div class="player-article3_4">
            <audio controls autoplay="yes" mobile="yes">
                    <source src="/img/Player/On&On.mp4" type="audio/mp3"/>
                </audio>
@@ -13,12 +13,12 @@
 
    </h2>
 </div>
-<div class="article3-container">
+<div class="article3_4-container">
 
-    <h2 style="font-size: 40px">Pumpkin Carving Tips and Tricks</h2>
-    <div class="article3-up">
-
-        <br>
+   
+    <div class="article3_4-up">
+        <br> 
+        <h2 style="font-size: 40px">Pumpkin Carving Tips and Tricks</h2>
         <q>Now that you know how to choose the perfect Halloween pumpkin 
             for carving, here are some tips to get the job done!
             If you plan to use battery-powered lights in your jack-o-lantern, 
@@ -35,7 +35,7 @@
             before you begin.</q>
        
  
-      <div class="space-between__article3">
+      <div class="space-between__article3_4">
 
       </div>
     </div>
@@ -68,7 +68,7 @@
                 </div>
         </div>
 
-        <div class="article3-down">
+        <div class="article3_4-down">
             <q> Pumpkins are packed with skin-friendly nutrients, including vitamins C and E, as well as beta-carotene, all of which play an important role in the health of our skin.
 
                 Vitamin C is not naturally made by the body, so it’s important we get it from our diet, as it plays a part in the formation of collagen which keeps skin plump and firm, vitamin C also helps prevent bruising and promotes wound healing.

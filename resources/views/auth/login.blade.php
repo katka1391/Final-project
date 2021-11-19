@@ -10,6 +10,7 @@
 <div class="login-container">
     <form class="login-form" action="{{ route('login') }}" method="post">
         @csrf
+        <p class="login-notRegister" >Not register yet? Go to the <a href="/register">register</a> page</p>
         <label for="Username">Email or Username:</label>
         <input class="login_input" type="email" name="email" value="{{ old('email') }}">
         <label for="Username">Password:</label>
@@ -27,14 +28,13 @@
             @csrf
             <button class="logout-btn" >Logout</button>
         </form>
-        <p style="margin-top: 5em">Not register yet? Go to the <a href="/register">register</a> page</p>
    
     </form>
     <div class="space-between"  style="margin-right: 20px;">
 
     </div>
     <!-- left bar -->
-    <div class="carousel-onTheRight blog">
+    <div class="carousel-onTheRight-log">
         <p class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
         <br>
         <p class="text-decoration-none"> <a href="" class="text-dark"><u>BREAKFAST  /  MAIN DISH  /  DESSERT</u></a> </p>

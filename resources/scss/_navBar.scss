@@ -1,153 +1,158 @@
-/*navbar*/
-
-header {
-    background-color: #A9BA9D;
-    height: 15vh;
-    background-position: top;
-    margin: 0.5em;
-}
-
-.navBar-container {
-    display: flex;
-    padding: 1rem;
-    justify-content: space-between;
-}
-
-.navBar-logo h2 {
-    font-size: 3rem;
-    margin: 0.5rem 2rem;
-    color: black;
-}
-
-#hamburger {
-    display: contents;
-}
-
-.navBar-title li {
-    list-style: none;
-    display: inline-block;
-}
-
-.navBar-title a {
-    display: inline-block;
-    text-decoration-color: black;
-    padding: 1.5rem 2rem;
-    font-weight: bold;
-    color: black;
-    font-size: 1.5rem;
-}
-
-.navBar-title a span {
-    margin-top: 3px;
-    display: block;
-    height: 3px;
-    width: 0%;
-    background: black;
-    border-radius: 5px;
-    transition: .4s;
-}
-
-.navBar-title a:hover {
-    background: white;
-    text-decoration: none;
-    transition: .4s;
-}
-
-.navBar-title a:hover span {
-    width: 100%;
-    transition: .4s;
-}
-
-.navBar-search input {
-    padding: 5px;
-    border-radius: 2rem;
-    border: none;
-    outline: none;
-    background: white;
-    text-align: center;
-    font-weight: bold;
-    width: 12rem;
-    transition: 0.4s;
-}
-
-.navBar-search input::placeholder {
-    color: black;
-}
-
-label span {
-    height: 4px;
-    width: 2rem;
-    background-color: black;
-    display: none;
-    margin: 3px;
-}
-
-.title {
-    color: black;
-}
-
-@media (min-width: 360px) and (max-width: 720px) {
-    .title {
-        height: 30vh;
-        margin-left: 4px;
-        margin-top: -48px;
-    }
-    .subTitle {
-        margin-top: 30px;
-    }
+    /*navbar*/
+    
     header {
-        clip-path: absolute;
-    }
-    .navBar-logo h2 {
-        right: 4em;
-    }
-    .navBar-container {
-        justify-content: center;
-        background: white;
-    }
-    .navBar-title {
-        position: absolute;
-        width: 100%;
-        transform: translateY(-90rem);
-        transition: 0.5s;
-        clip-path: circle(50% at 50% 50%);
-    }
-    .navBar-title li,
-    a {
-        display: block;
-        text-align: center;
         background-color: #A9BA9D;
-        color: white;
+        height: 15vh;
+        background-position: top;
+        margin: 0.5em;
     }
-    .navBar-title a span {
-        display: none;
+    
+    .navBar-container {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 1rem;
     }
-    .navBar-title a:hover {
+    
+    .navBar-logo h2 {
+        font-size: 3rem;
+        margin: 0.5rem 2rem;
         color: black;
-        background-color: white;
     }
+    
+    #hamburger {
+        display: contents;
+    }
+    
+    .navBar-title li {
+        list-style: none;
+        display: inline-block;
+    }
+    
+    .navBar-title a {
+        display: inline-block;
+        text-decoration-color: black;
+        padding: 1.5rem 2rem;
+        font-weight: bold;
+        color: black;
+        font-size: 1.5rem;
+    }
+    
+    .navBar-title a span {
+        margin-top: 3px;
+        display: block;
+        height: 3px;
+        width: 0%;
+        background: black;
+        border-radius: 5px;
+        transition: .4s;
+    }
+    
+    .navBar-title a:hover {
+        background: white;
+        text-decoration: none;
+        transition: .4s;
+    }
+    
+    .navBar-title a:hover span {
+        width: 100%;
+        transition: .4s;
+    }
+    
+    .navBar-search input {
+        padding: 5px;
+        border-radius: 2rem;
+        border: none;
+        outline: none;
+        background: white;
+        text-align: center;
+        font-weight: bold;
+        width: 12rem;
+        transition: 0.4s;
+    }
+    
+    .navBar-search input::placeholder {
+        color: black;
+    }
+    
     label span {
         height: 4px;
         width: 2rem;
         background-color: black;
-        display: block;
+        display: none;
         margin: 3px;
     }
-    .navBar-search {
-        display: none;
+    
+    .title {
+        color: black;
     }
-    label {
-        margin-left: 40px;
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .navBar-logo {
+            width: 17em;
+        }
     }
-    #hamburger {
-        position: absolute;
-        display: block;
-        width: 1px;
-        top: 15px;
-        right: 3em;
+    
+    @media (min-width: 360px) and (max-width: 720px) {
+        .title {
+            height: 30vh;
+            margin-left: 4px;
+            margin-top: -48px;
+        }
+        .subTitle {
+            margin-top: 30px;
+        }
+        header {
+            clip-path: absolute;
+        }
+        .navBar-logo h2 {
+            display: none;
+        }
+        .navBar-container {
+            justify-content: flex-end;
+            background: white;
+            width: 100%;
+        }
+        .navBar-title {
+            position: absolute;
+            width: 100%;
+            transform: translateY(-90rem);
+            transition: 0.5s;
+            clip-path: circle(50% at 50% 50%);
+        }
+        .navBar-title li,
+        a {
+            display: block;
+            text-align: center;
+            background-color: #A9BA9D;
+            color: white;
+        }
+        .navBar-title a span {
+            display: none;
+        }
+        .navBar-title a:hover {
+            color: black;
+            background-color: white;
+        }
+        label span {
+            height: 4px;
+            width: 2rem;
+            background-color: black;
+            display: block;
+            margin: 3px;
+        }
+        .navBar-search {
+            display: none;
+        }
+        #hamburger {
+            position: absolute;
+            display: block;
+            width: 1px;
+            top: 15px;
+            right: 3em;
+        }
+        #hamburger:checked+.navBar-title {
+            transform: translateY(0);
+            clip-path: circle(50% at 50% 50%);
+        }
     }
-    #hamburger:checked+.navBar-title {
-        transform: translateY(0);
-        clip-path: circle(50% at 50% 50%);
-    }
-}

@@ -3,9 +3,9 @@
 
 <div class="container blog">
    <h1 class="title blog">Sweet Cuisine</h1>
-   <h2 class="subTitle blog">Articles Page
+   <h2 class="subTitle-article3_4 blog">Articles Page
 
-       <div class="player-article4">
+       <div class="player-article3_4">
            <audio controls autoplay="yes" mobile="yes">
                    <source src="/img/Player/SweetDisposition.mp3" type="audio/mp3"/>
                </audio>
@@ -14,13 +14,14 @@
    </h2>
 </div>
 
-<div class="article4-container">
-    <div class="article-container">
+<div class="article3_4-container">
+    
 
-        <h2 style="font-size: 40px">What is sourdough?</h2>
-        <div class="article-up">
+        
+        <div class="article3_4-up">
     
             <br>
+            <h2 style="font-size: 40px">What is sourdough?</h2>
             <q>Sourdough is naturally leavened bread, which means it doesn’t use 
                 commercial yeast to rise. Instead, it uses a ‘starter’ – a fermented 
                 flour and water mixture that contains wild yeast and good bacteria 
@@ -35,6 +36,10 @@
               one flour to start. But, we know ingredients are hard to come 
               by at the moment, so you can also use strong wholemeal 
               bread flour.</q>
+
+              <div class="space-between__article3_4">
+
+            </div>
         </div>
         
             <!-- sliders -->
@@ -65,7 +70,7 @@
                 </div>
         </div>
     
-            <div class="article-down">
+            <div class="article3_4-down">
                 <q> Water – good old tap water is absolutely fine, and it’s the only thing we’ve ever used to make our sourdough. Don’t waste money on minerals. Salt – fine, pure sea salt is the best, but if you don’t have it, you can use any type of cooking
                     salt you have, except rock salt – that will need to be crushed before using. You can use different flours in our basic recipe without changing the amount of water you use or the method in any way, other than adding less strong white
                     bread flour. Here are the ideal proportions: For wholemeal, granary, seeded or malted flour use 350g strong white bread flour and 150g of the other flour so you still have 500g total. For rye, spelt, emmer, buckwheat or Khorasan flour
@@ -75,7 +80,7 @@
     
                 </div>
               
-    </div>
+</div>
 
 
    <!--<div class="article4-up">

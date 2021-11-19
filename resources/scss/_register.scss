@@ -4,12 +4,13 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin-top: 50px;
+    height: 90vh;
     width: 100%;
 }
 
 .register-form {
     width: 18%;
-    padding-top: 5em;
     flex-wrap: wrap;
 }
 
@@ -19,16 +20,34 @@
     margin-bottom: 60px;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .register-form {
+        width: 32%;
+    }
+    .register-container {
+        height: 60vh;
+    }
+}
+
 @media (min-width: 360px) and (max-width: 720px) {
     .register-form {
         width: 30%;
-        padding-top: 5em;
         flex-wrap: wrap;
     }
     .register_input {
         width: 150px;
         height: 50px;
         margin-bottom: 60px;
+    }
+    .subTitle {
+        width: 5em;
+    }
+    .carousel-onTheRight-reg {
+        height: 50vh;
+        width: 200px;
+        margin-left: 40px;
+        font-size: 12px;
+        border-left: 3px solid grey;
     }
 }
 

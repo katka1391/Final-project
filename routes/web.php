@@ -6,7 +6,7 @@ use App\Http\Controllers\ArticlesController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\SubscribeController;
 use App\Http\Controllers\YourListController;
-
+use App\Http\Controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,3 +27,6 @@ Route::get('/contact', [ContactController::class, 'index']);
 Route::get('/list', [YourListController::class, 'index']);
 
 Route::get('/subscribe', [SubscribeController::class, 'subscribe']);
+Route::get('/', [HomeController::class, 'index']);
+
+Route::post('/getData', [SubscribeController::class, 'getData']);

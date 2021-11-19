@@ -2,10 +2,13 @@
 // !!!!!!!!!!!!!!!!!   UNCOMMENT AFTER  !!!!!!!!!!
 //
 $fa-font-path: "../webfonts";
-@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+
+/*@import "~@fortawesome/fontawesome-free/scss/fontawesome";
 @import "~@fortawesome/fontawesome-free/scss/solid";
 @import "~@fortawesome/fontawesome-free/scss/brands";
 @import "~@fortawesome/fontawesome-free/scss/regular";
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -19,4 +22,5 @@ $fa-font-path: "../webfonts";
 @import "login.scss";
 @import "register.scss";
 @import "newsletter.scss";
-@import "main.scss";
+@import "blog.scss";
+@import "home.scss";

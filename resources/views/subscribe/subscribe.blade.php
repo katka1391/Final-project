@@ -1,7 +1,7 @@
 @extends('layouts/main')
 @section('content')
 
-@extends('nav/navBar')
+
 
    <div class="container blog">
       <h1 class="title blog" style="font-size: 10rem">Sweet Cuisine</h1>  
@@ -14,8 +14,12 @@
         <div class="error">{{ $error }}</div>
     @endforeach
 
-    <form  class="subscribe-form"  method="get">
+    <form action="/getData"  class="subscribe-form"  method="post">
+        
         @csrf
+        @if(Session::has('message'))
+        <p>{{ Session::get('message') }}</p>
+        @endif
         <label for="Name">Name:</label>
         <input class="subscribe_input" type="text" name="name" placeholder="name" value="{{ old('name') }}">
         <label for="Email">Email:</label>
@@ -36,7 +40,7 @@
 
     </div>
     <!-- left bar -->
-    <div class="carousel-onTheRight blog">
+    <div class="carousel-onTheRight-sub">
         <p class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
         <br>
         <p class="text-decoration-none"> <a href="" class="text-dark"><u>BREAKFAST  /  MAIN DISH  /  DESSERT</u></a> </p>

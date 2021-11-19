@@ -5,6 +5,9 @@
    <h1 class="title blog"style="font-size: 10rem">Sweet Cuisine</h1>  
    <h2 class="subTitle blog">Articles Page</h2>
 </div>
+
+
+
 <div class="article-container">
     <h2 style="font-size: 40px">Instant Pot Fudgy Chocolate Brownies</h2>
     <div class="article-up">
@@ -33,7 +36,7 @@
         <!-- Cards -->
         <div class="container-boxes">
             <div class="boxes">
-                <span style="--i:1;"><img src="/img/Brownies/Brownies/Brownie.jpg" alt=""></span>
+                <span style="--i:1;"><img src="/img/Brownies/Brownies/brownies3.jpg" alt=""></span>
                 <span style="--i:2;"><img src="/img/Brownies/brownies1.jpg" alt=""></span>
                 <span style="--i:3;">
                     <video width="200" height="200" autoplay loop muted>

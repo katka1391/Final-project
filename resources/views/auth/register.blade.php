@@ -3,9 +3,9 @@
 
 
 
-   <div class="container blog">
-      <h1 class="title blog" style="font-size: 10rem">Sweet Cuisine</h1>  
-      <h2 class="subTitle blog">Register Page</h2>
+   <div class="container register">
+      <h1 class="title register" style="font-size: 10rem">Sweet Cuisine</h1>  
+      <h2 class="subTitle register">Register Page</h2>
    </div>
  
 <div class="register-container">
@@ -22,7 +22,7 @@
         <input class="register_input" type="email" name="email" placeholder="email" value="{{ old('email') }}">
         <label for="Paswoord">Paswoord:</label>
         <input class="register_input" type="password" name="password" placeholder="password" value="">
-        <label for="Paswoord-confirmation">Paswoord confirmation:</label>
+        <label for="Paswoord-confirmation">Confirmation:</label>
         <input class="register_input" type="password" name="password_confirmation" placeholder="password_confirmation">
 
         <button class="btn-register"> 
@@ -41,7 +41,7 @@
 
     </div>
     <!-- left bar -->
-    <div class="carousel-onTheRight blog">
+    <div class="carousel-onTheRight-reg">
         <p class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
         <br>
         <p class="text-decoration-none"> <a href="" class="text-dark"><u>BREAKFAST  /  MAIN DISH  /  DESSERT</u></a> </p>

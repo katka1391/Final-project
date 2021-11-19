@@ -4,12 +4,13 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
+    padding-top: 20px;
     width: 100%;
+    height: 60vh;
 }
 
 .login-form {
     width: 18%;
-    padding-top: 5em;
     flex-wrap: wrap;
 }
 
@@ -19,16 +20,35 @@
     margin-bottom: 60px;
 }
 
-@media (min-width: 360px) and (max-width: 720px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .login-form {
-        width: 30%;
-        padding-top: 5em;
+        width: 29%;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 720px) {
+    .title {
+        font-size: medium;
+    }
+    .subTitle {
+        width: 5em;
+    }
+    .login-form p {
+        width: 12em;
         flex-wrap: wrap;
     }
     .login_input {
         width: 150px;
         height: 50px;
         margin-bottom: 60px;
+    }
+    .carousel-onTheRight-log {
+        height: 50vh;
+        width: 200px;
+        margin-left: 102px;
+        font-size: 12px;
+        padding-top: 10px;
+        border-left: 3px solid grey;
     }
 }
 
@@ -78,5 +98,5 @@
 }
 
 .logout-btn {
-    margin-left: 300px;
+    margin-top: 50px;
 }
