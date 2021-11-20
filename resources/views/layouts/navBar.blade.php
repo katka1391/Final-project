@@ -10,7 +10,7 @@
         <input type="checkbox" id="hamburger"/>
         <div class="navBar-title">
             <li><a href="/">Home <span></span></a></li>
-            <li><a href="#">Recipes <span></span></a></li>
+            <li><a href="/recipes">Recipes <span></span></a></li>
             <li><a href="/subscribe">Subscribe <span></span></a></li>
             <li><a href="/contact">Contact <span></span></a></li>
             <li><a href="/blog">Blog <span></span></a></li>
@@ -21,6 +21,7 @@
         <div class="navBar-search">
             <input type="text" placeholder="Search">
         </div>
+       
     </nav>
 </header>
 

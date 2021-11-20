@@ -40,6 +40,18 @@
 
     @yield('content')
     @include('layouts/footer')
+    <script>
+        const hamburger = document.querySelector('#hamburger');
+         const title = document.querySelector('.title');
+         
+         const changeEvent = (event) =>{
+             console.log(event);
+             title.style.visibility = 'hidden';
+    
+
+         hamburger.addEventListener('click', changeEvent)
+     </script>
+
 </body>
 
 </html>

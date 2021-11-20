@@ -94,6 +94,9 @@
         &-down {
             margin-left: 0;
         }
+        &-up {
+            width: 70%;
+        }
         &-recipe__desc {
             width: 31em;
         }
@@ -102,12 +105,18 @@
             text-align: center;
         }
         &-recipe__desc img {
+            width: 25em;
+            height: 46em;
             margin: 0px 0px;
+            object-fit: cover;
         }
     }
     .carousel-onTheRight-home {
         margin-left: 10px;
         border-left: 3px gray solid;
+    }
+    .space-between__home {
+        width: 10px;
     }
 }
 
@@ -132,6 +141,9 @@
             flex-direction: column;
             flex-wrap: wrap;
             margin-left: 0;
+        }
+        &-up {
+            width: 100%;
         }
     }
     .carousel-onTheRight-home {
