@@ -17,9 +17,9 @@ mix.options({
 
 if (!mix.inProduction()) {
     mix.webpackConfig({
-        devtool: 'source-map'
-    })
-    .sourceMaps()
+            devtool: 'source-map'
+        })
+        .sourceMaps()
 }
 
 // ADD YOUR COMPILED ASSETS HERE
@@ -27,15 +27,15 @@ if (!mix.inProduction()) {
 //                SCSS                  CSS
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/Scss/app.scss', 'public/css')
-    .js('resources/js/Recipes/index.js' , 'public/js/recipes.js').react();
+    .js('resources/js/Recipes/index.js', 'public/js/recipes.js').react()
 
 mix.browserSync({
-        host: 'localhost',
-        port: 3000,
-        proxy: {
-            target: process.env.APP_URL // Yay! Using APP_URL from the .env file!
-        }
-    });
+    host: 'localhost',
+    port: 3000,
+    proxy: {
+        target: process.env.APP_URL // Yay! Using APP_URL from the .env file!
+    }
+});
 
 // add versions to the compiled assets when they are being loaded with mix()
 mix.version();

@@ -45,9 +45,15 @@
          const title = document.querySelector('.title');
          
          const changeEvent = (event) =>{
-             console.log(event);
-             title.style.visibility = 'hidden';
-    
+             console.log(title.style.visibility);
+             if ( title.style.visibility === 'hidden'){
+                title.style.visibility = '';
+             } else if (title.style.visibility === ''){
+                title.style.visibility = 'hidden';
+             }
+         }
+      
+
 
          hamburger.addEventListener('click', changeEvent)
      </script>

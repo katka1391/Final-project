@@ -1292,6 +1292,8 @@ a {
   padding-bottom: 1em;
   padding-left: 4em;
   padding-right: 4em;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .recipe-main-container .recipe-leftSite .recipe-ingredients {
   line-height: 2;

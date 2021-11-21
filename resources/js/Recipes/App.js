@@ -13,7 +13,7 @@ const App = () => {
         <BrowserRouter>
             <h1 className="title">Sweet Cuisine</h1>
             <Routes>
-
+            
                 <Route path="/recipes" element={<MainPage />} />
                 <Route path="/recipes/:id" element={<Recipe />} />
             </Routes>

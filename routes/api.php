@@ -3,7 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\RecipeController;
-
+use App\Http\Controllers\DetailRecipeController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -24,3 +24,4 @@ Route::get('/categories', [RecipeController::class, 'allCategories']);
 Route::get('/ingredients', [RecipeController::class, 'allIngredients']);
 
 Route::get('/recipes/{id}', [RecipeController::class, 'recipeId']);
+
