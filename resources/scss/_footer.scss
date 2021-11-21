@@ -2,24 +2,29 @@
     background-color: #bdc4b9;
     color: black;
     text-align: center;
-    border-top: dotted double #32a1ce;;
+    border-top: dotted double #32a1ce;
+
+    .footer-final-text {
+        text-align: center;
+        margin: 0;
+        padding-bottom: 1.5em;
+        font-size: 0.8em;
+
+    }
+    
+    
+    .footer-icons {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    
+        .recipe-icon-footer {
+            width: 1.5em;
+            height: 1.5em;
+            margin: 2em;       
+        }
+    }
 }
 
-.nav-link-footer {
-    color: black;
-}
 
-.footer-final-text {
-    text-align: center;
-}
 
-.icon {
-    margin-right: 1em;
-}
 
-.contact-icons-footer {
-    width: 5em;
-    height: 5em;
-    color: black;
-    padding: 1em;
-}

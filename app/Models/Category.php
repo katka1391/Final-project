@@ -9,6 +9,6 @@ class Category extends Model
 {
     public function recipes()
     {
-        return $this->hasMany('App\Models\Recipe');
+        return $this->belongsToMany('App\Models\Recipe', 'category_recipe');
     }
 }
