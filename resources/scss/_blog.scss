@@ -84,3 +84,9 @@
         border-right: 3px grey solid;
     }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .carousel-item img {
+        width: 50em;
+    }
+}

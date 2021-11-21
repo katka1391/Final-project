@@ -21,6 +21,7 @@
         <div class="navBar-search">
             <input type="text" placeholder="Search">
         </div>
+       
     </nav>
 </header>
 

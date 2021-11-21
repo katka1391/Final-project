@@ -19,7 +19,7 @@
                     
                 </div>
             
-                    <div class="space-between" style="margin-right: 20px;">
+                    <div class="space-between__home" style="margin-right: 20px;">
                         
                     </div>
                     <!-- left bar -->

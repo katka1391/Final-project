@@ -147,9 +147,9 @@
         #hamburger {
             position: absolute;
             display: block;
-            width: 1px;
-            top: 15px;
-            right: 3em;
+            width: 0.5px;
+            top: 20px;
+            right: 30px;
         }
         #hamburger:checked+.navBar-title {
             transform: translateY(0);
