@@ -15,7 +15,7 @@
         <q>Brownies are an American chocolate dessert made very much like cake, although with slightly different ingredients. They appear to have originated in the late 1880s, either through a happy baking mistake or through calculated work. Unlike cakes, they are not leavened with baking powder, so they are denser and heavier. They are also served in cut squares or bars and are often presented without icing, although they may be served with whipped cream or ice cream.
         There are three basic types of brownies. The first has a cakey texture, with a more flaky crumb. Fudgy ones are incredibly dense, much closer to chocolate fudge than cake, while chewy varieties have a rich, chewy texture that falls somewhere in the middle. The texture is determined by the ratio of chocolate, butter, sugar, and flour in the recipe.
         </q>
-        <div class="space-between">
+        <div class="space-between__art">
 
         </div>
         

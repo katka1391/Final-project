@@ -6,7 +6,7 @@
     <h2 class="subTitle home">home Page</h2>
  </div>
 
-<div class="home-container">
+ <div class="home-container">
 
     <div class="home-up">
         
@@ -24,7 +24,7 @@
                     </div>
                     <!-- left bar -->
                 <div class="carousel-onTheRight-home">
-                    <p class="text-decoration-none" > <a href="/recipes" class="text-dark" ><u>Search Recipes</u></a> </p>
+                    <p class="first-p" class="text-decoration-none" > <a href="/recipes" class="text-dark" ><u>Search Recipes</u></a> </p>
                     <br>
                     <p class="text-decoration-none"> <a href="" class="text-dark"><u>BREAKFAST  /  MAIN DISH  /  DESSERT</u></a> </p>
                     <br>

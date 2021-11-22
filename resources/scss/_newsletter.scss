@@ -6,7 +6,6 @@
     padding-top: 20px;
     flex-direction: row;
     width: 100%;
-    height: 75vh;
 }
 
 .subscribe-form {
@@ -21,9 +20,45 @@
     margin-bottom: 60px;
 }
 
+.carousel-onTheRight-sub {
+    margin-top: -123px;
+    border-left: 1px solid black;
+    height: 96vh;
+}
+
+.space-between__sub {
+    width: 20em;
+    height: 50vh;
+}
+
+.first-p__sub {
+    margin-top: 20vh;
+}
+
+
+/*subscribe message*/
+
+.subscribe-session {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: #bdc4b9;
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
     .subscribe-form {
         width: 30%;
+    }
+    .space-between__sub {
+        width: 10em;
+    }
+    .carousel-onTheRight-sub {
+        margin-top: -8px;
+        border-left: 1px solid black;
+    }
+    .first-p__sub {
+        margin-top: 4vh;
     }
 }
 
@@ -41,6 +76,22 @@
     .carousel-onTheRight-sub {
         margin-left: 50px;
         border-left: 3px solid grey;
+    }
+    .carousel-onTheRight-sub {
+        display: none;
+    }
+    .space-between__sub {
+        display: none;
+    }
+    .subscribe_input {
+        width: 254px;
+        height: 69px;
+        margin-bottom: 60px;
+    }
+    .subscribe-form {
+        width: 67%;
+        padding-top: 5em;
+        flex-wrap: wrap;
     }
 }
 

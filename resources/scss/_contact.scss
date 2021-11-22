@@ -48,6 +48,7 @@
 
 .contact-right-panel {
     width: 30%;
+    margin-top: -101px;
     border-left: 1px black solid;
     padding: 2em;
 }
@@ -55,4 +56,29 @@
 .contact-icons-left {
     width: 2em;
     height: 2em;
+}
+
+.first-p__cont {
+    margin-top: 20vh;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .first-p__cont {
+        margin-top: 8vh;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 720px) {
+    .contact-right-panel {
+        display: none;
+    }
+    .contact-left-panel {
+        display: none;
+    }
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        width: 100%;
+    }
 }

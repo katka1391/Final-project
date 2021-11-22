@@ -51,7 +51,7 @@
 
       <div class="contact-right-panel">
          <div class="carousel-onTheRight blog">
-            <p class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
+            <p class="first-p__cont" class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
             <br>
             <p class="text-decoration-none"> <a href="" class="text-dark"><u>BREAKFAST  /  MAIN DISH  /  DESSERT</u></a> </p>
             <br>

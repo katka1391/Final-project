@@ -6,7 +6,6 @@
     flex-direction: row;
     padding-top: 20px;
     width: 100%;
-    height: 70vh;
 }
 
 .login-form {
@@ -20,9 +19,35 @@
     margin-bottom: 60px;
 }
 
+.space-between__log {
+    width: 20em;
+    margin-right: 20px;
+}
+
+.carousel-onTheRight__log {
+    margin-top: -123px;
+    border-left: 1px solid black;
+    height: 96vh;
+}
+
+.first-p__log {
+    margin-top: 20vh;
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
     .login-form {
         width: 29%;
+        margin-left: 8em;
+    }
+    .space-between__log {
+        width: 10em;
+    }
+    .carousel-onTheRight-log {
+        margin-top: -8px;
+        border-left: 1px solid black;
+    }
+    .first-p__log {
+        margin-top: 13vh;
     }
 }
 
@@ -33,22 +58,19 @@
     .subTitle {
         width: 5em;
     }
-    .login-form p {
-        width: 12em;
-        flex-wrap: wrap;
+    .login-form {
+        width: 60%;
+    }
+    .space-between__log {
+        display: none;
     }
     .login_input {
-        width: 150px;
+        width: 254px;
         height: 50px;
         margin-bottom: 60px;
     }
-    .carousel-onTheRight-log {
-        height: 50vh;
-        width: 200px;
-        margin-left: 102px;
-        font-size: 12px;
-        padding-top: 10px;
-        border-left: 3px solid grey;
+    .carousel-onTheRight__log {
+        display: none;
     }
 }
 

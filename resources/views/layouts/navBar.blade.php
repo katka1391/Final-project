@@ -18,8 +18,8 @@
         
             <li><a href="/addRecipe">Add Recipe<span></span></a></li>
         </div>
-        <div class="navBar-search">
-            <input type="text" placeholder="Search">
+        <div class="navBar-img">
+            <img src="/img/logo.png" />
         </div>
        
     </nav>

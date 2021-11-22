@@ -13,7 +13,7 @@
         <br>
         <q>Pancakes are a form of flatbread made by mixing up a runny batter and ladling the batter onto a hot, greased surface. The batter is allowed to cook until browned on one side before being flipped so that the other side can be cooked, and it can then be served in a variety of ways. Many people think specifically of a thick, sweet variety of flatbread when they hear the word “pancake,” although in fact, they come in quite an array of styles, shapes, and sizes.
         </q>
-        <div class="space-between">
+        <div class="space-between__art">
 
         </div>
         <div class="player-container">

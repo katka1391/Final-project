@@ -7,18 +7,18 @@
       <h1 class="title blog" style="font-size: 10rem">Sweet Cuisine</h1>  
       <h2 class="subTitle blog">Subscribe Page</h2>
    </div>
- 
-<div class="subscribe-container">
 
-    @foreach ($errors->all() as $error)
+  @foreach ($errors->all() as $error)
         <div class="error">{{ $error }}</div>
     @endforeach
+
+<div class="subscribe-container">
 
     <form action="/getData"  class="subscribe-form"  method="post">
         
         @csrf
         @if(Session::has('message'))
-        <p>{{ Session::get('message') }}</p>
+        <p class="subscribe-session">{{ Session::get('message') }}</p>
         @endif
         <label for="Name">Name:</label>
         <input class="subscribe_input" type="text" name="name" placeholder="name" value="{{ old('name') }}">
@@ -36,12 +36,12 @@
             <span data-text="!">!</span>
         </button>
     </form>
-    <div class="space-between"  style="margin-right: 20px;">
+    <div class="space-between__sub"  >
 
     </div>
     <!-- left bar -->
     <div class="carousel-onTheRight-sub">
-        <p class="text-decoration-none" > <a href="/recipes" class="text-dark" ><u>Search Recipes</u></a> </p>
+        <p class="first-p__sub" class="text-decoration-none" > <a href="/recipes" class="text-dark" ><u>Search Recipes</u></a> </p>
         <br>
         <p class="text-decoration-none"> <a href="" class="text-dark"><u>BREAKFAST  /  MAIN DISH  /  DESSERT</u></a> </p>
         <br>

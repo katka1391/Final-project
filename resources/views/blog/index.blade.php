@@ -46,12 +46,12 @@
              </div>
         </div>
 
-        <div class="space-between" >
+        <div class="space-between__blog" >
             
         </div>
         <!-- left bar -->
-         <div class="carousel-onTheRight blog">
-            <p class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
+         <div class="carousel-onTheRight__blog">
+            <p class="first-p__blog" class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
             <br>
             <p class="text-decoration-none"> <a href="" class="text-dark"><u>BREAKFAST  /  MAIN DISH  /  DESSERT</u></a> </p>
             <br>
@@ -112,11 +112,11 @@
                  </div>
              </div>
         </div>
-        <div class="space-between" >
+        <div class="space-between__blog" >
 
         </div>
-         <div class="carousel-onTheRight blog"style="visibility: hidden; font-size:20px ">
-            <p class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
+         <div class="carousel-onTheRight__blog" style="visibility: hidden">
+            <p class="first-p__blog"  class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
             <br>
             <p class="text-decoration-none"> <a href="" class="text-dark"><u>BREAKFAST  /  MAIN DISH  /  DESSERT</u></a> </p>
             <br>
@@ -178,11 +178,11 @@
                     </div>
                 </div>
             </div>
-            <div class="space-between" >
+            <div class="space-between__blog" >
 
             </div>
-            <div class="carousel-onTheRight blog" style="visibility: hidden">
-                <p class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
+            <div class="carousel-onTheRight__blog" style="visibility: hidden">
+                <p class="first-p__blog"  class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
                 <br>
                 <p class="text-decoration-none"> <a href="" class="text-dark"><u>BREAKFAST  /  MAIN DISH  /  DESSERT</u></a> </p>
                 <br>
@@ -242,11 +242,11 @@
                     </div>
                 </div>
             </div>
-            <div class="space-between" >
+            <div class="space-between__blog" >
 
             </div>
-            <div class="carousel-onTheRight blog" style="visibility: hidden">
-                <p class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
+            <div class="carousel-onTheRight__blog" style="visibility: hidden">
+                <p class="first-p__blog"  class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
                 <br>
                 <p class="text-decoration-none"> <a href="" class="text-dark"><u>BREAKFAST  /  MAIN DISH  /  DESSERT</u></a> </p>
                 <br>

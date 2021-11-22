@@ -7,12 +7,13 @@
       <h1 class="title register" style="font-size: 10rem">Sweet Cuisine</h1>  
       <h2 class="subTitle register">Register Page</h2>
    </div>
- 
-<div class="register-container">
-
-    @foreach ($errors->all() as $error)
+   
+  @foreach ($errors->all() as $error)
         <div class="error">{{ $error }}</div>
     @endforeach
+
+<div class="register-container">
+
 
     <form  class="register-form" action="{{ route('register') }}" method="post">
         @csrf
@@ -37,12 +38,12 @@
             <span data-text="!">!</span>
         </button>
     </form>
-    <div class="space-between"  style="margin-right: 20px;">
+    <div class="space-between__reg"  style="margin-right: 20px;">
 
     </div>
     <!-- left bar -->
-    <div class="carousel-onTheRight-reg">
-        <p class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
+    <div class="carousel-onTheRight__reg">
+        <p class="first-p__reg" class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
         <br>
         <p class="text-decoration-none"> <a href="" class="text-dark"><u>BREAKFAST  /  MAIN DISH  /  DESSERT</u></a> </p>
         <br>

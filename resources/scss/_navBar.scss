@@ -59,22 +59,6 @@
         transition: .4s;
     }
     
-    .navBar-search input {
-        padding: 5px;
-        border-radius: 2rem;
-        border: none;
-        outline: none;
-        background: white;
-        text-align: center;
-        font-weight: bold;
-        width: 12rem;
-        transition: 0.4s;
-    }
-    
-    .navBar-search input::placeholder {
-        color: black;
-    }
-    
     label span {
         height: 4px;
         width: 2rem;
@@ -85,6 +69,10 @@
     
     .title {
         color: black;
+    }
+    
+    .navBar-img {
+        width: 74px;
     }
     
     @media (min-width: 768px) and (max-width: 1024px) {
@@ -141,7 +129,7 @@
             display: block;
             margin: 3px;
         }
-        .navBar-search {
+        .navBar-img {
             display: none;
         }
         #hamburger {

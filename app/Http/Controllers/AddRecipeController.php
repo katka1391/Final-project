@@ -10,4 +10,5 @@ class AddRecipeController extends Controller
     {
         return view('add-recipe/index');
     }
+
 }

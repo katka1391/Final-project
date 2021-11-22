@@ -7,6 +7,10 @@
       <h2 class="subTitle blog">Login Page</h2>
    </div>
 
+   @foreach ($errors->all() as $error)
+   <div class="error">{{ $error }}</div>
+@endforeach
+
 <div class="login-container">
     <form class="login-form" action="{{ route('login') }}" method="post">
         @csrf
@@ -30,12 +34,12 @@
         </form>
    
     </form>
-    <div class="space-between"  style="margin-right: 20px;">
+    <div class="space-between__log"  style="margin-right: 20px;">
 
     </div>
     <!-- left bar -->
-    <div class="carousel-onTheRight-log">
-        <p class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
+    <div class="carousel-onTheRight__log">
+        <p class="first-p__log" class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
         <br>
         <p class="text-decoration-none"> <a href="" class="text-dark"><u>BREAKFAST  /  MAIN DISH  /  DESSERT</u></a> </p>
         <br>
