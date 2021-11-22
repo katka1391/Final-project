@@ -2130,7 +2130,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var AllRecipes = function AllRecipes(_ref) {
-  var recipes = _ref.recipes;
+  var filteredRecipes = _ref.filteredRecipes;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
     className: "recipes-leftSite",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
@@ -2139,7 +2139,7 @@ var AllRecipes = function AllRecipes(_ref) {
         children: "All recipes"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
         className: "recipes-wrap-box",
-        children: recipes.map(function (recipe, index) {
+        children: filteredRecipes.map(function (recipe, index) {
           return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
             to: "/recipes/".concat(recipe.id),
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
@@ -2185,7 +2185,13 @@ var Filter = function Filter(_ref) {
       setSearchTerm = _ref.setSearchTerm,
       ingredients = _ref.ingredients,
       loadingIngredients = _ref.loadingIngredients,
-      loadingCategories = _ref.loadingCategories;
+      loadingCategories = _ref.loadingCategories,
+      handleMealFilterClick = _ref.handleMealFilterClick,
+      handleDietaryFilterClick = _ref.handleDietaryFilterClick,
+      handleCuisineFilterClick = _ref.handleCuisineFilterClick,
+      dietaryFilter = _ref.dietaryFilter,
+      mealFilter = _ref.mealFilter,
+      cuisineFilter = _ref.cuisineFilter;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("form", {
     className: "recipes-rightSite",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
@@ -2201,7 +2207,7 @@ var Filter = function Filter(_ref) {
       })]
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h4", {
       children: "Filter Recipes:"
-    }), loadingIngredients && loadingCategories ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+    }), loadingIngredients || loadingCategories ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       children: "!!!!!!!!I am going to proper loading spiner here"
     }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
@@ -2212,7 +2218,11 @@ var Filter = function Filter(_ref) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("input", {
             type: "checkbox",
-            id: "filter-".concat(dietaryType)
+            checked: dietaryFilter === dietaryType,
+            id: "filter-".concat(dietaryType),
+            onClick: function onClick() {
+              return handleDietaryFilterClick(dietaryType);
+            }
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("label", {
             htmlFor: "filter-".concat(dietaryType),
             children: dietaryType
@@ -2224,7 +2234,11 @@ var Filter = function Filter(_ref) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("input", {
             type: "checkbox",
-            id: "filter-".concat(mealType)
+            checked: mealFilter === mealType,
+            id: "filter-".concat(mealType),
+            onClick: function onClick() {
+              return handleMealFilterClick(mealType);
+            }
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("label", {
             htmlFor: "filter-".concat(mealType),
             children: mealType
@@ -2236,7 +2250,11 @@ var Filter = function Filter(_ref) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("input", {
             type: "checkbox",
-            id: "filter-".concat(cuisineType)
+            checked: cuisineFilter === cuisineType,
+            id: "filter-".concat(cuisineType),
+            onClick: function onClick() {
+              return handleCuisineFilterClick(cuisineType);
+            }
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("label", {
             htmlFor: "filter-".concat(cuisineType),
             children: cuisineType
@@ -2248,7 +2266,9 @@ var Filter = function Filter(_ref) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("input", {
             type: "checkbox",
-            id: "filter-".concat(ingredient.name)
+            id: "filter-".concat(ingredient.name) //this doesnt work on ingredients
+            // onClick={() => handleFilterClick(ingredient)}
+
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("label", {
             htmlFor: "filter-".concat(ingredient.name),
             children: ingredient.name
@@ -2337,6 +2357,21 @@ var MainPage = function MainPage() {
       loadingIngredients = _useState12[0],
       setLoadingIngredients = _useState12[1];
 
+  var _useState13 = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(''),
+      _useState14 = _slicedToArray(_useState13, 2),
+      dietaryFilter = _useState14[0],
+      setDietaryFilter = _useState14[1];
+
+  var _useState15 = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(''),
+      _useState16 = _slicedToArray(_useState15, 2),
+      mealFilter = _useState16[0],
+      setMealFilter = _useState16[1];
+
+  var _useState17 = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(''),
+      _useState18 = _slicedToArray(_useState17, 2),
+      cuisineFilter = _useState18[0],
+      setCuisineFilter = _useState18[1];
+
   var loadRecipesData = /*#__PURE__*/function () {
     var _ref = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee() {
       var url, response;
@@ -2353,10 +2388,9 @@ var MainPage = function MainPage() {
 
             case 3:
               response = _context.sent;
-              console.log(response);
               setRecipes(response.data);
 
-            case 6:
+            case 5:
             case "end":
               return _context.stop();
           }
@@ -2386,11 +2420,10 @@ var MainPage = function MainPage() {
 
             case 3:
               response = _context2.sent;
-              console.log(response.data);
               setCategories(response.data);
               setLoadingCategories(false);
 
-            case 7:
+            case 6:
             case "end":
               return _context2.stop();
           }
@@ -2420,11 +2453,10 @@ var MainPage = function MainPage() {
 
             case 3:
               response = _context3.sent;
-              console.log(response.data);
               setIngredients(response.data);
               setLoadingIngredients(false);
 
-            case 7:
+            case 6:
             case "end":
               return _context3.stop();
           }
@@ -2439,20 +2471,98 @@ var MainPage = function MainPage() {
 
   (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(function () {
     loadIngredientsData();
-  }, []); // let filteredRecipes = recipes.filter(recipe => {
-  //     recipe.categories
-  // })
+  }, []);
+
+  var handleMealFilterClick = function handleMealFilterClick(item) {
+    if (mealFilter === item) {
+      setMealFilter('');
+    } else {
+      setMealFilter(item);
+    }
+  };
+
+  var handleDietaryFilterClick = function handleDietaryFilterClick(item) {
+    if (dietaryFilter === item) {
+      setDietaryFilter('');
+    } else {
+      setDietaryFilter(item);
+    }
+  };
+
+  var handleCuisineFilterClick = function handleCuisineFilterClick(item) {
+    if (cuisineFilter === item) {
+      setCuisineFilter('');
+    } else {
+      setCuisineFilter(item);
+    }
+  };
+
+  var filteredRecipes = [];
+
+  if (!mealFilter && !dietaryFilter && !cuisineFilter) {
+    filteredRecipes = recipes;
+  }
+
+  if (mealFilter) {
+    recipes.forEach(function (recipe) {
+      recipe.categories.forEach(function (category) {
+        if (category.name === mealFilter) {
+          // .find returns undefined if it cannot find the value( the variable -> recipe.name) in the filtered array
+          if (!filteredRecipes.find(function (filteredRecipe) {
+            return filteredRecipe.name === recipe.name;
+          })) {
+            filteredRecipes.push(recipe);
+          }
+        }
+      });
+    });
+    console.log('filteredRecipes -> meal', filteredRecipes);
+  }
+
+  if (dietaryFilter) {
+    recipes.forEach(function (recipe) {
+      recipe.categories.forEach(function (category) {
+        if (category.name === dietaryFilter) {
+          if (!filteredRecipes.find(function (filteredRecipe) {
+            return filteredRecipe.name === recipe.name;
+          })) {
+            filteredRecipes.push(recipe);
+          }
+        }
+      });
+    });
+  }
+
+  if (cuisineFilter) {
+    recipes.forEach(function (recipe) {
+      recipe.categories.forEach(function (category) {
+        if (category.name === cuisineFilter) {
+          if (!filteredRecipes.find(function (filteredRecipe) {
+            return filteredRecipe.name === recipe.name;
+          })) {
+            filteredRecipes.push(recipe);
+          }
+        }
+      });
+    });
+  }
 
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
     className: "recipes-main-container",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_AllRecipes__WEBPACK_IMPORTED_MODULE_2__["default"], {
-      recipes: recipes
+      filteredRecipes: filteredRecipes
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_Filter__WEBPACK_IMPORTED_MODULE_3__["default"], {
       categories: categories,
       setSearchTerm: setSearchTerm,
       ingredients: ingredients,
       loadingCategories: loadingCategories,
-      loadingIngredients: loadingIngredients
+      loadingIngredients: loadingIngredients,
+      handleMealFilterClick: handleMealFilterClick,
+      handleDietaryFilterClick: handleDietaryFilterClick,
+      handleCuisineFilterClick: handleCuisineFilterClick,
+      dietaryFilter: dietaryFilter,
+      mealFilter: mealFilter,
+      cuisineFilter: cuisineFilter
     })]
   });
 };
@@ -36277,7 +36387,7 @@ function _extends() {
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"_args":[["axios@0.21.4","C:\\\\web\\\\bootcamp\\\\project\\\\Final-project"]],"_development":true,"_from":"axios@0.21.4","_id":"axios@0.21.4","_inBundle":false,"_integrity":"sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==","_location":"/axios","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"axios@0.21.4","name":"axios","escapedName":"axios","rawSpec":"0.21.4","saveSpec":null,"fetchSpec":"0.21.4"},"_requiredBy":["#DEV:/"],"_resolved":"https://registry.npmjs.org/axios/-/axios-0.21.4.tgz","_spec":"0.21.4","_where":"C:\\\\web\\\\bootcamp\\\\project\\\\Final-project","author":{"name":"Matt Zabriskie"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"bugs":{"url":"https://github.com/axios/axios/issues"},"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}],"dependencies":{"follow-redirects":"^1.14.0"},"description":"Promise based HTTP client for the browser and node.js","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"homepage":"https://axios-http.com","jsdelivr":"dist/axios.min.js","keywords":["xhr","http","ajax","promise","node"],"license":"MIT","main":"index.js","name":"axios","repository":{"type":"git","url":"git+https://github.com/axios/axios.git"},"scripts":{"build":"NODE_ENV=production grunt build","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","examples":"node ./examples/server.js","fix":"eslint --fix lib/**/*.js","postversion":"git push && git push --tags","preversion":"npm test","start":"node ./sandbox/server.js","test":"grunt test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json"},"typings":"./index.d.ts","unpkg":"dist/axios.min.js","version":"0.21.4"}');
+module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBundle":false,"_integrity":"sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==","_location":"/axios","_phantomChildren":{},"_requested":{"type":"range","registry":true,"raw":"axios@^0.21","name":"axios","escapedName":"axios","rawSpec":"^0.21","saveSpec":null,"fetchSpec":"^0.21"},"_requiredBy":["#DEV:/"],"_resolved":"https://registry.npmjs.org/axios/-/axios-0.21.4.tgz","_shasum":"c67b90dc0568e5c1cf2b0b858c43ba28e2eda575","_spec":"axios@^0.21","_where":"C:\\\\web\\\\bootcamp\\\\projects\\\\Final-project","author":{"name":"Matt Zabriskie"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"bugs":{"url":"https://github.com/axios/axios/issues"},"bundleDependencies":false,"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}],"dependencies":{"follow-redirects":"^1.14.0"},"deprecated":false,"description":"Promise based HTTP client for the browser and node.js","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"homepage":"https://axios-http.com","jsdelivr":"dist/axios.min.js","keywords":["xhr","http","ajax","promise","node"],"license":"MIT","main":"index.js","name":"axios","repository":{"type":"git","url":"git+https://github.com/axios/axios.git"},"scripts":{"build":"NODE_ENV=production grunt build","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","examples":"node ./examples/server.js","fix":"eslint --fix lib/**/*.js","postversion":"git push && git push --tags","preversion":"npm test","start":"node ./sandbox/server.js","test":"grunt test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json"},"typings":"./index.d.ts","unpkg":"dist/axios.min.js","version":"0.21.4"}');
 
 /***/ })
 

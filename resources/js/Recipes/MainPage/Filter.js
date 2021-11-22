@@ -1,10 +1,20 @@
 import React from 'react';
 
+const Filter = ({
+    categories,
+    setSearchTerm,
+    ingredients,
+    loadingIngredients,
+    loadingCategories,
+    handleMealFilterClick,
+    handleDietaryFilterClick,
+    handleCuisineFilterClick,
+    dietaryFilter,
+    mealFilter,
+    cuisineFilter
+}) => {
 
-const Filter = ({categories, setSearchTerm, ingredients, loadingIngredients, loadingCategories}) => {
-   
-   
-
+    
     return (
         <form className="recipes-rightSite">
             <div>
@@ -19,7 +29,7 @@ const Filter = ({categories, setSearchTerm, ingredients, loadingIngredients, loa
 
             <h4>Filter Recipes:</h4>
 
-            {loadingIngredients && loadingCategories ? (
+            {loadingIngredients || loadingCategories ? (
                 <div>!!!!!!!!I am going to proper loading spiner here</div>
             ) : (
                 <>
@@ -37,7 +47,11 @@ const Filter = ({categories, setSearchTerm, ingredients, loadingIngredients, loa
                             <div key={index}>
                                 <input
                                     type="checkbox"
+                                    checked={dietaryFilter === dietaryType}
                                     id={`filter-${dietaryType}`}
+                                    onClick={() =>
+                                        handleDietaryFilterClick(dietaryType)
+                                    }
                                 />
                                 <label htmlFor={`filter-${dietaryType}`}>
                                     {dietaryType}
@@ -52,7 +66,12 @@ const Filter = ({categories, setSearchTerm, ingredients, loadingIngredients, loa
 
                     {categories.meal.map((mealType, index) => (
                         <div key={index}>
-                            <input type="checkbox" id={`filter-${mealType}`} />
+                            <input
+                                type="checkbox"
+                                checked={mealFilter === mealType}
+                                id={`filter-${mealType}`}
+                                onClick={() => handleMealFilterClick(mealType)}
+                            />
                             <label htmlFor={`filter-${mealType}`}>
                                 {mealType}
                             </label>
@@ -67,7 +86,9 @@ const Filter = ({categories, setSearchTerm, ingredients, loadingIngredients, loa
                         <div key={index}>
                             <input
                                 type="checkbox"
+                                checked={cuisineFilter === cuisineType}
                                 id={`filter-${cuisineType}`}
+                                onClick={() => handleCuisineFilterClick(cuisineType)}
                             />
                             <label htmlFor={`filter-${cuisineType}`}>
                                 {cuisineType}
@@ -84,6 +105,8 @@ const Filter = ({categories, setSearchTerm, ingredients, loadingIngredients, loa
                             <input
                                 type="checkbox"
                                 id={`filter-${ingredient.name}`}
+                                //this doesnt work on ingredients
+                                // onClick={() => handleFilterClick(ingredient)}
                             />
                             <label htmlFor={`filter-${ingredient.name}`}>
                                 {ingredient.name}
