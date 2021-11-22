@@ -76,3 +76,50 @@
         }
     }
 }
+
+@media (min-width: 360px) and (max-width: 720px) {
+    .recipe-rightSite {
+        display: none;
+    }
+    .recipe-main-container .recipe-leftSite {
+        width: 100%;
+        margin-left: 0em;
+    }
+    .recipe-main-container {
+        display: flex;
+        padding-left: 0rem;
+    }
+    .recipe-main-container .recipe-icons-left-panel {
+        display: none;
+    }
+    .recipe-main-container .recipe-leftSite .recipe-img-react {
+        width: 100%;
+        height: 35em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 0em;
+        padding-right: 0em;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .recipe-main-container {
+        display: flex;
+        padding-bottom: 4rem;
+        padding-left: 0rem;
+    }
+    .recipe-main-container .recipe-leftSite .recipe-img-react {
+        width: 100%;
+        height: 35em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 0em;
+        padding-right: 0em;
+        object-fit: cover;
+    }
+    .recipe-main-container .recipe-rightSite {
+        border-left: 1px black solid;
+        width: 35%;
+    }
+}

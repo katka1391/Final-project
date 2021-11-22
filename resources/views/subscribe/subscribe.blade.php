@@ -41,14 +41,14 @@
     </div>
     <!-- left bar -->
     <div class="carousel-onTheRight-sub">
-        <p class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
+        <p class="text-decoration-none" > <a href="/recipes" class="text-dark" ><u>Search Recipes</u></a> </p>
         <br>
         <p class="text-decoration-none"> <a href="" class="text-dark"><u>BREAKFAST  /  MAIN DISH  /  DESSERT</u></a> </p>
         <br>
         <p class="text-decoration-none"> <a href="" class="text-dark"><u>VEGAN  /  GLUTEN FREE</u></a> </p>
         <br>
         <br>
-        <p  class="text-decoration-none"><a href="" class="text-danger">ALL RECIPES >></a></p>
+        <p  class="text-decoration-none"><a href="/recipes" class="text-danger">ALL RECIPES >></a></p>
         <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="..." alt="Card image cap">
         <div class="card-body">
@@ -59,7 +59,7 @@
         <p>TAKE A LOOK AT OUR BLOG PAGE...</p>
         <br>
         <br>
-        <p class="text-decoration-none"><a href="" class="text-danger">BLOG>></a></p>
+        <p class="text-decoration-none"><a href="/blog" class="text-danger">BLOG>></a></p>
     </div>
 </div>
 

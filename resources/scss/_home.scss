@@ -122,11 +122,16 @@
 
 @media (min-width: 360px) and (max-width: 720px) {
     .home {
+        &-recipe__desc h3 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
         &-recipe__desc img {
             width: 25em;
             height: 46em;
-            margin: 0px 0px;
             object-fit: cover;
+            margin: 0;
         }
         &-recipe__desc p,
         q {
@@ -144,6 +149,7 @@
         }
         &-up {
             width: 100%;
+            margin: 4px 0px 0 30px;
         }
     }
     .carousel-onTheRight-home {

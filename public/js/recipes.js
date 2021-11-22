@@ -2131,12 +2131,31 @@ __webpack_require__.r(__webpack_exports__);
 
 var AllRecipes = function AllRecipes(_ref) {
   var recipes = _ref.recipes;
+
+  var toggleRightSide = function toggleRightSide(event) {
+    var rightSide = document.querySelector(".recipes-rightSite");
+
+    if (rightSide.style.display === 'none') {
+      rightSide.style.display = '';
+    } else if (rightSide.style.display === '') {
+      rightSide.style.display = 'none';
+    }
+  };
+
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
     className: "recipes-leftSite",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h4", {
         className: "recipes-all-recipes",
         children: "All recipes"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
+          onClick: function onClick() {
+            return toggleRightSide();
+          },
+          className: "recipe-button",
+          children: "FILTER RECIPES"
+        })
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
         className: "recipes-wrap-box",
         children: recipes.map(function (recipe, index) {

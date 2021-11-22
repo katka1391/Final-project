@@ -21,6 +21,9 @@ const Recipe = () => {
     }, []);
 
     console.log(singleRecipe);
+    
+
+
 
     return (
         <div className="recipe-main-container">
@@ -40,7 +43,9 @@ const Recipe = () => {
                         <h4 className="recipes-all-recipes">
                             <strong>{singleRecipe.name}</strong>
                         </h4>
+                        
                         <div className="recipe-leftSite-container">
+                        
                             <p className="recipe-left-description">
                                 {singleRecipe.description}
                             </p>
@@ -85,7 +90,9 @@ const Recipe = () => {
                 )}
             </div>
 
-            <div className="recipe-rightSite">
+           
+                
+           <div className="recipe-rightSite">
                 <h4 className="recipes-all-recipes">Fresh and zesty </h4>
                 <div className="recipe-rightSite-container">
                     <h3 className="recipe-rightSite-search">SEARCH RECIPES</h3>
@@ -128,6 +135,7 @@ const Recipe = () => {
                      </div>
                 </div>
             </div>
+
         </div>
     );
 };

@@ -2,14 +2,34 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const AllRecipes = ({recipes}) => {
-    
+
+
+ 
+     
+    const toggleRightSide = (event) =>{
+    const rightSide =  document.querySelector(".recipes-rightSite")
+             if ( rightSide.style.display === 'none'){
+                rightSide.style.display = '';
+             } else if (rightSide.style.display === ''){
+                rightSide.style.display = 'none';
+            }
+         }
+
+       
 
     return (
         <div className="recipes-leftSite">
             <div>
                 <h4 className="recipes-all-recipes">All recipes</h4>
-
+                
+                <div>
+                        <button onClick={() => toggleRightSide()} className="recipe-button">
+                            FILTER RECIPES
+                        </button>
+                </div>
+                
                 <div className="recipes-wrap-box">
+                
                     {recipes.map((recipe, index) => (
                         <Link key={index} to={`/recipes/${recipe.id}`}>
                             <div>
@@ -27,7 +47,9 @@ const AllRecipes = ({recipes}) => {
                 </div>
             </div>
         </div>
+
     );
+  
 };
 
 export default AllRecipes;
