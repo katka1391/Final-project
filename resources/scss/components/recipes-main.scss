@@ -1,7 +1,7 @@
-
 * {
     font-family: 'Martel', serif;
 }
+
 .recipes-main-container {
     display: flex;
     padding-bottom: 4rem;
@@ -10,8 +10,9 @@
 .recipes-leftSite {
     // background-color: aquamarine;
     width: 45%;
-    margin-left: 15em; 
+    margin-left: 15em;
 }
+
 .recipes-rightSite {
     border-left: 1px black solid;
     padding-left: 2em;
@@ -20,12 +21,12 @@
 // .search-recipes {
 //     border-left: 1px black solid;
 // }
-
 .recipes-img-react {
     width: 20em;
     height: 23em;
     padding-top: 1em;
     padding-bottom: 1em;
+    object-fit: cover;
 }
 
 .recipes-name-react {
@@ -38,7 +39,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
 }
 
 .recipes-all-recipes {
@@ -46,5 +46,40 @@
     padding: 1em;
     border-bottom: 1px black solid;
     font-size: 2em;
+}
 
+.recipe-button {
+    display: none;
+    position: absolute;
+    background-color: green;
+}
+
+
+/*RESPONSIVITY*/
+
+@media (min-width: 360px) and (max-width: 720px) {
+    .recipes-leftSite {
+        width: 100%;
+        margin-left: 0em;
+    }
+    .recipes-rightSite {
+        display: none;
+    }
+    .recipes-wrap-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 100px;
+    }
+    .recipe-button {
+        justify-content: center;
+        display: block;
+        display: flex;
+        padding: 2em;
+    }
+    .recipes-main-container {
+        display: flex;
+        padding-bottom: 4rem;
+        flex-direction: row-reverse;
+    }
 }

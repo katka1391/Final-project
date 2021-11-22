@@ -52,10 +52,12 @@
                 title.style.visibility = 'hidden';
              }
          }
-      
+    
+         hamburger.addEventListener('click', changeEvent);
 
 
-         hamburger.addEventListener('click', changeEvent)
+       
+
      </script>
 
 </body>

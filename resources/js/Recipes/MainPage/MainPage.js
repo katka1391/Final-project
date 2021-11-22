@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import AllRecipes from './AllRecipes';
-import Filter from './Filter';
 import { get } from '../../util/request';
+import Filter from './Filter';
 
 const MainPage = () => {
     const [recipes, setRecipes] = useState([]);
@@ -138,7 +138,7 @@ const MainPage = () => {
 
     return (
         <div className="recipes-main-container">
-            <AllRecipes filteredRecipes={filteredRecipes} />
+            <AllRecipes recipes={filteredRecipes} />
             <Filter
                 categories={categories}
                 setSearchTerm={setSearchTerm}

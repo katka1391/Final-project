@@ -5,12 +5,13 @@
     align-items: center;
     width: 70%;
 }
+
 .title {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 80px;
-    padding: 50px;
+    padding: 0px;
 }
 
 .subTitle {
@@ -26,8 +27,6 @@
     margin: 1em;
 }
 
-
-
 .contact-container {
     display: flex;
     justify-content: space-around;
@@ -38,7 +37,6 @@
     justify-content: center;
     flex-direction: column;
     width: 15%;
-    
 }
 
 .contact-form {
@@ -46,7 +44,6 @@
     flex-direction: column;
     padding: 1em;
     width: 45%;
-    
 }
 
 .contact-right-panel {
@@ -59,4 +56,3 @@
     width: 2em;
     height: 2em;
 }
-

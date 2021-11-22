@@ -2130,7 +2130,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var AllRecipes = function AllRecipes(_ref) {
-  var filteredRecipes = _ref.filteredRecipes;
+  var recipes = _ref.recipes;
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
     className: "recipes-leftSite",
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
@@ -2138,8 +2138,16 @@ var AllRecipes = function AllRecipes(_ref) {
         className: "recipes-all-recipes",
         children: "All recipes"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
+          onClick: function onClick() {
+            return toggleRightSide();
+          },
+          className: "recipe-button",
+          children: "FILTER RECIPES"
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
         className: "recipes-wrap-box",
-        children: filteredRecipes.map(function (recipe, index) {
+        children: recipes.map(function (recipe, index) {
           return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
             to: "/recipes/".concat(recipe.id),
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
@@ -2208,10 +2216,10 @@ var Filter = function Filter(_ref) {
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h4", {
       children: "Filter Recipes:"
     }), loadingIngredients || loadingCategories ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-      children: "!!!!!!!!I am going to proper loading spiner here"
+      children: "loading..."
     }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
-        children: "Check multiple boxes below to narrow recipe search results:"
+        children: "Check one boxe below to narrow recipe search:"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h5", {
         children: "BY DIARY REQUIREMENT"
       }), categories['dietary requirement'].map(function (dietaryType, index) {
@@ -2298,8 +2306,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _AllRecipes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AllRecipes */ "./resources/js/Recipes/MainPage/AllRecipes.js");
-/* harmony import */ var _Filter__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Filter */ "./resources/js/Recipes/MainPage/Filter.js");
-/* harmony import */ var _util_request__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../util/request */ "./resources/js/util/request.js");
+/* harmony import */ var _util_request__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../util/request */ "./resources/js/util/request.js");
+/* harmony import */ var _Filter__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Filter */ "./resources/js/Recipes/MainPage/Filter.js");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
@@ -2384,7 +2392,7 @@ var MainPage = function MainPage() {
               // get an axios response object
 
               _context.next = 3;
-              return (0,_util_request__WEBPACK_IMPORTED_MODULE_4__.get)(url);
+              return (0,_util_request__WEBPACK_IMPORTED_MODULE_3__.get)(url);
 
             case 3:
               response = _context.sent;
@@ -2416,7 +2424,7 @@ var MainPage = function MainPage() {
             case 0:
               url = 'api/categories';
               _context2.next = 3;
-              return (0,_util_request__WEBPACK_IMPORTED_MODULE_4__.get)(url);
+              return (0,_util_request__WEBPACK_IMPORTED_MODULE_3__.get)(url);
 
             case 3:
               response = _context2.sent;
@@ -2449,7 +2457,7 @@ var MainPage = function MainPage() {
             case 0:
               url = 'api/ingredients';
               _context3.next = 3;
-              return (0,_util_request__WEBPACK_IMPORTED_MODULE_4__.get)(url);
+              return (0,_util_request__WEBPACK_IMPORTED_MODULE_3__.get)(url);
 
             case 3:
               response = _context3.sent;
@@ -2550,8 +2558,8 @@ var MainPage = function MainPage() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
     className: "recipes-main-container",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_AllRecipes__WEBPACK_IMPORTED_MODULE_2__["default"], {
-      filteredRecipes: filteredRecipes
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_Filter__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      recipes: filteredRecipes
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_Filter__WEBPACK_IMPORTED_MODULE_4__["default"], {
       categories: categories,
       setSearchTerm: setSearchTerm,
       ingredients: ingredients,

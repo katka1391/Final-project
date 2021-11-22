@@ -1,14 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const AllRecipes = ({ filteredRecipes }) => {
+const AllRecipes = ({ recipes }) => {
     return (
         <div className="recipes-leftSite">
             <div>
                 <h4 className="recipes-all-recipes">All recipes</h4>
-
+                
+                <div>
+                        <button onClick={() => toggleRightSide()} className="recipe-button">
+                            FILTER RECIPES
+                        </button>
+                </div>
+                
                 <div className="recipes-wrap-box">
-                    {filteredRecipes.map((recipe, index) => (
+            
+                
+                    {recipes.map((recipe, index) => (
                         <Link key={index} to={`/recipes/${recipe.id}`}>
                             <div>
                                 <img
@@ -25,7 +33,9 @@ const AllRecipes = ({ filteredRecipes }) => {
                 </div>
             </div>
         </div>
+
     );
+  
 };
 
 export default AllRecipes;

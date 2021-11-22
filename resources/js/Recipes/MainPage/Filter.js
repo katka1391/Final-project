@@ -30,12 +30,11 @@ const Filter = ({
             <h4>Filter Recipes:</h4>
 
             {loadingIngredients || loadingCategories ? (
-                <div>!!!!!!!!I am going to proper loading spiner here</div>
+                <div>loading...</div>
             ) : (
                 <>
                     <p>
-                        Check multiple boxes below to narrow recipe search
-                        results:
+                        Check one boxe below to narrow recipe search:
                     </p>
                     <br />
                     <br />

@@ -14,7 +14,7 @@
                     <h3>{{$recipes[22]->name}}</h3>
                     <br>
                     <img src="{{$images[44]->path}}" />
-                    <p><a href="#">Go to the recipe>>></a></p>
+                    <p><a href="/recipes/1">Go to the recipe>>></a></p>
                     <q>{{$recipes[22]->description}}</q>
                     
                 </div>
@@ -24,14 +24,14 @@
                     </div>
                     <!-- left bar -->
                 <div class="carousel-onTheRight-home">
-                    <p class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
+                    <p class="text-decoration-none" > <a href="/recipes" class="text-dark" ><u>Search Recipes</u></a> </p>
                     <br>
                     <p class="text-decoration-none"> <a href="" class="text-dark"><u>BREAKFAST  /  MAIN DISH  /  DESSERT</u></a> </p>
                     <br>
                     <p class="text-decoration-none"> <a href="" class="text-dark"><u>VEGAN  /  GLUTEN FREE</u></a> </p>
                     <br>
                     <br>
-                    <p  class="text-decoration-none"><a href="" class="text-danger">ALL RECIPES >></a></p>
+                    <p  class="text-decoration-none"><a href="/recipes" class="text-danger">ALL RECIPES >></a></p>
                     <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="..." alt="Card image cap">
                     <div class="card-body">
@@ -42,7 +42,7 @@
                     <p>TAKE A LOOK AT OUR BLOG PAGE...</p>
                     <br>
                     <br>
-                    <p class="text-decoration-none"><a href="" class="text-danger">BLOG>></a></p>
+                    <p class="text-decoration-none"><a href="/blog" class="text-danger">BLOG>></a></p>
                 </div>
               
     </div>
@@ -70,7 +70,7 @@
             <q>{{$recipes[0]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/1">Go to the recipe>>></a></p>    
         </div>
             
         </div>       <!---->
@@ -83,7 +83,7 @@
             <q>{{$recipes[1]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/2">Go to the recipe>>></a></p>    
         </div>
             
         </div>       <!---->
@@ -96,7 +96,7 @@
             <q>{{$recipes[2]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/3">Go to the recipe>>></a></p>    
         </div>
             
         </div>       <!---->
@@ -110,7 +110,7 @@
             <q>{{$recipes[3]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/4">Go to the recipe>>></a></p>    
         </div>
             
         </div>       <!---->
@@ -123,7 +123,7 @@
             <q>{{$recipes[4]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/5">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -136,7 +136,7 @@
             <q>{{$recipes[5]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/6">Go to the recipe>>></a></p>    
         </div>
             
         </div><!---->
@@ -149,7 +149,7 @@
             <q>{{$recipes[6]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/7">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -162,7 +162,7 @@
             <q>{{$recipes[7]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/8">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -175,7 +175,7 @@
             <q>{{$recipes[8]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/9">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -188,7 +188,7 @@
             <q>{{$recipes[9]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/10">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -201,7 +201,7 @@
             <q>{{$recipes[10]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/11">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -214,7 +214,7 @@
             <q>{{$recipes[11]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/12">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -227,7 +227,7 @@
             <q>{{$recipes[12]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/13">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -240,7 +240,7 @@
             <q>{{$recipes[13]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/14">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -253,7 +253,7 @@
             <q>{{$recipes[14]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/15">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -266,7 +266,7 @@
             <q>{{$recipes[15]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/16">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -279,7 +279,7 @@
             <q>{{$recipes[16]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/17">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -292,7 +292,7 @@
             <q>{{$recipes[17]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/18">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -305,7 +305,7 @@
             <q>{{$recipes[18]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/19">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -318,7 +318,7 @@
             <q>{{$recipes[19]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/20">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -331,7 +331,7 @@
             <q>{{$recipes[20]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/21">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -344,7 +344,7 @@
             <q>{{$recipes[21]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/22">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -356,7 +356,7 @@
             <q>{{$recipes[22]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/23">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -369,7 +369,7 @@
             <q>{{$recipes[23]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/24">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -382,7 +382,7 @@
             <q>{{$recipes[24]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/25">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -395,7 +395,7 @@
             <q>{{$recipes[25]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/26">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -408,7 +408,7 @@
             <q>{{$recipes[26]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/27">Go to the recipe>>></a></p>    
         </div>
             
         </div>
@@ -421,7 +421,7 @@
             <q>{{$recipes[27]->description}}</q>
             <br>
             <br>
-            <p><a href="#">Go to the recipe>>></a></p>    
+            <p><a href="/recipes/28">Go to the recipe>>></a></p>    
         </div>
             
         </div>
