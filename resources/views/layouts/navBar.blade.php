@@ -16,7 +16,7 @@
             <li><a href="/blog">Blog <span></span></a></li>
             <li><a href="/login">Login <span></span></a></li>
         
-            <li><a href="#">Your List <span></span></a></li>
+            <li><a href="/addRecipe">Add Recipe<span></span></a></li>
         </div>
         <div class="navBar-search">
             <input type="text" placeholder="Search">
