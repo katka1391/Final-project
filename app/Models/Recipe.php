@@ -9,7 +9,7 @@ class Recipe extends Model
 {
     public function ingredients()
     {
-        return $this->belongsToMany('App\Models\Ingredient', 'ingredient_recipe');
+        return $this->belongsToMany('App\Models\Ingredient', 'ingredient_recipe')->withPivot('amount' , 'unit');
     }
     
     public function images()

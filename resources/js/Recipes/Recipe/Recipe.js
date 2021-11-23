@@ -21,18 +21,13 @@ const Recipe = () => {
     }, []);
 
     console.log(singleRecipe);
-    
-
-
 
     return (
         <div className="recipe-main-container">
-
             <div class="recipe-icons-left-panel">
                 <img class="recipe-icon" src="/img/Icons/fb.png" />
                 <img class="recipe-icon" src="/img/Icons/twitter.png" />
                 <img class="recipe-icon" src="/img/Icons/instagram.png" />
-
             </div>
 
             <div className="recipe-leftSite">
@@ -43,18 +38,26 @@ const Recipe = () => {
                         <h4 className="recipes-all-recipes">
                             <strong>{singleRecipe.name}</strong>
                         </h4>
-                        
+
                         <div className="recipe-leftSite-container">
-                        
                             <p className="recipe-left-description">
                                 {singleRecipe.description}
                             </p>
-                            <img
-                                className="recipe-img-react"
-                                src={singleRecipe.images[1].path}
-                            />
+                            {singleRecipe.images &&
+                            singleRecipe.images.length > 0 ? (
+                                <img
+                                    className="recipe-img-react"
+                                    src={singleRecipe.images[1].path}
+                                />
+                            ) : (
+                                <img
+                                    className="recipe-img-react"
+                                    src="/img/empty-plate.png"
+                                />
+                            )}
 
                             <p>Calories: {singleRecipe.calories} kcal</p>
+                            <p>Difficulty: {singleRecipe.difficulty} </p>
                             <p>Cooktime: {singleRecipe.cooktime} min</p>
                             <p>Preptime: {singleRecipe.preptime} min</p>
                             <p>Servings: {singleRecipe.servings} </p>
@@ -64,35 +67,56 @@ const Recipe = () => {
                             <p>Sugar: {singleRecipe.sugar} g</p>
                             <p>Fiber: {singleRecipe.fiber} g</p>
 
-                            <img
-                                className="recipe-img-react"
-                                src={singleRecipe.images[0].path}
-                            />
+                            {singleRecipe.images &&
+                            singleRecipe.images.length > 0 ? (
+                                <img
+                                    className="recipes-img-react"
+                                    src={singleRecipe.images[1].path}
+                                />
+                            ) : (
+                                <img
+                                    className="recipe-img-react"
+                                    src="/img/empty-plate.png"
+                                />
+                            )}
 
-                            <div className="recipe-left-box-title">Ingredients:</div>
+                            <div className="recipe-left-box-title">
+                                Ingredients:
+                            </div>
                             <ul>
-                                {singleRecipe.ingredients.map ((ingredient, index) => (
-                                    <li className="recipe-ingredients"
-                                    key={index}>{ingredient.name}</li>
-                                ))}
+                                {singleRecipe.ingredients.map(
+                                    (ingredient, index) => (
+                                        <li
+                                            className="recipe-ingredients"
+                                            key={index}
+                                        >
+                                            {ingredient.name}
+                                        </li>
+                                    )
+                                )}
                             </ul>
 
-                            <div className="recipe-left-box-title">Instructions:</div>
+                            <div className="recipe-left-box-title">
+                                Instructions:
+                            </div>
                             <ol>
-                                {singleRecipe.instructions.map ((instructions, index) => (
-                                    <li className="recipe-instructions"
-                                    key={index}>{instructions.text}</li>
-                                ))}
+                                {singleRecipe.instructions.map(
+                                    (instructions, index) => (
+                                        <li
+                                            className="recipe-instructions"
+                                            key={index}
+                                        >
+                                            {instructions.text}
+                                        </li>
+                                    )
+                                )}
                             </ol>
-
                         </div>
                     </>
                 )}
             </div>
 
-           
-                
-           <div className="recipe-rightSite">
+            <div className="recipe-rightSite">
                 <h4 className="recipes-all-recipes">Fresh and zesty </h4>
                 <div className="recipe-rightSite-container">
                     <h3 className="recipe-rightSite-search">SEARCH RECIPES</h3>
@@ -103,7 +127,7 @@ const Recipe = () => {
                         </strong>
                     </p>
                     <a>
-                        <p>ALL RECIPES </p>
+                        <a href="/recipes"><p>ALL RECIPES</p></a>
                     </a>
                     <p>
                         <strong>━━━━━━⤞●⤝━━━━━━</strong>
@@ -129,13 +153,21 @@ const Recipe = () => {
                         <strong>━━━━━━⤞●⤝━━━━━━</strong>
                     </p>
                     <div>
-                        <img class="recipe-icon-right" src="/img/Icons/fb.png" />
-                        <img class="recipe-icon-right" src="/img/Icons/twitter.png" />
-                        <img class="recipe-icon-right" src="/img/Icons/instagram.png" />
-                     </div>
+                        <img
+                            class="recipe-icon-right"
+                            src="/img/Icons/fb.png"
+                        />
+                        <img
+                            class="recipe-icon-right"
+                            src="/img/Icons/twitter.png"
+                        />
+                        <img
+                            class="recipe-icon-right"
+                            src="/img/Icons/instagram.png"
+                        />
+                    </div>
                 </div>
             </div>
-
         </div>
     );
 };
