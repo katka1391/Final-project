@@ -33,6 +33,7 @@ const AllRecipes = ({ recipes }) => {
                         </Link>
                     ))}
                 </div>
+             
             </div>
         </div>
     );
