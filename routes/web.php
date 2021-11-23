@@ -7,7 +7,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\SubscribeController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\RecipeController;
-
+use App\Http\Controllers\AddRecipeController;
 
 
 /*
