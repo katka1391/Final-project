@@ -6,7 +6,6 @@
     flex-direction: row;
     padding-top: 20px;
     width: 100%;
-    height: 95vh;
 }
 
 .register-form {
@@ -25,16 +24,6 @@
     margin-right: 20px;
 }
 
-.carousel-onTheRight__reg {
-    margin-top: -123px;
-    border-left: 1px solid black;
-    height: 96vh;
-}
-
-.first-p__reg {
-    margin-top: 20vh;
-}
-
 
 /*errors*/
 
@@ -51,14 +40,7 @@
         margin-left: 8em;
     }
     .space-between__reg {
-        width: 10em;
-    }
-    .carousel-onTheRight__reg {
-        margin-top: -30px;
-        border-left: 1px solid black;
-    }
-    .first-p__reg {
-        margin-top: 13vh;
+        width: 6em;
     }
 }
 
@@ -80,8 +62,8 @@
         height: 50px;
         margin-bottom: 60px;
     }
-    .carousel-onTheRight__reg {
-        display: none;
+    .register-container {
+        height: 80vh;
     }
 }
 

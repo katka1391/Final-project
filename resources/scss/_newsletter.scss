@@ -20,13 +20,45 @@
     margin-bottom: 60px;
 }
 
-.carousel-onTheRight-sub {
-    margin-top: -123px;
+
+/*navbar on the right for sub and log page*/
+
+.carousel-onTheRight-sub_log {
+    margin-top: -137px;
     border-left: 1px solid black;
-    height: 96vh;
+    width: 25%;
     padding-left: 2em;
     margin-bottom: 5em;
-    
+}
+
+.carousel-onTheRight-sub_log .recipe-rightSite-container {
+    text-align: center;
+    width: 80%;
+    padding-left: 3em;
+    padding-top: 1em;
+}
+
+.recipe-rightSite-search {
+    color: #a9ba9d;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+.recipe-rightSite-img {
+    width: 80%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.recipe-icon-right {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.recipes-all-recipes-sub_log {
+    text-align: center;
+    padding: 1em;
+    font-size: 2em;
 }
 
 .space-between__sub {
@@ -34,12 +66,8 @@
     height: 50vh;
 }
 
-.first-p__sub {
-    margin-top: 20vh;
-}
 
-
-/*subscribe message*/
+/*sub message*/
 
 .subscribe-session {
     display: flex;
@@ -58,9 +86,6 @@
     border-bottom: 1px black solid;
 }
 
-
-
-
 @media (min-width: 768px) and (max-width: 1024px) {
     .subscribe-form {
         width: 30%;
@@ -68,16 +93,26 @@
     .space-between__sub {
         width: 10em;
     }
-    .carousel-onTheRight-sub {
-        margin-top: -8px;
+    .carousel-onTheRight-sub_log {
+        margin-top: -137px;
         border-left: 1px solid black;
-    }
-    .first-p__sub {
-        margin-top: 4vh;
+        width: 20em;
     }
 }
 
 @media (min-width: 360px) and (max-width: 720px) {
+    .subscribe-container {
+        height: 60vh;
+    }
+    .subTitle {
+        display: flex;
+        justify-content: center;
+        padding-right: 0em;
+        padding-bottom: 0em;
+        width: 100%;
+        font-size: 30px;
+        border-bottom: 0;
+    }
     .subscribe-form {
         width: 30%;
         padding-top: 5em;
@@ -88,11 +123,11 @@
         height: 50px;
         margin-bottom: 60px;
     }
-    .carousel-onTheRight-sub {
+    .carousel-onTheRight-sub_log {
         margin-left: 50px;
         border-left: 3px solid grey;
     }
-    .carousel-onTheRight-sub {
+    .carousel-onTheRight-sub_log {
         display: none;
     }
     .space-between__sub {

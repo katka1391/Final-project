@@ -2,7 +2,7 @@
 <header>
     <nav class="navBar-container">
         <div class="navBar-logo">
-            <h2>SweetCousine</h2>
+            <h2>SweetCouisine</h2>
         </div>
         <label for="navBar-hamburger" class="navBar-hamburger">
             <span></span><span></span><span></span>

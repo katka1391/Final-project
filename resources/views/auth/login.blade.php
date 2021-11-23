@@ -28,37 +28,66 @@
             <span data-text="N">N</span>
             <span data-text="!">!</span>
         </button>
-        <form action="{{ route('logout') }}" method="post">
-            @csrf
-            <button class="logout-btn" >Logout</button>
-        </form>
+       
    
     </form>
     <div class="space-between__log"  style="margin-right: 20px;">
 
     </div>
     <!-- left bar -->
-    <div class="carousel-onTheRight__log">
-        <p class="first-p__log" class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
-        <br>
-        <p class="text-decoration-none"> <a href="" class="text-dark"><u>BREAKFAST  /  MAIN DISH  /  DESSERT</u></a> </p>
-        <br>
-        <p class="text-decoration-none"> <a href="" class="text-dark"><u>VEGAN  /  GLUTEN FREE</u></a> </p>
-        <br>
-        <br>
-        <p  class="text-decoration-none"><a href="" class="text-danger">ALL RECIPES >></a></p>
-        <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    
+        <div class="carousel-onTheRight-sub_log">
+            <h4 class="recipes-all-recipes-sub_log">Fresh and zesty </h4>
+            <div class="recipe-rightSite-container">
+                <h3 class="recipe-rightSite-search">SEARCH RECIPES</h3>
+                <p class="recipe-rightSite-menu">
+                    <strong>
+                        BREAKFAST / LUNCH / DINNER / DESSERT / VEGAN /
+                        GLUTEN FREE
+                    </strong>
+                </p>
+                <a>
+                    <a href="/recipes"><p>ALL RECIPES</p></a>
+                </a>
+                <p>
+                    <strong>━━━━━━⤞●⤝━━━━━━</strong>
+                </p>
+    
+                <img
+                    class="recipe-rightSite-img"
+                    src="/img/Capture.PNG"
+                    alt="us"
+                />
+    
+                <p>
+                    <strong>Hello, we're Gloria and Katarina.</strong>
+                </p>
+                <p>
+                    We love to eat, travel, cook, and eat some more! We
+                    created this recipe website from scratch during the
+                    coding Bootcamp Praha 2021. As an example we used
+                    www.loveandlemons.com and all our recipes are from
+                    www.bbcgoodfood.com.
+                </p>
+                <p>
+                    <strong>━━━━━━⤞●⤝━━━━━━</strong>
+                </p>
+                <div>
+                    <img
+                        class="recipe-icon-right"
+                        src="/img/Icons/fb.png"
+                    />
+                    <img
+                        class="recipe-icon-right"
+                        src="/img/Icons/twitter.png"
+                    />
+                    <img
+                        class="recipe-icon-right"
+                        src="/img/Icons/instagram.png"
+                    />
+                </div>
+            </div>
         </div>
-        </div>
-        <br>
-        <p>TAKE A LOOK AT OUR BLOG PAGE...</p>
-        <br>
-        <br>
-        <p class="text-decoration-none"><a href="" class="text-danger">BLOG>></a></p>
-    </div>
     
 </div>
 @endsection
