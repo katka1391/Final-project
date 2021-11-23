@@ -68,6 +68,7 @@
 
                 <label for="ingredients">Ingredients:</label>
                        <br>
+                       {{-- required => means that user have to fill this input --}}
                        <input type="text" id="ingredients" name="ingredients[]" required/>
                        <input type="text" id="ingredients" name="ingredients[]" />
                        <input type="text" id="ingredients" name="ingredients[]" />
@@ -80,32 +81,24 @@
                        <input type="text" id="ingredients" name="ingredients[]" />
                        <input type="text" id="ingredients" name="ingredients[]" />
                        <br>
-                       {{-- <label for="instructions">Instructions:</label>
+                       <label for="instructions">Instructions:</label>
                        <br>
-                       Step 1 <input type="text" id="instructions" name="instructions" required/>
-                       <br>
-                       <br>
-                       Step 2 <input type="text" id="instructions" name="instructions" required/>
+                       Step 1 <input type="text" id="instructions" name="instructions[]" required/>
                        <br>
                        <br>
-                       Step 3 <input type="text" id="instructions" name="instructions" required/>
+                       Step 2 <input type="text" id="instructions" name="instructions[]" />
                        <br>
                        <br>
-                       Step 4 <input type="text" id="instructions" name="instructions" required/>
+                       Step 3 <input type="text" id="instructions" name="instructions[]" />
                        <br>
                        <br>
-                       Step 5 <input type="text" id="instructions" name="instructions" required/>
+                       Step 4 <input type="text" id="instructions" name="instructions[]" />
                        <br>
                        <br>
-                       Step 6 <input type="text" id="instructions" name="instructions" required/>
+                       Step 5 <input type="text" id="instructions" name="instructions[]" />
+                      
                        <br>
                        <br>
-                       Step 7 <input type="text" id="instructions" name="instructions" required/>
-                       <br>
-                       <br>
-                       Step 8 <input type="text" id="instructions" name="instructions" required/>
-                       <br>
-                       <br> --}}
 
                 {{-- <label for="image">Image (http link):</label>
                        <br>

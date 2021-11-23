@@ -24,7 +24,7 @@ Route::get('/article2', [ArticlesController::class, 'article2']);
 Route::get('/article3', [ArticlesController::class, 'article3']);
 Route::get('/article4', [ArticlesController::class, 'article4']);
 Route::get('/contact', [ContactController::class, 'index']);
-Route::get('/addRecipe', [RecipeController::class, 'create']);
+Route::get('/addRecipe', [RecipeController::class, 'create'])->middleware('auth');
 Route::post('/addRecipe', [RecipeController::class, 'store']);
 
 Route::get('/subscribe', [SubscribeController::class, 'subscribe']);
