@@ -1,55 +1,104 @@
 @extends('layouts/main')
 @section('content')
 
+
+
 <div class="container home">
-    <h1 class="title home" style="font-size: 10rem">Sweet Cuisine</h1>  
-    <h2 class="subTitle home">home Page</h2>
- </div>
+    <h1 class="title home" style="font-size: 9rem">Sweet Cuisine</h1>     
+</div>
 
- <div class="home-container">
+<div class="recipe-main-container">
+    <div class="recipe-icons-left-panel">
+        <img class="recipe-icon" src="/img/Icons/fb.png" />
+        <img class="recipe-icon" src="/img/Icons/twitter.png" />
+        <img class="recipe-icon" src="/img/Icons/instagram.png" />
+    </div>
 
-    <div class="home-up">
-        
-                <div class="home-recipe__desc">
-                    <h3>{{$recipes[22]->name}}</h3>
-                    <br>
-                    <img src="{{$images[44]->path}}" />
-                    <p><a href="/recipes/1">Go to the recipe>>></a></p>
-                    <q>{{$recipes[22]->description}}</q>
-                    
-                </div>
-            
-                    <div class="space-between__home" style="margin-right: 20px;">
+    <div class="recipe-leftSite">
+       
+                <h4 class="recipes-all-recipes">
+                    <strong>Welcome to Sweet Cuisine </strong>
+                </h4>    
+
+                <div class="recipe-leftSite-container">
+                    <div class="home-recipe__desc">
+                        <h3 class="home-frenchtoast">{{$recipes[22]->name}}</h3>
+                        <br>
+                        <img class="home-img-frenchtoast" src="{{$images[44]->path}}" />
+                        <p><a href="/recipes/1">Go to the recipe>>></a></p>
+                        <q>{{$recipes[22]->description}}</q>
                         
                     </div>
-                    <!-- left bar -->
-                <div class="carousel-onTheRight-home">
-                    <p class="first-p" class="text-decoration-none" > <a href="/recipes" class="text-dark" ><u>Search Recipes</u></a> </p>
-                    <br>
-                    <p class="text-decoration-none"> <a href="" class="text-dark"><u>BREAKFAST  /  MAIN DISH  /  DESSERT</u></a> </p>
-                    <br>
-                    <p class="text-decoration-none"> <a href="" class="text-dark"><u>VEGAN  /  GLUTEN FREE</u></a> </p>
-                    <br>
-                    <br>
-                    <p  class="text-decoration-none"><a href="/recipes" class="text-danger">ALL RECIPES >></a></p>
-                    <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    </div>
-                    <br>
-                    <p>TAKE A LOOK AT OUR BLOG PAGE...</p>
-                    <br>
-                    <br>
-                    <p class="text-decoration-none"><a href="/blog" class="text-danger">BLOG>></a></p>
                 </div>
-              
+            
+        
     </div>
+
+    <div class="recipe-rightSite">
+        <h4 class="recipes-all-recipes">Fresh and zesty </h4>
+        <div class="recipe-rightSite-container">
+            <h3 class="recipe-rightSite-search">SEARCH RECIPES</h3>
+            <p class="recipe-rightSite-menu">
+                <strong>
+                    BREAKFAST / LUNCH / DINNER / DESSERT / VEGAN /
+                    GLUTEN FREE
+                </strong>
+            </p>
+            <a>
+                <a href="/recipes"><p>ALL RECIPES</p></a>
+            </a>
+            <p>
+                <strong>━━━━━━⤞●⤝━━━━━━</strong>
+            </p>
+
+            <img
+                class="recipe-rightSite-img"
+                src="/img/Capture.PNG"
+                alt="us"
+            />
+
+            <p>
+                <strong>Hello, we're Gloria and Katarina.</strong>
+            </p>
+            <p>
+                We love to eat, travel, cook, and eat some more! We
+                created this recipe website from scratch during the
+                coding Bootcamp Praha 2021. As an example we used
+                www.loveandlemons.com and all our recipes are from
+                www.bbcgoodfood.com.
+            </p>
+            <p>
+                <strong>━━━━━━⤞●⤝━━━━━━</strong>
+            </p>
+            <div>
+                <img
+                    class="recipe-icon-right"
+                    src="/img/Icons/fb.png"
+                />
+                <img
+                    class="recipe-icon-right"
+                    src="/img/Icons/twitter.png"
+                />
+                <img
+                    class="recipe-icon-right"
+                    src="/img/Icons/instagram.png"
+                />
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container home">
+    <p class="subTitle-home">You can find more fresh and zesty recipes below</p> 
+</div>
+
+<div class="home-container">
+
+    
 
     <div class="circle">
         <p class="circle__ph">
-            MORE RECIPES BELOW
+            Tasty
         </p>
     </div>
 

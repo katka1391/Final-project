@@ -11,7 +11,7 @@ const App = () => {
 
     return (
         <BrowserRouter>
-            <h1 className="title">Sweet Cuisine</h1>
+            <h1 className="title-recipes">Sweet Cuisine</h1>
             <Routes>
             
                 <Route path="/recipes" element={<MainPage />} />

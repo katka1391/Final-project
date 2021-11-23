@@ -2,13 +2,22 @@
     font-family: 'Martel', serif;
 }
 
+.title-recipes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    padding: 0px;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+}
+
 .recipes-main-container {
     display: flex;
     padding-bottom: 4rem;
 }
 
 .recipes-leftSite {
-    // background-color: aquamarine;
     width: 45%;
     margin-left: 15em;
 }
@@ -18,9 +27,7 @@
     padding-left: 2em;
 }
 
-// .search-recipes {
-//     border-left: 1px black solid;
-// }
+
 .recipes-img-react {
     width: 20em;
     height: 23em;

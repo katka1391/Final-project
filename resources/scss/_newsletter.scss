@@ -24,6 +24,9 @@
     margin-top: -123px;
     border-left: 1px solid black;
     height: 96vh;
+    padding-left: 2em;
+    margin-bottom: 5em;
+    
 }
 
 .space-between__sub {
@@ -45,6 +48,18 @@
     height: 30px;
     background-color: #bdc4b9;
 }
+
+.subTitle-subscribe {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 90%;
+    font-size: 0px;
+    border-bottom: 1px black solid;
+}
+
+
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .subscribe-form {

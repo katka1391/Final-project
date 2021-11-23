@@ -38,7 +38,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 80px;
+  font-size: 50px;
   padding: 0px;
 }
 
@@ -47,7 +47,7 @@
   justify-content: flex-start;
   align-items: flex-end;
   width: 90%;
-  font-size: 60px;
+  font-size: 20px;
   border-bottom: 1px black solid;
 }
 
@@ -714,6 +714,8 @@ a {
   margin-top: -123px;
   border-left: 1px solid black;
   height: 96vh;
+  padding-left: 2em;
+  margin-bottom: 5em;
 }
 
 .first-p__log {
@@ -979,6 +981,8 @@ a {
   margin-top: -123px;
   border-left: 1px solid black;
   height: 96vh;
+  padding-left: 2em;
+  margin-bottom: 5em;
 }
 
 .space-between__sub {
@@ -997,6 +1001,15 @@ a {
   align-items: center;
   height: 30px;
   background-color: #bdc4b9;
+}
+
+.subTitle-subscribe {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 90%;
+  font-size: 0px;
+  border-bottom: 1px black solid;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -1108,17 +1121,19 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 80px;
+  font-size: 50px;
   margin-top: 10px;
   padding: 0em;
 }
 
 .subTitle {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  padding-right: 8em;
+  padding-bottom: 0.7em;
   align-items: flex-end;
   width: 100%;
-  font-size: 60px;
+  font-size: 30px;
   border-bottom: 1px solid black;
 }
 
@@ -1147,13 +1162,13 @@ a {
 .space-between__blog {
   width: 11rem;
   height: 50vh;
-  border-right: 1px black solid;
 }
 
 .carousel-onTheRight__blog {
   margin-top: -150px;
   border-left: 1px solid black;
   height: 100vh;
+  padding-left: 2em;
 }
 
 .first-p__blog {
@@ -1164,6 +1179,10 @@ a {
   height: 600px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.slide {
+  padding-top: 2em;
 }
 
 @media (min-width: 360px) and (max-width: 720px) {
@@ -1202,13 +1221,58 @@ a {
   margin-left: 250px;
 }
 
+.title {
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+}
+
+.subTitle-home {
+  text-align: center;
+  width: 100%;
+  font-size: 1.3em;
+  border-bottom: 1px solid black;
+  padding-bottom: 0.55em;
+  color: #a9ba9d;
+  font-weight: bold;
+}
+
+.home-frenchtoast {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.home-img-frenchtoast {
+  width: 100%;
+  height: 100%;
+  padding-right: 2em;
+  margin: 0;
+}
+
+.main-rightSite-search {
+  color: #a9ba9d;
+  font-weight: bold;
+  padding-top: 3.5em;
+  justify-content: center;
+}
+
+.home-contaner-icon-right {
+  display: flex;
+  justify-content: center;
+}
+.home-contaner-icon-right .home-icon-right {
+  width: 1.5em;
+  height: 1.5em;
+  margin: 1em;
+  margin-bottom: 2em;
+}
+
 .home-up {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 65%;
-  border-bottom: 1px solid black;
 }
 .home-down {
   display: flex;
@@ -1278,7 +1342,7 @@ a {
 .carousel-onTheRight-home {
   margin-top: -204px;
   border-left: 1px solid black;
-  height: 100vh;
+  padding-left: 20px;
 }
 
 .first-p {
@@ -1427,6 +1491,16 @@ a {
 
 * {
   font-family: "Martel", serif;
+}
+
+.title-recipes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  padding: 0px;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
 }
 
 .recipes-main-container {

@@ -4,8 +4,8 @@
 
 
    <div class="container blog">
-      <h1 class="title blog" style="font-size: 10rem">Sweet Cuisine</h1>  
-      <h2 class="subTitle blog">Subscribe Page</h2>
+      <h1 class="title blog" style="font-size: 8rem">Sweet Cuisine</h1>  
+      <h2 class="subTitle blog">Subscribe</h2>
    </div>
 
   @foreach ($errors->all() as $error)
@@ -59,7 +59,7 @@
         <p>TAKE A LOOK AT OUR BLOG PAGE...</p>
         <br>
         <br>
-        <p class="text-decoration-none"><a href="/blog" class="text-danger">BLOG>></a></p>
+        <p class="subscribe-bottom-blog" class="text-decoration-none"><a href="/blog" class="text-danger">BLOG>></a></p>
     </div>
 </div>
 
