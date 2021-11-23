@@ -123,7 +123,7 @@ header {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  padding: 1rem;
+  padding: 0rem;
 }
 
 .navBar-logo h2 {

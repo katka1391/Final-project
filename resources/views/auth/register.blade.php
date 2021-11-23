@@ -14,7 +14,7 @@
 
 <div class="register-container">
 
-
+    <!--redirect to the home page -->
     <form  class="register-form" action="{{ route('register') }}" method="post">
         @csrf
         <label for="Name">Name:</label>

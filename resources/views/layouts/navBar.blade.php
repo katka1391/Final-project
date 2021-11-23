@@ -15,7 +15,7 @@
             <li><a href="/contact">Contact <span></span></a></li>
             <li><a href="/blog">Blog <span></span></a></li>
             <li><a href="/login">Login <span></span></a></li>
-            <li><a href="/AddRecipe">addRecipe<span></span></a></li>
+            <li><a href="/addRecipe">Add Recipe<span></span></a></li>
         
         </div>
         <div class="navBar-img">
