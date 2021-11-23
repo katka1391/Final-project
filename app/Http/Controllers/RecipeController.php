@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Ingredient;
 use App\Models\Recipe;
+use App\Models\Instruction;
 use Illuminate\Http\Request;
 
 class RecipeController extends Controller
@@ -20,6 +21,9 @@ class RecipeController extends Controller
 
     public function store(Request $request)
     {
+
+        //return $request;
+
         $recipe = new Recipe();
         $recipe->name = $request->input('name');
         // $recipe->description = $request->input('description');
@@ -43,12 +47,33 @@ class RecipeController extends Controller
         foreach($ingredients as $OneIngredient ) {
             if($OneIngredient) {
 
-                $ingredient = new Ingredient();
-                $ingredient->name = $OneIngredient;
-                $ingredient->save();
+                $ingredient = Ingredient::where('name',$OneIngredient)->first();
+                if($ingredient === null){
+                    $ingredient = new Ingredient();
+                    $ingredient->name = $OneIngredient;
+                    $ingredient->save();
+                }
+
+
+                $recipe->ingredients()->attach($ingredient);
+                
             }
         }
        
+        $instructions= $request->input('instructions');
+
+        foreach($instructions as $i => $oneInstruction){
+
+            if($oneInstruction){
+
+                $instruction = new Instruction();
+                $instruction->recipe_id = $recipe->id;
+                $instruction->text = $oneInstruction;
+                $instruction->step = $i + 1;
+                $instruction->save();
+
+            }
+        }
         
         
 
