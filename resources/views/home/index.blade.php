@@ -100,7 +100,11 @@
 
     <div class="circle">
         <p class="circle__ph">
-            Tasty
+            more<br/>
+            recipes<br/>
+            ︾<br/>
+        
+ 
         </p>
     </div>
 

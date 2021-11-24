@@ -82,7 +82,7 @@ class RecipeController extends Controller
         
         
 
-        return view('add-recipe/index');
+        return redirect('/recipes');
 
     }
 }

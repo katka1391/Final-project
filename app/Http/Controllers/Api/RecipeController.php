@@ -54,4 +54,22 @@ class RecipeController extends Controller
         return $recipe[0];
     }
     
+
+    public function search(Request $request) {
+
+        $search_term = $request->input('search');
+
+        $query = Recipe::with("images")->with("categories")->with("ingredients");
+
+        if ($search_term) {
+            $query->where('name', 'like', '%'.$search_term.'%');
+        }
+
+        $recipes = $query->get();
+
+        // return the results
+        return $recipes;
+
+
+    }
 }

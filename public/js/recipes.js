@@ -2192,10 +2192,12 @@ var Filter = function Filter(_ref) {
       handleMealFilterClick = _ref.handleMealFilterClick,
       handleDietaryFilterClick = _ref.handleDietaryFilterClick,
       handleCuisineFilterClick = _ref.handleCuisineFilterClick,
+      handleIngredientClick = _ref.handleIngredientClick,
       dietaryFilter = _ref.dietaryFilter,
       mealFilter = _ref.mealFilter,
-      cuisineFilter = _ref.cuisineFilter;
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("form", {
+      cuisineFilter = _ref.cuisineFilter,
+      ingredientFilter = _ref.ingredientFilter;
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
     className: "recipes-rightSite",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("label", {
@@ -2203,10 +2205,12 @@ var Filter = function Filter(_ref) {
         children: "Search Recipe Titles:"
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("input", {
         type: "text",
-        id: "search-recipes",
-        onChange: function onChange(event) {
-          return setSearchTerm(event.target.value);
-        }
+        id: "search-recipes"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
+        onClick: function onClick() {
+          return setSearchTerm(document.getElementById('search-recipes').value);
+        },
+        children: "Search"
       })]
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h4", {
       children: "Filter Recipes:"
@@ -2269,9 +2273,11 @@ var Filter = function Filter(_ref) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("input", {
             type: "checkbox",
-            id: "filter-".concat(ingredient.name) //this doesnt work on ingredients
-            // onClick={() => handleFilterClick(ingredient)}
-
+            checked: ingredientFilter === ingredient.name,
+            id: "filter-".concat(ingredient.name),
+            onClick: function onClick() {
+              return handleIngredientClick(ingredient.name);
+            }
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("label", {
             htmlFor: "filter-".concat(ingredient.name),
             children: ingredient.name
@@ -2375,6 +2381,11 @@ var MainPage = function MainPage() {
       cuisineFilter = _useState18[0],
       setCuisineFilter = _useState18[1];
 
+  var _useState19 = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(''),
+      _useState20 = _slicedToArray(_useState19, 2),
+      ingredientFilter = _useState20[0],
+      setIngredientFilter = _useState20[1];
+
   var loadRecipesData = /*#__PURE__*/function () {
     var _ref = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee() {
       var url, response;
@@ -2382,7 +2393,7 @@ var MainPage = function MainPage() {
         while (1) {
           switch (_context.prev = _context.next) {
             case 0:
-              url = 'api/recipes'; // use our predefined get function
+              url = 'api/recipes/search?search=' + encodeURIComponent(searchTerm); // use our predefined get function
               // to make a GET http request
               // get an axios response object
 
@@ -2408,7 +2419,7 @@ var MainPage = function MainPage() {
 
   (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(function () {
     loadRecipesData();
-  }, []);
+  }, [searchTerm]);
 
   var loadCategoriesData = /*#__PURE__*/function () {
     var _ref2 = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee2() {
@@ -2500,9 +2511,17 @@ var MainPage = function MainPage() {
     }
   };
 
+  var handleIngredientClick = function handleIngredientClick(item) {
+    if (ingredientFilter === item) {
+      setIngredientFilter('');
+    } else {
+      setIngredientFilter(item);
+    }
+  };
+
   var filteredRecipes = [];
 
-  if (!mealFilter && !dietaryFilter && !cuisineFilter) {
+  if (!mealFilter && !dietaryFilter && !cuisineFilter && !ingredientFilter) {
     filteredRecipes = recipes;
   }
 
@@ -2536,10 +2555,14 @@ var MainPage = function MainPage() {
     });
   }
 
-  if (cuisineFilter) {
+  if (ingredientFilter) {
     recipes.forEach(function (recipe) {
-      recipe.categories.forEach(function (category) {
-        if (category.name === cuisineFilter) {
+      recipe.ingredients.forEach(function (ingredient) {
+        console.log('ingredient', ingredient);
+        console.log('ingredient.name', ingredient.name);
+        console.log('ingredientFilter', ingredientFilter);
+
+        if (ingredient.name === ingredientFilter) {
           if (!filteredRecipes.find(function (filteredRecipe) {
             return filteredRecipe.name === recipe.name;
           })) {
@@ -2548,6 +2571,7 @@ var MainPage = function MainPage() {
         }
       });
     });
+    console.log('filteredRecipes after ingredient filter if', filteredRecipes);
   }
 
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
@@ -2563,6 +2587,8 @@ var MainPage = function MainPage() {
       handleMealFilterClick: handleMealFilterClick,
       handleDietaryFilterClick: handleDietaryFilterClick,
       handleCuisineFilterClick: handleCuisineFilterClick,
+      handleIngredientClick: handleIngredientClick,
+      ingredientFilter: ingredientFilter,
       dietaryFilter: dietaryFilter,
       mealFilter: mealFilter,
       cuisineFilter: cuisineFilter

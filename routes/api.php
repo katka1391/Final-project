@@ -23,5 +23,6 @@ Route::get('/recipes', [RecipeController::class, 'allRecipes']);
 Route::get('/categories', [RecipeController::class, 'allCategories']);
 Route::get('/ingredients', [RecipeController::class, 'allIngredients']);
 
+Route::get('/recipes/search', [RecipeController::class, 'search']);
 Route::get('/recipes/{id}', [RecipeController::class, 'recipeId']);
 

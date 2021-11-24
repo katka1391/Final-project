@@ -9,22 +9,24 @@ const Filter = ({
     handleMealFilterClick,
     handleDietaryFilterClick,
     handleCuisineFilterClick,
+    handleIngredientClick,
     dietaryFilter,
     mealFilter,
-    cuisineFilter
+    cuisineFilter,
+    ingredientFilter
 }) => {
 
     
     return (
-        <form className="recipes-rightSite">
+        <div className="recipes-rightSite">
             <div>
                 <label htmlFor="search-recipes">Search Recipe Titles:</label>
                 <br />
                 <input
                     type="text"
                     id="search-recipes"
-                    onChange={(event) => setSearchTerm(event.target.value)}
                 />
+                <button onClick={() => setSearchTerm(document.getElementById('search-recipes').value)}>Search</button>
             </div>
 
             <h4>Filter Recipes:</h4>
@@ -103,9 +105,10 @@ const Filter = ({
                         <div key={index}>
                             <input
                                 type="checkbox"
+                                checked={ingredientFilter === ingredient.name}
                                 id={`filter-${ingredient.name}`}
-                                //this doesnt work on ingredients
-                                // onClick={() => handleFilterClick(ingredient)}
+                    
+                                onClick={() => handleIngredientClick(ingredient.name)}
                             />
                             <label htmlFor={`filter-${ingredient.name}`}>
                                 {ingredient.name}
@@ -115,7 +118,7 @@ const Filter = ({
                     ))}
                 </>
             )}
-        </form>
+        </div>
     );
 };
 

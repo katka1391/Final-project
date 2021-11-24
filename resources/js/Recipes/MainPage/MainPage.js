@@ -14,9 +14,10 @@ const MainPage = () => {
     const [dietaryFilter, setDietaryFilter] = useState('');
     const [mealFilter, setMealFilter] = useState('');
     const [cuisineFilter, setCuisineFilter] = useState('');
+    const [ingredientFilter, setIngredientFilter] = useState('');
 
     const loadRecipesData = async () => {
-        const url = 'api/recipes';
+        const url = 'api/recipes/search?search=' + encodeURIComponent(searchTerm);
 
         // use our predefined get function
         // to make a GET http request
@@ -28,7 +29,7 @@ const MainPage = () => {
 
     useEffect(() => {
         loadRecipesData();
-    }, []);
+    }, [searchTerm]);
 
     const loadCategoriesData = async () => {
         const url = 'api/categories';
@@ -76,9 +77,17 @@ const MainPage = () => {
         }
     };
 
+    const handleIngredientClick = (item) => {
+        if (ingredientFilter === item) {
+            setIngredientFilter('');
+        } else {
+            setIngredientFilter(item);
+        }
+    };
+
     let filteredRecipes = [];
 
-    if (!mealFilter && !dietaryFilter && !cuisineFilter) {
+    if (!mealFilter && !dietaryFilter && !cuisineFilter && !ingredientFilter) {
         filteredRecipes = recipes;
     }
 
@@ -119,10 +128,13 @@ const MainPage = () => {
         });
     }
 
-    if (cuisineFilter) {
+    if (ingredientFilter) {
         recipes.forEach((recipe) => {
-            recipe.categories.forEach((category) => {
-                if (category.name === cuisineFilter) {
+            recipe.ingredients.forEach((ingredient) => {
+                console.log('ingredient', ingredient);
+                console.log('ingredient.name', ingredient.name);
+                console.log('ingredientFilter', ingredientFilter);
+                if (ingredient.name === ingredientFilter) {
                     if (
                         !filteredRecipes.find(
                             (filteredRecipe) =>
@@ -134,7 +146,10 @@ const MainPage = () => {
                 }
             });
         });
+        console.log('filteredRecipes after ingredient filter if', filteredRecipes)
     }
+
+
 
     return (
         <div className="recipes-main-container">
@@ -148,6 +163,8 @@ const MainPage = () => {
                 handleMealFilterClick={handleMealFilterClick}
                 handleDietaryFilterClick={handleDietaryFilterClick}
                 handleCuisineFilterClick={handleCuisineFilterClick}
+                handleIngredientClick={handleIngredientClick}
+                ingredientFilter={ingredientFilter}
                 dietaryFilter={dietaryFilter}
                 mealFilter={mealFilter}
                 cuisineFilter={cuisineFilter}

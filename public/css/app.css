@@ -116,7 +116,6 @@ header {
   background-color: #A9BA9D;
   height: 15vh;
   background-position: top;
-  margin: 0.5em;
 }
 
 .navBar-container {
@@ -1326,19 +1325,20 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 50px;
+  padding: 20px;
   width: 100%;
 }
 .home-btn__buttons {
   text-align: center;
   width: 250px;
-  height: 80px;
-  background-color: yellow;
-  box-shadow: 0px 15px 10px #b1b100;
+  height: 60px;
+  background-color: #FFFAA0;
+  box-shadow: 0px 5px 10px #b1b100;
 }
 .home-btn__buttons p {
-  margin: 30px;
+  margin: 20px;
   font-weight: bold;
+  font-weight: 800;
 }
 
 .home-recipe__desc img {
@@ -1370,14 +1370,15 @@ a {
   border-radius: 50%;
   width: 200px;
   height: 200px;
-  margin: 20px;
+  margin: 5px;
   background-color: black;
   box-shadow: 0px 10px 10px gray;
 }
 .circle__ph {
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
   color: white;
+  font-size: 25px;
 }
 
 .carousel-onTheRight-home {
@@ -1475,7 +1476,7 @@ a {
   display: flex;
 }
 .addRecipe-main-container .addRecipe-icons-left-panel {
-  width: 20%;
+  width: 15%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1486,7 +1487,7 @@ a {
   margin: 2em;
 }
 .addRecipe-main-container .addRecipe-leftSite {
-  width: 45%;
+  width: 50%;
 }
 .addRecipe-main-container .addRecipe-leftSite .addRecipe-leftSite-title {
   border-bottom: 1px solid black;
@@ -1524,10 +1525,20 @@ a {
   width: 1.5em;
   height: 1.5em;
 }
-.addRecipe-rightSite .addRecipe-logo {
-  width: 70%;
-  height: 70%;
-  padding-top: 3em;
+
+.addRecipe-form {
+  display: flex;
+  background-color: #bdc4b9;
+  margin-right: 2em;
+}
+.addRecipe-form .addRecipe-form3 {
+  padding: 1em;
+}
+.addRecipe-form .addRecipe-form1 {
+  padding: 1em;
+}
+.addRecipe-form .addRecipe-form2 {
+  padding: 1em;
 }
 
 * {

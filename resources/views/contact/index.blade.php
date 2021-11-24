@@ -16,37 +16,53 @@
           <h2 class="addRecipe-leftSite-title">Contact</h2>
           
 
-          <form class="contact-form" action="action_page.php">
+          <form class="contact-form" id="contact-form" method="post" action="contact-form-handler.php">
       
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-         
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-         
-            <label for="country">Country you comming from</label>
-            <select id="country" name="country">
-               <option value="australia">Australia</option>
-               <option value="canada">Canada</option>
-               <option value="usa">USA</option>
-               <option value="italy">Italy</option>
-               <option value="france">France</option>
-               <option value="slovakia">Slovakia</option>
-               <option value="poland">Poland</option>
-               <option value="uk">UK</option>
-               <option value="others">Others</option>
-            </select>
-
-            <label for="lsubject">Subject</label>
-            <input type="text" id="lsubject" placeholder="Subject..">
-         
-            <label for="subject">Your Message</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-         
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name..">
+            <br/>
+            <br/>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" placeholder="email..">
+            <br/><br/>
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+            <br/><br/>
             <input class="contact-submit" type="submit" value="Submit">
       
       </form>
-          </form>
+
+      {{-- <form class="contact-form" id="contact-form" action="#">
+      
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="Your name..">
+     
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="name" placeholder="Your last name..">
+     
+        <label for="country">Country you comming from</label>
+        <select id="country" name="country">
+           <option value="australia">Australia</option>
+           <option value="canada">Canada</option>
+           <option value="usa">USA</option>
+           <option value="italy">Italy</option>
+           <option value="france">France</option>
+           <option value="slovakia">Slovakia</option>
+           <option value="poland">Poland</option>
+           <option value="uk">UK</option>
+           <option value="others">Others</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject..">
+     
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+     
+        <input class="contact-submit" type="submit" value="Submit">
+  
+  </form> --}}
+          
       </div>
 
 
