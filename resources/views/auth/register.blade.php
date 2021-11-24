@@ -25,18 +25,9 @@
         <input class="register_input" type="password" name="password" placeholder="password" value="">
         <label for="Paswoord-confirmation">Confirmation:</label>
         <input class="register_input" type="password" name="password_confirmation" placeholder="password_confirmation">
+        <input type="submit" id="mySubmit" onclick="Login(this.form); return false;" value="Register">
 
-        <button class="btn-register"> 
-            <span data-text="R">R</span>
-            <span data-text="E">E</span>
-            <span data-text="G">G</span>
-            <span data-text="I">I</span>
-            <span data-text="S">S</span>
-            <span data-text="T">T</span>
-            <span data-text="E">E</span>
-            <span data-text="R">R</span>
-            <span data-text="!">!</span>
-        </button>
+ 
     </form>
     <div class="space-between__reg"  style="margin-right: 20px;">
 
