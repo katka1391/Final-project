@@ -65,6 +65,9 @@
                 <br>
                 <input type="text" id="protein" name="protein" required />
                 <br>
+                <label  for="image">Image url path:</label>
+                <br>
+                <input type="text" id="image" name="image" />
 
                 <label for="ingredients">Ingredients:</label>
                        <br>

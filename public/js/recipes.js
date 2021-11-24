@@ -2145,7 +2145,7 @@ var AllRecipes = function AllRecipes(_ref) {
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
               children: [recipe.images && recipe.images.length > 0 ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
                 className: "recipes-img-react",
-                src: recipe.images[1].path
+                src: recipe.images[0].path
               }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
                 className: "recipes-img-react",
                 src: "/img/empty-plate.png"
@@ -2695,7 +2695,7 @@ var Recipe = function Recipe() {
             children: singleRecipe.description
           }), singleRecipe.images && singleRecipe.images.length > 0 ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
             className: "recipe-img-react",
-            src: singleRecipe.images[1].path
+            src: singleRecipe.images[0].path
           }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
             className: "recipe-img-react",
             src: "/img/empty-plate.png"
@@ -2721,7 +2721,7 @@ var Recipe = function Recipe() {
             children: ["Fiber: ", singleRecipe.fiber, " g"]
           }), singleRecipe.images && singleRecipe.images.length > 0 ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
             className: "recipes-img-react",
-            src: singleRecipe.images[1].path
+            src: singleRecipe.images[0].path
           }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
             className: "recipe-img-react",
             src: "/img/empty-plate.png"
