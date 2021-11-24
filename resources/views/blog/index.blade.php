@@ -50,27 +50,58 @@
             
         </div>
         <!-- left bar -->
-         <div class="carousel-onTheRight__blog">
-            <p class="first-p__blog" class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
-            <br>
-            <p class="text-decoration-none"> <a href="" class="text-dark"><u>BREAKFAST  /  MAIN DISH  /  DESSERT</u></a> </p>
-            <br>
-            <p class="text-decoration-none"> <a href="" class="text-dark"><u>VEGAN  /  GLUTEN FREE</u></a> </p>
-               <br>
-               <br>
-            <p  class="text-decoration-none"><a href="" class="text-danger">ALL RECIPES >></a></p>
-            <div class="card" style="width: 18rem;">
-               <img class="card-img-top" src="..." alt="Card image cap">
-               <div class="card-body">
-                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-               </div>
-             </div>
-             <br>
-             <p>TAKE A LOOK AT OUR BLOG PAGE...</p>
-             <br>
-             <br>
-          <p class="text-decoration-none"><a href="" class="text-danger">BLOG>></a></p>
-         </div>
+        <div class="carousel-onTheRight-blog">
+            <h4 class="recipes-all-recipes-blog">Fresh and zesty </h4>
+            <div class="recipe-rightSite-container">
+                <h3 class="recipe-rightSite-search">SEARCH RECIPES</h3>
+                <p class="recipe-rightSite-menu">
+                    <strong>
+                        BREAKFAST / LUNCH / DINNER / DESSERT / VEGAN /
+                        GLUTEN FREE
+                    </strong>
+                </p>
+                <a>
+                    <a href="/recipes"><p>ALL RECIPES</p></a>
+                </a>
+                <p>
+                    <strong>━━━━━━⤞●⤝━━━━━━</strong>
+                </p>
+    
+                <img
+                    class="recipe-rightSite-img"
+                    src="/img/Capture.PNG"
+                    alt="us"
+                />
+    
+                <p>
+                    <strong>Hello, we're Gloria and Katarina.</strong>
+                </p>
+                <p>
+                    We love to eat, travel, cook, and eat some more! We
+                    created this recipe website from scratch during the
+                    coding Bootcamp Praha 2021. As an example we used
+                    www.loveandlemons.com and all our recipes are from
+                    www.bbcgoodfood.com.
+                </p>
+                <p>
+                    <strong>━━━━━━⤞●⤝━━━━━━</strong>
+                </p>
+                <div>
+                    <img
+                        class="recipe-icon-right"
+                        src="/img/Icons/fb.png"
+                    />
+                    <img
+                        class="recipe-icon-right"
+                        src="/img/Icons/twitter.png"
+                    />
+                    <img
+                        class="recipe-icon-right"
+                        src="/img/Icons/instagram.png"
+                    />
+                </div>
+            </div>
+        </div>
        
          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -115,28 +146,58 @@
         <div class="space-between__blog" >
 
         </div>
-         <div class="carousel-onTheRight__blog" style="visibility: hidden">
-            <p class="first-p__blog"  class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
-            <br>
-            <p class="text-decoration-none"> <a href="" class="text-dark"><u>BREAKFAST  /  MAIN DISH  /  DESSERT</u></a> </p>
-            <br>
-            <p class="text-decoration-none"> <a href="" class="text-dark"><u>VEGAN  /  GLUTEN FREE</u></a> </p>
-               <br>
-               <br>
-            <p  class="text-decoration-none"><a href="" class="text-danger">ALL RECIPES >></a></p>
-            <div class="card" style="width: 18rem;">
-               <img class="card-img-top" src="..." alt="Card image cap">
-               <div class="card-body">
-                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-               </div>
-             </div>
-             <br>
-             <p>TAKE A LOOK AT OUR BLOG PAGE...</p>
-             <br>
-             <br>
-          <p class="text-decoration-none"><a href="" class="text-danger">BLOG>></a></p>
-         </div>
-       
+         <div class="carousel-onTheRight-blog" style="visibility: hidden">
+            <h4 class="recipes-all-recipes-blog">Fresh and zesty </h4>
+            <div class="recipe-rightSite-container">
+                <h3 class="recipe-rightSite-search">SEARCH RECIPES</h3>
+                <p class="recipe-rightSite-menu">
+                    <strong>
+                        BREAKFAST / LUNCH / DINNER / DESSERT / VEGAN /
+                        GLUTEN FREE
+                    </strong>
+                </p>
+                <a>
+                    <a href="/recipes"><p>ALL RECIPES</p></a>
+                </a>
+                <p>
+                    <strong>━━━━━━⤞●⤝━━━━━━</strong>
+                </p>
+    
+                <img
+                    class="recipe-rightSite-img"
+                    src="/img/Capture.PNG"
+                    alt="us"
+                />
+    
+                <p>
+                    <strong>Hello, we're Gloria and Katarina.</strong>
+                </p>
+                <p>
+                    We love to eat, travel, cook, and eat some more! We
+                    created this recipe website from scratch during the
+                    coding Bootcamp Praha 2021. As an example we used
+                    www.loveandlemons.com and all our recipes are from
+                    www.bbcgoodfood.com.
+                </p>
+                <p>
+                    <strong>━━━━━━⤞●⤝━━━━━━</strong>
+                </p>
+                <div>
+                    <img
+                        class="recipe-icon-right"
+                        src="/img/Icons/fb.png"
+                    />
+                    <img
+                        class="recipe-icon-right"
+                        src="/img/Icons/twitter.png"
+                    />
+                    <img
+                        class="recipe-icon-right"
+                        src="/img/Icons/instagram.png"
+                    />
+                </div>
+            </div>
+        </div>
          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
              <span class="sr-only">Previous</span>
@@ -181,28 +242,58 @@
             <div class="space-between__blog" >
 
             </div>
-            <div class="carousel-onTheRight__blog" style="visibility: hidden">
-                <p class="first-p__blog"  class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
-                <br>
-                <p class="text-decoration-none"> <a href="" class="text-dark"><u>BREAKFAST  /  MAIN DISH  /  DESSERT</u></a> </p>
-                <br>
-                <p class="text-decoration-none"> <a href="" class="text-dark"><u>VEGAN  /  GLUTEN FREE</u></a> </p>
-                <br>
-                <br>
-                <p  class="text-decoration-none"><a href="" class="text-danger">ALL RECIPES >></a></p>
-                <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="carousel-onTheRight-blog" style="visibility: hidden">
+            <h4 class="recipes-all-recipes-blog">Fresh and zesty </h4>
+            <div class="recipe-rightSite-container">
+                <h3 class="recipe-rightSite-search">SEARCH RECIPES</h3>
+                <p class="recipe-rightSite-menu">
+                    <strong>
+                        BREAKFAST / LUNCH / DINNER / DESSERT / VEGAN /
+                        GLUTEN FREE
+                    </strong>
+                </p>
+                <a>
+                    <a href="/recipes"><p>ALL RECIPES</p></a>
+                </a>
+                <p>
+                    <strong>━━━━━━⤞●⤝━━━━━━</strong>
+                </p>
+    
+                <img
+                    class="recipe-rightSite-img"
+                    src="/img/Capture.PNG"
+                    alt="us"
+                />
+    
+                <p>
+                    <strong>Hello, we're Gloria and Katarina.</strong>
+                </p>
+                <p>
+                    We love to eat, travel, cook, and eat some more! We
+                    created this recipe website from scratch during the
+                    coding Bootcamp Praha 2021. As an example we used
+                    www.loveandlemons.com and all our recipes are from
+                    www.bbcgoodfood.com.
+                </p>
+                <p>
+                    <strong>━━━━━━⤞●⤝━━━━━━</strong>
+                </p>
+                <div>
+                    <img
+                        class="recipe-icon-right"
+                        src="/img/Icons/fb.png"
+                    />
+                    <img
+                        class="recipe-icon-right"
+                        src="/img/Icons/twitter.png"
+                    />
+                    <img
+                        class="recipe-icon-right"
+                        src="/img/Icons/instagram.png"
+                    />
                 </div>
-                </div>
-                <br>
-                <p>TAKE A LOOK AT OUR BLOG PAGE...</p>
-                <br>
-                <br>
-                <p class="text-decoration-none"><a href="" class="text-danger">BLOG>></a></p>
             </div>
-        
+        </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
@@ -245,28 +336,58 @@
             <div class="space-between__blog" >
 
             </div>
-            <div class="carousel-onTheRight__blog" style="visibility: hidden">
-                <p class="first-p__blog"  class="text-decoration-none" > <a href="" class="text-dark" ><u>Search Recipes</u></a> </p>
-                <br>
-                <p class="text-decoration-none"> <a href="" class="text-dark"><u>BREAKFAST  /  MAIN DISH  /  DESSERT</u></a> </p>
-                <br>
-                <p class="text-decoration-none"> <a href="" class="text-dark"><u>VEGAN  /  GLUTEN FREE</u></a> </p>
-                <br>
-                <br>
-                <p  class="text-decoration-none"><a href="" class="text-danger">ALL RECIPES >></a></p>
-                <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="carousel-onTheRight-blog" style="visibility: hidden">
+            <h4 class="recipes-all-recipes-blog">Fresh and zesty </h4>
+            <div class="recipe-rightSite-container">
+                <h3 class="recipe-rightSite-search">SEARCH RECIPES</h3>
+                <p class="recipe-rightSite-menu">
+                    <strong>
+                        BREAKFAST / LUNCH / DINNER / DESSERT / VEGAN /
+                        GLUTEN FREE
+                    </strong>
+                </p>
+                <a>
+                    <a href="/recipes"><p>ALL RECIPES</p></a>
+                </a>
+                <p>
+                    <strong>━━━━━━⤞●⤝━━━━━━</strong>
+                </p>
+    
+                <img
+                    class="recipe-rightSite-img"
+                    src="/img/Capture.PNG"
+                    alt="us"
+                />
+    
+                <p>
+                    <strong>Hello, we're Gloria and Katarina.</strong>
+                </p>
+                <p>
+                    We love to eat, travel, cook, and eat some more! We
+                    created this recipe website from scratch during the
+                    coding Bootcamp Praha 2021. As an example we used
+                    www.loveandlemons.com and all our recipes are from
+                    www.bbcgoodfood.com.
+                </p>
+                <p>
+                    <strong>━━━━━━⤞●⤝━━━━━━</strong>
+                </p>
+                <div>
+                    <img
+                        class="recipe-icon-right"
+                        src="/img/Icons/fb.png"
+                    />
+                    <img
+                        class="recipe-icon-right"
+                        src="/img/Icons/twitter.png"
+                    />
+                    <img
+                        class="recipe-icon-right"
+                        src="/img/Icons/instagram.png"
+                    />
                 </div>
-                </div>
-                <br>
-                <p>TAKE A LOOK AT OUR BLOG PAGE...</p>
-                <br>
-                <br>
-                <p class="text-decoration-none"><a href="" class="text-danger">BLOG>></a></p>
             </div>
-        
+        </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
