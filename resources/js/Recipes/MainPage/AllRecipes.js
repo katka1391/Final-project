@@ -19,7 +19,7 @@ const AllRecipes = ({ recipes }) => {
                                     recipe.images && recipe.images.length > 0 ? (
                                         <img
                                             className="recipes-img-react"
-                                            src={recipe.images[1].path}
+                                            src={recipe.images[0].path}
                                         />
                                     ) : (
                                         <img className="recipes-img-react" src="/img/empty-plate.png"  />

@@ -7,6 +7,8 @@
     <h1 class="title home" style="font-size: 9rem">Sweet Cuisine</h1>     
 </div>
 
+
+
 <div class="recipe-main-container">
     <div class="recipe-icons-left-panel">
         <img class="recipe-icon" src="/img/Icons/fb.png" />

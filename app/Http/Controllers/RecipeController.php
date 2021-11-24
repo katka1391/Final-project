@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Image;
 use App\Models\Ingredient;
 use App\Models\Recipe;
 use App\Models\Instruction;
@@ -41,7 +42,6 @@ class RecipeController extends Controller
         $recipe->protein = $request->input('protein');
 
         $recipe->save();
-
         
         $ingredients = $request->input('ingredients');
         foreach($ingredients as $OneIngredient ) {
@@ -74,6 +74,11 @@ class RecipeController extends Controller
 
             }
         }
+
+        $image = new Image();
+        $image->recipe_id = $recipe->id;
+        $image->path = $request->input('image');
+        $image->save();
         
         
 

@@ -47,7 +47,7 @@ const Recipe = () => {
                             singleRecipe.images.length > 0 ? (
                                 <img
                                     className="recipe-img-react"
-                                    src={singleRecipe.images[1].path}
+                                    src={singleRecipe.images[0].path}
                                 />
                             ) : (
                                 <img
@@ -71,7 +71,7 @@ const Recipe = () => {
                             singleRecipe.images.length > 0 ? (
                                 <img
                                     className="recipes-img-react"
-                                    src={singleRecipe.images[1].path}
+                                    src={singleRecipe.images[0].path}
                                 />
                             ) : (
                                 <img

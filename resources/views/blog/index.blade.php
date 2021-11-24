@@ -28,19 +28,19 @@
             <div class="carousel-item active">
                  <a href="/article1"><img  src="/img/Brownies/Brownie.jpg" alt="First slide" ></a>
                  <div class="carousel-caption d-none d-md-block">
-                  <h3><a href="/article1">Best Chocolate Brownies Ever</a></h3>
+                  <h3><a href="/article1">Best Ever Chocolate Brownies</a></h3>
                   <p>These Gooey Chocolate Brownies have a crisp, sugary top and are deliciously soft, gooey and fudgy inside. Why not get baking with the kids this Easter?</p>                 </div>
              </div>
              <div class="carousel-item">
                  <a href="/article1"><img  src="/img/Brownies/brownies1.jpg" alt="Second slide" ></a>
                  <div class="carousel-caption d-none d-md-block">
-                  <h3><a href="/article1">Best Chocolate Brownies Ever</a></h3>
+                  <h3><a href="/article1">Best Ever Chocolate Brownies</a></h3>
                   <p>These Gooey Chocolate Brownies have a crisp, sugary top and are deliciously soft, gooey and fudgy inside. Why not get baking with the kids this Easter?</p>                 </div>
              </div>
              <div class="carousel-item">
                  <a href="/article1"><img  src="/img/Brownies/brownies3.jpg" alt="Third slide" ></a>
                  <div class="carousel-caption d-none d-md-block">
-                  <h3><a href="/article1">Best Chocolate Brownies Ever</a></h3>
+                  <h3><a href="/article1">Best Ever Chocolate Brownies</a></h3>
                   <p>These Gooey Chocolate Brownies have a crisp, sugary top and are deliciously soft, gooey and fudgy inside. Why not get baking with the kids this Easter?</p>
                  </div>
              </div>
@@ -222,19 +222,19 @@
                 <div class="carousel-item active">
                     <a href="/article3"><img  src="/img/Pumpkin/pumpkin.jpg" alt="First slide" ></a>
                     <div class="carousel-caption d-none d-md-block">
-                    <h3><a href="/article3">Pumpkin carvings Tips & Tricks</a></h3>
+                    <h3><a href="/article3">Best Ever Pumpkins</a></h3>
                     <p>These Gooey Chocolate Brownies have a crisp, sugary top and are deliciously soft, gooey and fudgy inside. Why not get baking with the kids this Easter?</p>                 </div>
                 </div>
                 <div class="carousel-item">
                     <a href="/article3"><img  src="/img/Pumpkin/pumpkin1.jpg" alt="Second slide" ></a>
                     <div class="carousel-caption d-none d-md-block">
-                    <h3><a href="/article3">Pumpkin carvings Tips & Tricks</a></h3>
+                    <h3><a href="/article3">Best Ever Pumpkins</a></h3>
                     <p>These Gooey Chocolate Brownies have a crisp, sugary top and are deliciously soft, gooey and fudgy inside. Why not get baking with the kids this Easter?</p>                 </div>
                 </div>
                 <div class="carousel-item">
                     <a href="/article3"><img  src="/img/Pumpkin/pumpkin2.jpg" alt="Third slide" ></a>
                     <div class="carousel-caption d-none d-md-block">
-                    <h3><a href="/article3">Pumpkin carvings Tips & Tricks</a></h3>
+                    <h3><a href="/article3">Best Ever Pumpkins</a></h3>
                     <p>These Gooey Chocolate Brownies have a crisp, sugary top and are deliciously soft, gooey and fudgy inside. Why not get baking with the kids this Easter?</p>
                     </div>
                 </div>
@@ -316,19 +316,19 @@
                 <div class="carousel-item active">
                     <a href="/article4"><img  src="/img/Bread/bread1.jpg" alt="First slide" ></a>
                     <div class="carousel-caption d-none d-md-block">
-                    <h3><a href="/article4">How to make sourdough bread</a></h3>
+                    <h3><a href="/article4">Best Ever Bread</a></h3>
                     <p>Sourdough is naturally leavened bread, which means it doesn’t use commercial yeast to rise. Instead, it uses a ‘starter’ – a fermented flour and water mixture that contains wild yeast and good bacteria – to rise...</p>                 </div>
                 </div>
                 <div class="carousel-item">
                     <a href="/article4"><img  src="/img/Bread/bread2.jpg" alt="Second slide" ></a>
                     <div class="carousel-caption d-none d-md-block">
-                    <h3><a href="/article4">How to make sourdough bread</a></h3>
+                    <h3><a href="/article4">Best Ever Bread</a></h3>
                     <p>Sourdough is naturally leavened bread, which means it doesn’t use commercial yeast to rise. Instead, it uses a ‘starter’ – a fermented flour and water mixture that contains wild yeast and good bacteria – to rise...</p>                 </div>
                 </div>
                 <div class="carousel-item">
                     <a href="/article4"><img  src="/img/Bread/bread3.jpg" alt="Third slide" ></a>
                     <div class="carousel-caption d-none d-md-block">
-                    <h3><a href="/article4">How to make sourdough bread</a></h3>
+                    <h3><a href="/article4">Best Ever Bread</a></h3>
                     <p>Sourdough is naturally leavened bread, which means it doesn’t use commercial yeast to rise. Instead, it uses a ‘starter’ – a fermented flour and water mixture that contains wild yeast and good bacteria – to rise...</p>
                     </div>
                 </div>

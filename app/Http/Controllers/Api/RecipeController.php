@@ -53,4 +53,5 @@ class RecipeController extends Controller
 
         return $recipe[0];
     }
+    
 }
