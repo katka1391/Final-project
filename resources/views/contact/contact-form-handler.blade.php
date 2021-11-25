@@ -5,7 +5,7 @@
 
    <div class="container blog">
       <h1 class="title blog" style="font-size: 8rem">Sweet Cuisine</h1>  
-      <h2 class="subTitle blog">Subscribe</h2>
+      <h2 class="subTitle blog">Contact</h2>
    </div>
 
   @foreach ($errors->all() as $error)
