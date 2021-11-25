@@ -14,7 +14,7 @@
             <div>
                 {{-- <p class="addRecipe-p-head"><strong>🖤We cannot wait to share your favorite recipe with the world 🖤</strong> --}}
                 </p>
-                <p class="addRecipe-p-head">Please fill all details from the formular below to be able to submit new recipe.
+                <p class="addRecipe-p-head">Please fill<strong> all details</strong> from the formular below to be able to submit new recipe.
                 </p>
             </div>
             <form class="addRecipe-form" action="/addRecipe" method="post">
@@ -117,8 +117,8 @@
 
                 </div>
                 
+                <input type="submit" value="Submit" />
             </form>
-            <input type="submit" value="Submit" />
         </div>
 
 

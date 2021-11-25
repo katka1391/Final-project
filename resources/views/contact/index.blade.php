@@ -16,23 +16,7 @@
           <h2 class="addRecipe-leftSite-title">Contact</h2>
           
 
-          <form class="contact-form" id="contact-form" method="post" action="contact-form-handler.php">
-      
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Your name..">
-            <br/>
-            <br/>
-            <label for="email">email</label>
-            <input type="email" id="email" name="email" placeholder="email..">
-            <br/><br/>
-            <label for="message">Your Message</label>
-            <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
-            <br/><br/>
-            <input class="contact-submit" type="submit" value="Submit">
-      
-      </form>
-
-      {{-- <form class="contact-form" id="contact-form" action="#">
+      <form class="contact-form" id="contact-form" action="#">
       
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="fname" placeholder="Your name..">
@@ -61,7 +45,7 @@
      
         <input class="contact-submit" type="submit" value="Submit">
   
-  </form> --}}
+  </form>
           
       </div>
 
