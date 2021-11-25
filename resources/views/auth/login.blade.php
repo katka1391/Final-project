@@ -19,6 +19,7 @@
         <input class="login_input" type="email" name="email" value="{{ old('email') }}">
         <label for="Username">Password:</label>
         <input class="login_input" type="password" name="password" value="">
+        
 
 
         <button class="btn-login"> 

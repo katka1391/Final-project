@@ -14,9 +14,12 @@
             <li><a href="/subscribe">Subscribe <span></span></a></li>
             <li><a href="/contact">Contact <span></span></a></li>
             <li><a href="/blog">Blog <span></span></a></li>
-            <li><a href="/login">Login <span></span></a></li>
+            @if (Auth::guest())
+                <li><a href="/login">Login <span></span></a></li>
+            @endif
+
             <li><a href="/addRecipe">AddRecipe<span></span></a></li>
-        
+          
         </div>
         <div class="navBar-img">
             <img src="/img/logo.png" />
