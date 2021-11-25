@@ -4,9 +4,10 @@
 
     <div class="addRecipe-main-container">
         <div class="addRecipe-icons-left-panel">
-            <img class="addRecipe-icon" src="/img/Icons/fb.png" />
-            <img class="addRecipe-icon" src="/img/Icons/twitter.png" />
-            <img class="addRecipe-icon" src="/img/Icons/instagram.png" />
+        <a href="https://www.facebook.com/Katkas.Cakes.Ilkley"><img class="addRecipe-icon" src="/img/Icons/fb.png" /></a>
+        <img class="addRecipe-icon" src="/img/Icons/twitter.png" />
+        <a href="https://www.instagram.com/katkas.cakes/"><img class="addRecipe-icon" src="/img/Icons/instagram.png" /></a>       
+
         </div>
 
         <div class="addRecipe-leftSite">
@@ -158,9 +159,9 @@
                     <strong>━━━━━━⤞●⤝━━━━━━</strong>
                 </p>
                 <div>
-                    <img class="addRecipe-icon-right" src="/img/Icons/fb.png" />
-                    <img class="addRecipe-icon-right" src="/img/Icons/twitter.png" />
-                    <img class="addRecipe-icon-right" src="/img/Icons/instagram.png" />
+                    <a href="https://www.facebook.com/Katkas.Cakes.Ilkley"><img class="recipe-icon-right" src="/img/Icons/fb.png" /></a>
+                    <img class="recipe-icon-right" src="/img/Icons/twitter.png" />
+                    <a href="https://www.instagram.com/katkas.cakes/"><img class="recipe-icon-right" src="/img/Icons/instagram.png" /></a>    
                 </div>
             </div>
         </div>

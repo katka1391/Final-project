@@ -51,14 +51,13 @@
 .space-between__blog {
     width: 11rem;
     height: 50vh;
-    border-right: 1px solid black;
 }
 
 
 /*navbar on the right for sub and log page*/
 
 .carousel-onTheRight-blog {
-    margin-top: -200px;
+    margin-top: -220px;
     border-left: 1px solid black;
     height: 100vh;
     padding-left: 3em;
@@ -88,8 +87,8 @@
 }
 
 .recipe-icon-right {
-    width: 1.5em;
-    height: 1.5em;
+    width: 2em;
+    height: 2em;
 }
 
 .recipes-all-recipes-blog {
@@ -106,6 +105,10 @@
 
 .slide {
     padding-top: 2em;
+}
+
+.blog-ph {
+    font-size: 16px;
 }
 
 @media (min-width: 360px) and (max-width: 720px) {
@@ -133,5 +136,9 @@
         width: 25%;
         padding-left: 2em;
         margin-bottom: 5em;
+    }
+    .space-between__blog {
+        width: 4em;
+        height: 50vh;
     }
 }

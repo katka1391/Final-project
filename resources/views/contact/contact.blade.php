@@ -12,9 +12,9 @@
         <div class="error">{{ $error }}</div>
     @endforeach
 
-<div class="subscribe-container">
+<div class="contact-container">
 
-    <form action="/getData"  class="subscribe-form"  method="post">
+    <form action="/getContactData"  class="subscribe-form"  method="post">
         
         @csrf
         @if(Session::has('message'))
@@ -27,13 +27,13 @@
         <label for="YourMessage">Your Message:</label>
         <textarea id="your_message" name="your_message" rows="4" cols="50" placeholder="your message"></textarea>
       
-        <button class="btn-subscribe"> 
+        <button class="btn-contact"> 
             <span data-text="S">S</span>
             <span data-text="U">U</span>
             <span data-text="B">B</span>
             <span data-text="M">M</span>
             <span data-text="I">I</span>
-            <span data-text="!">!</span>
+            <span data-text="T">T</span>
         </button>
     </form>
     <div class="space-between__sub"  >
@@ -77,18 +77,10 @@
                 <strong>━━━━━━⤞●⤝━━━━━━</strong>
             </p>
             <div>
-                <img
-                    class="recipe-icon-right"
-                    src="/img/Icons/fb.png"
-                />
-                <img
-                    class="recipe-icon-right"
-                    src="/img/Icons/twitter.png"
-                />
-                <img
-                    class="recipe-icon-right"
-                    src="/img/Icons/instagram.png"
-                />
+           <a href="https://www.facebook.com/Katkas.Cakes.Ilkley"><img class="recipe-icon-right" src="/img/Icons/fb.png" /></a>
+        <img class="recipe-icon-right" src="/img/Icons/twitter.png" />
+        <a href="https://www.instagram.com/katkas.cakes/"><img class="recipe-icon-right" src="/img/Icons/instagram.png" /></a>     
+
             </div>
         </div>
     </div>

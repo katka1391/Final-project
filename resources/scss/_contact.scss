@@ -23,62 +23,23 @@
     border-bottom: 1px black solid;
 }
 
-.contact-submit {
-    margin: 1em;
-}
-
 .contact-container {
     display: flex;
-    justify-content: space-around;
-}
-
-.contact-left-panel {
-    display: flex;
     justify-content: center;
-    flex-direction: column;
-    width: 15%;
+    padding-top: 20px;
+    flex-direction: row;
+    width: 100%;
 }
 
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    padding: 1em;
-    width: 80%;
-}
-
-.contact-right-panel {
-    width: 30%;
-    margin-top: -101px;
-    border-left: 1px black solid;
-    padding: 2em;
-}
-
-.contact-icons-left {
-    width: 2em;
-    height: 2em;
-}
-
-.first-p__cont {
-    margin-top: 20vh;
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .first-p__cont {
-        margin-top: 8vh;
-    }
+textarea {
+    width: 25em;
 }
 
 @media (min-width: 360px) and (max-width: 720px) {
-    .contact-right-panel {
-        display: none;
+    .contact-container {
+        height: 75vh;
     }
-    .contact-left-panel {
-        display: none;
-    }
-    .contact-form {
-        display: flex;
-        flex-direction: column;
-        padding: 1em;
-        width: 100%;
+    textarea {
+        width: 20em;
     }
 }

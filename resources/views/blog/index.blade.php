@@ -28,19 +28,19 @@
             <div class="carousel-item active">
                  <a href="/article1"><img  src="/img/Brownies/Brownie.jpg" alt="First slide" ></a>
                  <div class="carousel-caption d-none d-md-block">
-                  <h3><a href="/article1">Best Ever Chocolate Brownies</a></h3>
+                  <h3><a href="/article1">Best Chocolate Brownies ever</a></h3>
                   <p>These Gooey Chocolate Brownies have a crisp, sugary top and are deliciously soft, gooey and fudgy inside. Why not get baking with the kids this Easter?</p>                 </div>
              </div>
              <div class="carousel-item">
                  <a href="/article1"><img  src="/img/Brownies/brownies1.jpg" alt="Second slide" ></a>
                  <div class="carousel-caption d-none d-md-block">
-                  <h3><a href="/article1">Best Ever Chocolate Brownies</a></h3>
+                  <h3><a href="/article1">Best Chocolate Brownies ever</a></h3>
                   <p>These Gooey Chocolate Brownies have a crisp, sugary top and are deliciously soft, gooey and fudgy inside. Why not get baking with the kids this Easter?</p>                 </div>
              </div>
              <div class="carousel-item">
                  <a href="/article1"><img  src="/img/Brownies/brownies3.jpg" alt="Third slide" ></a>
                  <div class="carousel-caption d-none d-md-block">
-                  <h3><a href="/article1">Best Ever Chocolate Brownies</a></h3>
+                  <h3><a href="/article1">Best Chocolate Brownies ever</a></h3>
                   <p>These Gooey Chocolate Brownies have a crisp, sugary top and are deliciously soft, gooey and fudgy inside. Why not get baking with the kids this Easter?</p>
                  </div>
              </div>
@@ -55,13 +55,13 @@
             <div class="recipe-rightSite-container">
                 <h3 class="recipe-rightSite-search">SEARCH RECIPES</h3>
                 <p class="recipe-rightSite-menu">
-                    <strong>
+                    <strong class="blog-ph">
                         BREAKFAST / LUNCH / DINNER / DESSERT / VEGAN /
                         GLUTEN FREE
                     </strong>
                 </p>
                 <a>
-                    <a href="/recipes"><p>ALL RECIPES</p></a>
+                    <a href="/recipes"><p class="blog-ph">ALL RECIPES</p></a>
                 </a>
                 <p>
                     <strong>━━━━━━⤞●⤝━━━━━━</strong>
@@ -74,9 +74,9 @@
                 />
     
                 <p>
-                    <strong>Hello, we're Gloria and Katarina.</strong>
+                    <strong class="blog-ph">Hello, we're Gloria and Katarina.</strong>
                 </p>
-                <p>
+                <p class="blog-ph">
                     We love to eat, travel, cook, and eat some more! We
                     created this recipe website from scratch during the
                     coding Bootcamp Praha 2021. As an example we used
@@ -87,18 +87,9 @@
                     <strong>━━━━━━⤞●⤝━━━━━━</strong>
                 </p>
                 <div>
-                    <img
-                        class="recipe-icon-right"
-                        src="/img/Icons/fb.png"
-                    />
-                    <img
-                        class="recipe-icon-right"
-                        src="/img/Icons/twitter.png"
-                    />
-                    <img
-                        class="recipe-icon-right"
-                        src="/img/Icons/instagram.png"
-                    />
+                   <a href="https://www.facebook.com/Katkas.Cakes.Ilkley"><img class="recipe-icon-right" src="/img/Icons/fb.png" /></a>
+        <img class="recipe-icon-right" src="/img/Icons/twitter.png" />
+        <a href="https://www.instagram.com/katkas.cakes/"><img class="recipe-icon-right" src="/img/Icons/instagram.png" /></a>       
                 </div>
             </div>
         </div>
@@ -222,19 +213,19 @@
                 <div class="carousel-item active">
                     <a href="/article3"><img  src="/img/Pumpkin/pumpkin.jpg" alt="First slide" ></a>
                     <div class="carousel-caption d-none d-md-block">
-                    <h3><a href="/article3">Best Ever Pumpkins</a></h3>
+                    <h3><a href="/article3">Carving pumpkins</a></h3>
                     <p>These Gooey Chocolate Brownies have a crisp, sugary top and are deliciously soft, gooey and fudgy inside. Why not get baking with the kids this Easter?</p>                 </div>
                 </div>
                 <div class="carousel-item">
                     <a href="/article3"><img  src="/img/Pumpkin/pumpkin1.jpg" alt="Second slide" ></a>
                     <div class="carousel-caption d-none d-md-block">
-                    <h3><a href="/article3">Best Ever Pumpkins</a></h3>
+                    <h3><a href="/article3">Carving pumpkins</a></h3>
                     <p>These Gooey Chocolate Brownies have a crisp, sugary top and are deliciously soft, gooey and fudgy inside. Why not get baking with the kids this Easter?</p>                 </div>
                 </div>
                 <div class="carousel-item">
                     <a href="/article3"><img  src="/img/Pumpkin/pumpkin2.jpg" alt="Third slide" ></a>
                     <div class="carousel-caption d-none d-md-block">
-                    <h3><a href="/article3">Best Ever Pumpkins</a></h3>
+                    <h3><a href="/article3">Carving pumpkins</a></h3>
                     <p>These Gooey Chocolate Brownies have a crisp, sugary top and are deliciously soft, gooey and fudgy inside. Why not get baking with the kids this Easter?</p>
                     </div>
                 </div>
@@ -316,19 +307,19 @@
                 <div class="carousel-item active">
                     <a href="/article4"><img  src="/img/Bread/bread1.jpg" alt="First slide" ></a>
                     <div class="carousel-caption d-none d-md-block">
-                    <h3><a href="/article4">Best Ever Bread</a></h3>
+                    <h3><a href="/article4">How to make sourdough bread</a></h3>
                     <p>Sourdough is naturally leavened bread, which means it doesn’t use commercial yeast to rise. Instead, it uses a ‘starter’ – a fermented flour and water mixture that contains wild yeast and good bacteria – to rise...</p>                 </div>
                 </div>
                 <div class="carousel-item">
                     <a href="/article4"><img  src="/img/Bread/bread2.jpg" alt="Second slide" ></a>
                     <div class="carousel-caption d-none d-md-block">
-                    <h3><a href="/article4">Best Ever Bread</a></h3>
+                    <h3><a href="/article4">How to make sourdough bread</a></h3>
                     <p>Sourdough is naturally leavened bread, which means it doesn’t use commercial yeast to rise. Instead, it uses a ‘starter’ – a fermented flour and water mixture that contains wild yeast and good bacteria – to rise...</p>                 </div>
                 </div>
                 <div class="carousel-item">
                     <a href="/article4"><img  src="/img/Bread/bread3.jpg" alt="Third slide" ></a>
                     <div class="carousel-caption d-none d-md-block">
-                    <h3><a href="/article4">Best Ever Bread</a></h3>
+                    <h3><a href="/article4">How to make sourdough bread</a></h3>
                     <p>Sourdough is naturally leavened bread, which means it doesn’t use commercial yeast to rise. Instead, it uses a ‘starter’ – a fermented flour and water mixture that contains wild yeast and good bacteria – to rise...</p>
                     </div>
                 </div>
@@ -373,18 +364,10 @@
                     <strong>━━━━━━⤞●⤝━━━━━━</strong>
                 </p>
                 <div>
-                    <img
-                        class="recipe-icon-right"
-                        src="/img/Icons/fb.png"
-                    />
-                    <img
-                        class="recipe-icon-right"
-                        src="/img/Icons/twitter.png"
-                    />
-                    <img
-                        class="recipe-icon-right"
-                        src="/img/Icons/instagram.png"
-                    />
+                    <a href="https://www.facebook.com/Katkas.Cakes.Ilkley"><img class="recipe-icon" src="/img/Icons/fb.png" /></a>
+                    <img class="recipe-icon" src="/img/Icons/twitter.png" />
+                    <a href="https://www.instagram.com/katkas.cakes/"><img class="recipe-icon" src="/img/Icons/instagram.png" /></a>        <img class="recipe-icon" src="/img/Icons/instagram.png" />
+            
                 </div>
             </div>
         </div>

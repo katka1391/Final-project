@@ -51,64 +51,25 @@
   border-bottom: 1px black solid;
 }
 
-.contact-submit {
-  margin: 1em;
-}
-
 .contact-container {
   display: flex;
-  justify-content: space-around;
-}
-
-.contact-left-panel {
-  display: flex;
   justify-content: center;
-  flex-direction: column;
-  width: 15%;
+  padding-top: 20px;
+  flex-direction: row;
+  width: 100%;
 }
 
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  padding: 1em;
-  width: 80%;
+textarea {
+  width: 25em;
 }
 
-.contact-right-panel {
-  width: 30%;
-  margin-top: -101px;
-  border-left: 1px black solid;
-  padding: 2em;
-}
-
-.contact-icons-left {
-  width: 2em;
-  height: 2em;
-}
-
-.first-p__cont {
-  margin-top: 20vh;
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  .first-p__cont {
-    margin-top: 8vh;
-  }
-}
 @media (min-width: 360px) and (max-width: 720px) {
-  .contact-right-panel {
-    display: none;
+  .contact-container {
+    height: 75vh;
   }
 
-  .contact-left-panel {
-    display: none;
-  }
-
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    padding: 1em;
-    width: 100%;
+  textarea {
+    width: 20em;
   }
 }
 /*navbar*/
@@ -287,6 +248,10 @@ a {
   width: 80%;
   font-size: 20px;
 }
+.article-up q {
+  padding: 1em;
+  border-left: 1px solid black;
+}
 
 .article-down {
   display: flex;
@@ -295,6 +260,9 @@ a {
   width: 50%;
   font-size: 20px;
   border-left: 1px black solid;
+}
+.article-down q {
+  padding: 1em;
 }
 
 /*boxes articles 1 and 2*/
@@ -515,6 +483,9 @@ a {
   width: 50%;
   font-size: 20px;
 }
+.article3_4-up q {
+  padding: 1em;
+}
 
 .subTitle-article3_4 {
   display: flex;
@@ -547,6 +518,9 @@ a {
   width: 50%;
   font-size: 20px;
   border-right: 1px black solid;
+}
+.article3_4-down q {
+  padding: 1em;
 }
 
 /*slider 3 and 4*/
@@ -1167,12 +1141,11 @@ a {
 .space-between__blog {
   width: 11rem;
   height: 50vh;
-  border-right: 1px solid black;
 }
 
 /*navbar on the right for sub and log page*/
 .carousel-onTheRight-blog {
-  margin-top: -200px;
+  margin-top: -220px;
   border-left: 1px solid black;
   height: 100vh;
   padding-left: 3em;
@@ -1202,8 +1175,8 @@ a {
 }
 
 .recipe-icon-right {
-  width: 1.5em;
-  height: 1.5em;
+  width: 2em;
+  height: 2em;
 }
 
 .recipes-all-recipes-blog {
@@ -1221,6 +1194,10 @@ a {
 
 .slide {
   padding-top: 2em;
+}
+
+.blog-ph {
+  font-size: 16px;
 }
 
 @media (min-width: 360px) and (max-width: 720px) {
@@ -1251,6 +1228,11 @@ a {
     width: 25%;
     padding-left: 2em;
     margin-bottom: 5em;
+  }
+
+  .space-between__blog {
+    width: 4em;
+    height: 50vh;
   }
 }
 .home-container {

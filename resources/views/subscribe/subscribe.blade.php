@@ -27,13 +27,14 @@
 
         <button class="btn-subscribe"> 
             <span data-text="S">S</span>
+            <span data-text="U">U</span>
+            <span data-text="B">B</span>
+            <span data-text="S">S</span>
+            <span data-text="C">C</span>
+            <span data-text="R">R</span>
             <span data-text="I">I</span>
-            <span data-text="G">G</span>
-            <span data-text="N">N</span>
-            <span data-text=""></span>
-            <span data-text="M">M</span>
+            <span data-text="B">B</span>
             <span data-text="E">E</span>
-            <span data-text="!">!</span>
         </button>
     </form>
     <div class="space-between__sub"  >

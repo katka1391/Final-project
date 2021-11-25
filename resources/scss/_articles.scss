@@ -15,6 +15,10 @@
         flex-direction: row;
         width: 80%;
         font-size: 20px;
+        & q {
+            padding: 1em;
+            border-left: 1px solid black;
+        }
     }
     
     .article-down {
@@ -24,6 +28,9 @@
         width: 50%;
         font-size: 20px;
         border-left: 1px black solid;
+        & q {
+            padding: 1em;
+        }
     }
     /*boxes articles 1 and 2*/
     
@@ -211,6 +218,9 @@
         flex-direction: row;
         width: 50%;
         font-size: 20px;
+        & q {
+            padding: 1em;
+        }
     }
     
     .subTitle-article3_4 {
@@ -244,6 +254,9 @@
         width: 50%;
         font-size: 20px;
         border-right: 1px black solid;
+        & q {
+            padding: 1em;
+        }
     }
     /*slider 3 and 4*/
     

@@ -3,9 +3,9 @@
         <div class="">
 
             <div class="footer-icons">
-                <img class="recipe-icon-footer" src="/img/Icons/fb.png" />
+                <a href="https://www.facebook.com/Katkas.Cakes.Ilkley"><img class="recipe-icon-footer" src="/img/Icons/fb.png" /></a>
                 <img class="recipe-icon-footer" src="/img/Icons/twitter.png" />
-                <img class="recipe-icon-footer" src="/img/Icons/instagram.png" />
+                <a href="https://www.instagram.com/katkas.cakes/"><img class="recipe-icon-footer" src="/img/Icons/instagram.png" /></a>    
 
             </div>
 

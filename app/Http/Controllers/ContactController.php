@@ -10,10 +10,10 @@ class ContactController extends Controller
 {
     public function contact()
     {
-        return view('contact.contact-form-handler');
+        return view('contact.contact');
     }
 
-    public function getData(Request $request)
+    public function getContactData(Request $request)
     {
         Mail::to($request->input('email'))
         //which email should be actually send
