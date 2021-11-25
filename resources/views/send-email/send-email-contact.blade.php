@@ -472,4 +472,10 @@ table.body .article {
     </style>
     
   </body>
+    <title>Document</title>
+</head>
+<body>
+  
+   
+</body>
 </html>

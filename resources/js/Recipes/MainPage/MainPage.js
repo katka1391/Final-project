@@ -111,6 +111,23 @@ const MainPage = () => {
         console.log('filteredRecipes -> meal', filteredRecipes);
     }
 
+    if (cuisineFilter) {
+        recipes.forEach((recipe) => {
+            recipe.categories.forEach((category) => {
+                if (category.name === cuisineFilter) {
+                    if (
+                        !filteredRecipes.find(
+                            (filteredRecipe) =>
+                                filteredRecipe.name === recipe.name
+                        )
+                    ) {
+                        filteredRecipes.push(recipe);
+                    }
+                }
+            });
+        });
+    }
+
     if (dietaryFilter) {
         recipes.forEach((recipe) => {
             recipe.categories.forEach((category) => {

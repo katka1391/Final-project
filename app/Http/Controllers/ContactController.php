@@ -19,7 +19,7 @@ class ContactController extends Controller
         //which email should be actually send
         ->send(new ContactEmail());
         //return view('subscribe.subscribe');
-        $request->session()->flash('message', 'Contact submited!');
+        $request->session()->flash('message', 'Submited!');
        return redirect('/contact');
 
     }
