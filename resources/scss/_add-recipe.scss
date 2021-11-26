@@ -57,15 +57,19 @@
     background-color: #bdc4b9;
     margin-right: 2em;
     border-radius: 7%;
+    flex-wrap: wrap;
     .addRecipe-form3 {
         padding: 1em;
+        width: 10em;
     }
     .addRecipe-form1 {
+        width: 15em;
         padding: 1em;
         padding-left: 2em;
     }
     .addRecipe-form2 {
         padding: 1em;
+        width: 15em;
     }
 
     .addRecipe-input {
