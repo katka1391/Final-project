@@ -266,8 +266,8 @@ a {
     position: absolute;
     display: block;
     width: 0.5px;
-    top: 20px;
-    right: 30px;
+    top: 15px;
+    right: 21px;
   }
 
   #hamburger:checked + .navBar-title {
@@ -1628,6 +1628,18 @@ a {
 }
 .addRecipe-form .addRecipe-form2 {
   padding: 1em;
+}
+.addRecipe-form .addRecipe-input {
+  border-style: none;
+  border-bottom: 1px black solid;
+  background-color: #a9ba9d;
+  margin-top: 1em;
+  padding-top: 0.5em;
+}
+.addRecipe-form .addRecipe-input-nospacearound {
+  border-style: none;
+  border-bottom: 1px black solid;
+  background-color: #a9ba9d;
 }
 
 .addrecipe-button {

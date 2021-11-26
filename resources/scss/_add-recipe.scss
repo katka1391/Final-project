@@ -92,6 +92,21 @@
     .addRecipe-form2 {
         padding: 1em;
     }
+
+    .addRecipe-input {
+        border-style: none;
+        border-bottom: 1px black solid;
+        background-color: #a9ba9d;
+        margin-top: 1em;
+        padding-top: 0.5em;
+
+    }
+
+    .addRecipe-input-nospacearound {
+        border-style: none;
+        border-bottom: 1px black solid;
+        background-color: #a9ba9d;
+    }
     
 }
 
