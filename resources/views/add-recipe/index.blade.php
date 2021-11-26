@@ -18,107 +18,113 @@
                 <p class="addRecipe-p-head">Please fill<strong> all details</strong> from the formular below to be able to submit new recipe.
                 </p>
             </div>
-            <form class="addRecipe-form" action="/addRecipe" method="post">
+            <form action="/addRecipe" method="post">
                 @csrf
-                <div class="addRecipe-form1">
-                    <label for="name">Name of your recipy:</label>
-
-                    <input type="text" id="name" name="name" required />
-
-                    <label for="calories">Calories per portion:</label>
-
-                    <input type="text" id="calories" name="calories" required />
-
-                    <label for="cooktime">Cooktime in minutes:</label>
-
-                    <input type="text" id="cooktime" name="cooktime" required />
-
-                    <label for="preptime">Preptime in minutes:</label>
-
-                    <input type="text" id="preptime" name="preptime" required />
-
-                    <label for="difficulty">Difficulty, select one from below:</label>
-
-                    <select id="difficulty" name="difficulty">
-                        <option value="Easy">Easy</option>
-                        <option value="Medium">Medium</option>
-                        <option value="Hard">Hard</option>
-                    </select>
-
-                    <label for="servings">For how many people:</label>
-                   
-                    <input type="text" id="servings" name="servings" required /> <br/>
-
-                    <label for="fat">Fat:</label>
-                    <br/>
-                    <input type="text" id="fat" name="fat" required />
-
-
-                    <label for="carbs">Carbs:</label>
-
-                    <input type="text" id="carbs" name="carbs" required />
-
-                    <label for="fiber">Fiber:</label>
-
-                    <input type="text" id="fiber" name="fiber" required />
-
-                    <label for="sugar">Sugar:</label>
-
-                    <input type="text" id="sugar" name="sugar" required />
-
-                    <label for="protein">Protein:</label>
-
-                    <input type="text" id="protein" name="protein" required />
-
-                    <label for="image">Image url path:</label>
-
-                    <input type="text" id="image" name="image" />
-
-                </div>
-                <div class="addRecipe-form2">
-                    <label for="ingredients">Ingredients:</label>
-
-                    <input type="text" id="ingredients" name="ingredients[]" required />
-                    <input type="text" id="ingredients" name="ingredients[]" />
-                    <input type="text" id="ingredients" name="ingredients[]" />
-
-                    <input type="text" id="ingredients" name="ingredients[]" />
-                    <input type="text" id="ingredients" name="ingredients[]" />
-                    <input type="text" id="ingredients" name="ingredients[]" />
-
-                    <input type="text" id="ingredients" name="ingredients[]" />
-                    <input type="text" id="ingredients" name="ingredients[]" />
-                    <input type="text" id="ingredients" name="ingredients[]" />
-
-                </div>
-                <div class="addRecipe-form3">
-
-                    <label for="instructions">Instructions:</label><br/>
-
-                    <label for="instructions">Step 1</label><br/>
-                   <input type="text" id="instructions" name="instructions[]" required />
-                   <label for="instructions">Step 2</label><br/>
-
-                   <input type="text" id="instructions" name="instructions[]" />
-                    <label for="instructions">Step 3</label><br/>
-
-                    <input type="text" id="instructions" name="instructions[]" />
-                    <label for="instructions">Step 4</label><br/>
-
-                    <input type="text" id="instructions" name="instructions[]" />
-                    <label for="instructions">Step 5</label><br/>
-
-                     <input type="text" id="instructions" name="instructions[]" />
-                     <label for="instructions">Step 6</label><br/>
-
-                     <input type="text" id="instructions" name="instructions[]" />
-                     <label for="instructions">Step 7</label><br/>
-
-                    <input type="text" id="instructions" name="instructions[]" />
+                <div class="addRecipe-form">
+                    <div class="addRecipe-form1">
+                        <label for="name">Name of your recipy:</label>
+    
+                        <input type="text" id="name" name="name" required />
+    
+                        <label for="calories">Calories per portion:</label>
+    
+                        <input type="text" id="calories" name="calories" required />
+    
+                        <label for="cooktime">Cooktime in minutes:</label>
+    
+                        <input type="text" id="cooktime" name="cooktime" required />
+    
+                        <label for="preptime">Preptime in minutes:</label>
+    
+                        <input type="text" id="preptime" name="preptime" required />
+    
+                        <label for="difficulty">Difficulty, select one from below:</label>
+    
+                        <select id="difficulty" name="difficulty">
+                            <option value="Easy">Easy</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Hard">Hard</option>
+                        </select>
+    
+                        <label for="servings">For how many people:</label>
+                       
+                        <input type="text" id="servings" name="servings" required /> <br/>
+    
+                        <label for="fat">Fat:</label>
+                        <br/>
+                        <input type="text" id="fat" name="fat" required />
+    
+    
+                        <label for="carbs">Carbs:</label>
+    
+                        <input type="text" id="carbs" name="carbs" required />
+    
+                        <label for="fiber">Fiber:</label>
+    
+                        <input type="text" id="fiber" name="fiber" required />
+    
+                        <label for="sugar">Sugar:</label>
+    
+                        <input type="text" id="sugar" name="sugar" required />
+    
+                        <label for="protein">Protein:</label>
+    
+                        <input type="text" id="protein" name="protein" required />
+    
+                        <label for="image">Image url path:</label>
+    
+                        <input type="text" id="image" name="image" />
+    
+                    </div>
+                    <div class="addRecipe-form2">
+                        <label for="ingredients">Ingredients:</label>
+    
+                        <input type="text" id="ingredients" name="ingredients[]" required />
+                        <input type="text" id="ingredients" name="ingredients[]" />
+                        <input type="text" id="ingredients" name="ingredients[]" />
+    
+                        <input type="text" id="ingredients" name="ingredients[]" />
+                        <input type="text" id="ingredients" name="ingredients[]" />
+                        <input type="text" id="ingredients" name="ingredients[]" />
+    
+                        <input type="text" id="ingredients" name="ingredients[]" />
+                        <input type="text" id="ingredients" name="ingredients[]" />
+                        <input type="text" id="ingredients" name="ingredients[]" />
+    
+                    </div>
+                    <div class="addRecipe-form3">
+    
+                        <label for="instructions">Instructions:</label><br/>
+    
+                        <label for="instructions">Step 1</label><br/>
+                       <input type="text" id="instructions" name="instructions[]" required />
+                       <label for="instructions">Step 2</label><br/>
+    
+                       <input type="text" id="instructions" name="instructions[]" />
+                        <label for="instructions">Step 3</label><br/>
+    
+                        <input type="text" id="instructions" name="instructions[]" />
+                        <label for="instructions">Step 4</label><br/>
+    
+                        <input type="text" id="instructions" name="instructions[]" />
+                        <label for="instructions">Step 5</label><br/>
+    
+                         <input type="text" id="instructions" name="instructions[]" />
+                         <label for="instructions">Step 6</label><br/>
+    
+                         <input type="text" id="instructions" name="instructions[]" />
+                         <label for="instructions">Step 7</label><br/>
+    
+                        <input type="text" id="instructions" name="instructions[]" />
+    
+                    </div>
 
                 </div>
                 
-                <input type="submit" value="Submit" />
+                <div>
+
+                    <input type="submit" value="Submit" />
+                </div>
             </form>
         </div>
 

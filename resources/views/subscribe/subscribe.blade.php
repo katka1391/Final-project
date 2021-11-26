@@ -78,18 +78,12 @@
                 <strong>━━━━━━⤞●⤝━━━━━━</strong>
             </p>
             <div>
-                <img
-                    class="recipe-icon-right"
-                    src="/img/Icons/fb.png"
-                />
+                <a href="https://www.facebook.com/Katkas.Cakes.Ilkley"><img class="recipe-icon-right" src="/img/Icons/fb.png" /></a>
                 <img
                     class="recipe-icon-right"
                     src="/img/Icons/twitter.png"
                 />
-                <img
-                    class="recipe-icon-right"
-                    src="/img/Icons/instagram.png"
-                />
+               <a href="https://www.instagram.com/katkas.cakes/"><img class="recipe-icon-right" src="/img/Icons/instagram.png" /></a>
             </div>
         </div>
     </div>
