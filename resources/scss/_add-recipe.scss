@@ -1,94 +1,69 @@
 .addRecipe-main-container {
     display: flex;
-
     .addRecipe-icons-left-panel {
         width: 15%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
-
         .addRecipe-icon {
             width: 2em;
             height: 2em;
             margin: 2em;
-           
         }
     }
-
     .addRecipe-leftSite {
         width: 50%;
-
-        .addRecipe-leftSite-title{
+        .addRecipe-leftSite-title {
             border-bottom: 1px solid black;
             text-align: center;
             padding-bottom: 0.5em;
             margin-top: 1.5em;
         }
-
-        .addRecipe-p-head{
+        .addRecipe-p-head {
             text-align: center;
             padding: 1em;
-            
         }
-
     }
-
-
-    
 }
 
 .addRecipe-rightSite {
     width: 20%;
     border-left: 1px black solid;
-    
-    .addRecipe-rightSite-search{
+    .addRecipe-rightSite-search {
         color: #a9ba9d;
         font-weight: bold;
         border-top: 1px black solid;
         margin-top: 3.86em;
         padding-top: 1em;
         padding-left: 1em;
-        
     }
-    
-    .addRecipe-rightSite-container{
+    .addRecipe-rightSite-container {
         padding: 2em;
         text-align: center;
     }
-
-    .addRecipe-rightSite-img{
+    .addRecipe-rightSite-img {
         width: 80%;
         padding-top: 1em;
         padding-bottom: 1em;
-
     }
-
-    .addRecipe-icon-right{
+    .addRecipe-icon-right {
         width: 1.5em;
         height: 1.5em;
-        
     }
-
 }
-
-
 
 .addRecipe-form {
     display: flex;
     background-color: #bdc4b9;
     margin-right: 2em;
     border-radius: 7%;
-
     .addRecipe-form3 {
         padding: 1em;
     }
-
     .addRecipe-form1 {
         padding: 1em;
         padding-left: 2em;
     }
-
     .addRecipe-form2 {
         padding: 1em;
     }
@@ -113,7 +88,6 @@
 .addrecipe-button {
     display: flex;
     justify-content: center;
-
     .addrecipe-submit-button {
         margin: 4em;
         background-color: #a9ba9d;
@@ -122,10 +96,7 @@
         height: 4em;
         border-radius: 20%;
         font-weight: 800;
-        
-
     }
 }
 
-
-
+@media (min-width: 768px) and (max-width: 1024px) {}
