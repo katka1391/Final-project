@@ -78,6 +78,7 @@
     display: flex;
     background-color: #bdc4b9;
     margin-right: 2em;
+    border-radius: 7%;
 
     .addRecipe-form3 {
         padding: 1em;
@@ -85,12 +86,30 @@
 
     .addRecipe-form1 {
         padding: 1em;
+        padding-left: 2em;
     }
 
     .addRecipe-form2 {
         padding: 1em;
     }
     
+}
+
+.addrecipe-button {
+    display: flex;
+    justify-content: center;
+
+    .addrecipe-submit-button {
+        margin: 4em;
+        background-color: #a9ba9d;
+        border: black;
+        width: 7em;
+        height: 4em;
+        border-radius: 20%;
+        font-weight: 800;
+        
+
+    }
 }
 
 

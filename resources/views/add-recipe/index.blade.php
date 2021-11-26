@@ -121,9 +121,9 @@
 
                 </div>
                 
-                <div>
+                <div class="addrecipe-button">
 
-                    <input type="submit" value="Submit" />
+                    <input class="addrecipe-submit-button" type="submit" value="Submit" />
                 </div>
             </form>
         </div>
