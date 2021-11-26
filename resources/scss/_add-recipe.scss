@@ -1,55 +1,64 @@
 .addRecipe-main-container {
     display: flex;
-    .addRecipe-icons-left-panel {
-        width: 15%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        .addRecipe-icon {
-            width: 2em;
-            height: 2em;
-            margin: 2em;
-        }
-    }
-    .addRecipe-leftSite {
-        width: 50%;
-        .addRecipe-leftSite-title {
-            border-bottom: 1px solid black;
-            text-align: center;
-            padding-bottom: 0.5em;
-            margin-top: 1.5em;
-        }
-        .addRecipe-p-head {
-            text-align: center;
-            padding: 1em;
-        }
-    }
+}
+
+.addRecipe-icons-left-panel {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.addRecipe-icon {
+    width: 2em;
+    height: 2em;
+    margin: 2em;
+}
+
+.addRecipe-leftSite {
+    width: 50%;
+}
+
+.addRecipe-leftSite-title {
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-bottom: 0.5em;
+    margin-top: 1.5em;
+}
+
+.addRecipe-p-head {
+    text-align: center;
+    padding: 1em;
 }
 
 .addRecipe-rightSite {
     width: 20%;
     border-left: 1px black solid;
-    .addRecipe-rightSite-search {
-        color: #a9ba9d;
-        font-weight: bold;
-        border-top: 1px black solid;
-        margin-top: 3.86em;
-        padding-top: 1em;
-        padding-left: 1em;
-    }
-    .addRecipe-rightSite-container {
-        padding: 2em;
-        text-align: center;
-    }
-    .addRecipe-rightSite-img {
-        width: 80%;
-        padding-top: 1em;
-        padding-bottom: 1em;
-    }
-    .addRecipe-icon-right {
-        width: 1.5em;
-        height: 1.5em;
-    }
+}
+
+.addRecipe-rightSite-search {
+    color: #a9ba9d;
+    font-weight: bold;
+    border-top: 1px black solid;
+    margin-top: 3.86em;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.addRecipe-rightSite-container {
+    padding: 2em;
+    text-align: center;
+}
+
+.addRecipe-rightSite-img {
+    width: 80%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.addRecipe-icon-right {
+    width: 1.5em;
+    height: 1.5em;
 }
 
 .addRecipe-form {
@@ -58,49 +67,80 @@
     margin-right: 2em;
     border-radius: 7%;
     flex-wrap: wrap;
-    .addRecipe-form3 {
-        padding: 1em;
-        width: 10em;
-    }
-    .addRecipe-form1 {
-        width: 15em;
-        padding: 1em;
-        padding-left: 2em;
-    }
-    .addRecipe-form2 {
-        padding: 1em;
-        width: 15em;
-    }
+}
 
-    .addRecipe-input {
-        border-style: none;
-        border-bottom: 1px black solid;
-        background-color: #a9ba9d;
-        margin-top: 1em;
-        padding-top: 0.5em;
+.addRecipe-form3 {
+    padding: 1em;
+    width: 15em;
+}
 
-    }
+.addRecipe-form1 {
+    width: 15em;
+    padding: 1em;
+    padding-left: 2em;
+}
 
-    .addRecipe-input-nospacearound {
-        border-style: none;
-        border-bottom: 1px black solid;
-        background-color: #a9ba9d;
-    }
-    
+.addRecipe-form2 {
+    padding: 1em;
+    width: 15em;
+}
+
+.addRecipe-input {
+    border-style: none;
+    border-bottom: 1px black solid;
+    background-color: #a9ba9d;
+    margin-top: 1em;
+    padding-top: 0.5em;
+}
+
+.addRecipe-input-nospacearound {
+    border-style: none;
+    border-bottom: 1px black solid;
+    background-color: #a9ba9d;
 }
 
 .addrecipe-button {
     display: flex;
     justify-content: center;
-    .addrecipe-submit-button {
-        margin: 4em;
-        background-color: #a9ba9d;
-        border: black;
-        width: 7em;
-        height: 4em;
-        border-radius: 20%;
-        font-weight: 800;
+}
+
+.addrecipe-submit-button {
+    margin: 4em;
+    background-color: #a9ba9d;
+    border: black;
+    width: 7em;
+    height: 4em;
+    border-radius: 20%;
+    font-weight: 800;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .addRecipe-form {
+        display: flex;
+        background-color: #bdc4b9;
+        justify-content: center;
+        margin-right: 10px;
+        border-radius: 7%;
+        flex-wrap: wrap;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {}
+@media (min-width: 360px) and (max-width: 720px) {
+    .addRecipe-rightSite {
+        display: none;
+    }
+    .addRecipe-icons-left-panel {
+        display: none;
+    }
+    .addRecipe-leftSite {
+        width: 100%;
+    }
+    .addRecipe-form {
+        display: flex;
+        background-color: #bdc4b9;
+        justify-content: center;
+        margin-right: 0px;
+        border-radius: 7%;
+        flex-wrap: wrap;
+    }
+}
