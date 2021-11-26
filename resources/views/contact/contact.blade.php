@@ -25,16 +25,18 @@
         <label for="Email">Email:</label>
         <input class="subscribe_input" type="email" name="email" placeholder="email" value="{{ old('email') }}">
         <label for="YourMessage">Your Message:</label>
-        <textarea id="your_message" name="your_message" rows="4" cols="50" placeholder="your message"></textarea>
+        <textarea class="subscribe_input-placeholder"  id="your_message" name="your_message" rows="4" cols="50" placeholder="your message"></textarea>
       
-        <button class="btn-contact"> 
-            <span data-text="S">S</span>
-            <span data-text="U">U</span>
-            <span data-text="B">B</span>
-            <span data-text="M">M</span>
-            <span data-text="I">I</span>
-            <span data-text="T">T</span>
-        </button>
+        <div class="subsrcibe-button">
+            <button class="btn-contact"> 
+                <span data-text="S">S</span>
+                <span data-text="U">U</span>
+                <span data-text="B">B</span>
+                <span data-text="M">M</span>
+                <span data-text="I">I</span>
+                <span data-text="T">T</span>
+            </button>
+        </div>
     </form>
     <div class="space-between__sub"  >
 

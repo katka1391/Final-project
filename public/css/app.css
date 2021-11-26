@@ -1011,6 +1011,21 @@ a {
   width: 307px;
   height: 50px;
   margin-bottom: 60px;
+  border-style: none;
+  border-bottom: 1.5px black solid;
+  background-color: white;
+}
+
+.subscribe_input-placeholder {
+  border-style: none;
+  border-bottom: 1.5px black solid;
+  background-color: white;
+  margin-bottom: 3em;
+}
+
+.subsrcibe-button {
+  display: flex;
+  justify-content: center;
 }
 
 /*navbar on the right for sub and log page*/

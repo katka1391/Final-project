@@ -25,7 +25,8 @@
         <label for="Email">Email:</label>
         <input class="subscribe_input" type="email" name="email" placeholder="email" value="{{ old('email') }}">
 
-        <button class="btn-subscribe"> 
+        <div class="subsrcibe-button">
+            <button class="btn-subscribe"> 
             <span data-text="S">S</span>
             <span data-text="U">U</span>
             <span data-text="B">B</span>
@@ -36,6 +37,9 @@
             <span data-text="B">B</span>
             <span data-text="E">E</span>
         </button>
+
+        </div>
+        
     </form>
     <div class="space-between__sub"  >
 
