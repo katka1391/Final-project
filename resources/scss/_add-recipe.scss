@@ -69,20 +69,21 @@
     flex-wrap: wrap;
 }
 
-.addRecipe-form3 {
-    padding: 1em;
-    width: 15em;
-}
-
 .addRecipe-form1 {
-    width: 15em;
+    width: 17em;
     padding: 1em;
-    padding-left: 2em;
+    padding-left: 3em;
 }
 
 .addRecipe-form2 {
     padding: 1em;
-    width: 15em;
+    margin-left: 1.2em;
+    width: 17em;
+}
+
+.addRecipe-form3 {
+    padding: 1em;
+    width: 17em;
 }
 
 .addRecipe-input {
@@ -123,6 +124,11 @@
         border-radius: 7%;
         flex-wrap: wrap;
     }
+    .addRecipe-form1 {
+        width: 17em;
+        padding: 1em;
+        padding-left: 1.5em;
+    }
 }
 
 @media (min-width: 360px) and (max-width: 720px) {
@@ -142,5 +148,15 @@
         margin-right: 0px;
         border-radius: 7%;
         flex-wrap: wrap;
+    }
+    .addRecipe-form2 {
+        padding: 1em;
+        margin-left: 0em;
+        width: 17em;
+    }
+    .addRecipe-form1 {
+        width: 17em;
+        padding: 1em;
+        padding-left: 1em;
     }
 }
