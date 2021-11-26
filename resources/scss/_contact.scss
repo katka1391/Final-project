@@ -35,6 +35,51 @@ textarea {
     width: 25em;
 }
 
+.btn-contact {
+    position: absolute;
+    width: 10em;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.btn-contact span {
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.btn-contact:hover {
+    background: #A9BA9D;
+    box-shadow: 0 0 10px #A9BA9D, 0 0 40px #A9BA9D, 0 0 80px #A9BA9D;
+}
+
+.btn-contact span:nth-child(even)::before {
+    content: attr(data-text);
+    position: absolute;
+    transform: translateY(-100%);
+}
+
+.btn-contact span:nth-child(even) {
+    transform: translateY(-100%);
+}
+
+.btn-contact:hover span:nth-child(even) {
+    transform: translateY(0);
+}
+
+.btn-contact span:nth-child(odd)::before {
+    content: attr(data-text);
+    position: absolute;
+    transform: translateY(-100%);
+}
+
+.btn-contact span:nth-child(odd) {
+    transform: translateY(100%);
+}
+
+.btn-contact:hover span:nth-child(odd) {
+    transform: translateY(0);
+}
+
 @media (min-width: 360px) and (max-width: 720px) {
     .contact-container {
         height: 75vh;

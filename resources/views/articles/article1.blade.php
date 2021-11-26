@@ -36,7 +36,7 @@
         <!-- Cards -->
         <div class="container-boxes">
             <div class="boxes">
-                <span style="--i:1;"><img src="/img/Brownies/Brownies/brownies.jpg" alt=""></span>
+                <span style="--i:1;"><img src="/img/Brownies/brownies.jpg" alt=""></span>
                 <span style="--i:2;"><img src="/img/Brownies/brownies1.jpg" alt=""></span>
                 <span style="--i:3;">
                     <video width="200" height="200" autoplay loop muted>

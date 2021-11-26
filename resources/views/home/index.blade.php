@@ -37,7 +37,7 @@
     </div>
 
     <div class="recipe-rightSite">
-        <h4 class="recipes-all-recipes">Fresh and zesty </h4>
+        <h4 class="recipes-all-recipes-home">Fresh and zesty </h4>
         <div class="recipe-rightSite-container">
             <h3 class="recipe-rightSite-search">SEARCH RECIPES</h3>
             <p class="recipe-rightSite-menu">

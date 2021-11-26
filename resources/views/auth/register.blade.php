@@ -25,7 +25,7 @@
         <input class="register_input" type="password" name="password" placeholder="password" value="">
         <label for="Paswoord-confirmation">Confirmation:</label>
         <input class="register_input" type="password" name="password_confirmation" placeholder="password_confirmation">
-        <input type="submit" id="mySubmit" onclick="Login(this.form); return false;" value="Register">
+        <input class="btn-register" type="submit" id="mySubmit" onclick="Login(this.form); return false;" value="Register">
 
  
     </form>
